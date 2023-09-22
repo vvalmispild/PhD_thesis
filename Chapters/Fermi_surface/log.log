@@ -1,0 +1,2417 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.10.12)  10 OCT 2019 19:05
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**log.tex
+(./log.tex
+LaTeX2e <2016/02/01>
+Babel <3.9q> and hyphenation patterns for 81 language(s) loaded.
+(/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/size12.clo
+File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2010/09/12 v5.6 Page Geometry
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifvtex.sty
+Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+)
+(/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\Gm@cnth=\count87
+\Gm@cntv=\count88
+\c@Gm@tempcnt=\count89
+\Gm@bindingoffset=\dimen103
+\Gm@wd@mp=\dimen104
+\Gm@odd@mp=\dimen105
+\Gm@even@mp=\dimen106
+\Gm@layoutwidth=\dimen107
+\Gm@layoutheight=\dimen108
+\Gm@layouthoffset=\dimen109
+\Gm@layoutvoffset=\dimen110
+\Gm@dimlist=\toks15
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2016/01/03 v1.0q Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: pdftex.def on input line 95.
+
+(/usr/share/texlive/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count90
+))
+\Gin@req@height=\dimen111
+\Gin@req@width=\dimen112
+)
+(/usr/share/texlive/texmf-dist/tex/latex/caption/subcaption.sty
+Package: subcaption 2016/02/20 v1.1-142 Sub-captions (AR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2016/02/21 v3.3-144 Customizing captions (AR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2016/02/04 v1.7-139 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 67.
+\captionmargin=\dimen113
+\captionmargin@=\dimen114
+\captionwidth=\dimen115
+\caption@tempdima=\dimen116
+\caption@indent=\dimen117
+\caption@parindent=\dimen118
+\caption@hangindent=\dimen119
+)
+\c@ContinuedFloat=\count91
+)
+\c@subfigure=\count92
+\c@subtable=\count93
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2016/03/03 v2.15a AMS math features
+\@mathmargin=\skip43
+
+For additional information on amsmath, use the `?' option.
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks16
+\ex@=\dimen120
+))
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen121
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count94
+LaTeX Info: Redefining \frac on input line 199.
+\uproot@=\count95
+\leftroot@=\count96
+LaTeX Info: Redefining \overline on input line 297.
+\classnum@=\count97
+\DOTSCASE@=\count98
+LaTeX Info: Redefining \ldots on input line 394.
+LaTeX Info: Redefining \dots on input line 397.
+LaTeX Info: Redefining \cdots on input line 518.
+\Mathstrutbox@=\box26
+\strutbox@=\box27
+\big@size=\dimen122
+LaTeX Font Info:    Redeclaring font encoding OML on input line 630.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 631.
+\macc@depth=\count99
+\c@MaxMatrixCols=\count100
+\dotsspace@=\muskip10
+\c@parentequation=\count101
+\dspbrk@lvl=\count102
+\tag@help=\toks17
+\row@=\count103
+\column@=\count104
+\maxfields@=\count105
+\andhelp@=\toks18
+\eqnshift@=\dimen123
+\alignsep@=\dimen124
+\tagshift@=\dimen125
+\tagwidth@=\dimen126
+\totwidth@=\dimen127
+\lineht@=\dimen128
+\@envbody=\toks19
+\multlinegap=\skip44
+\multlinetaggap=\skip45
+\mathdisplay@stack=\toks20
+LaTeX Info: Redefining \[ on input line 2735.
+LaTeX Info: Redefining \] on input line 2736.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf.sty
+Package: epstopdf 2010/02/09 v2.5 Conversion with epstopdf on the fly (HO)
+
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+))
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 452.
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+)))
+(/usr/share/texlive/texmf-dist/tex/latex/placeins/placeins.sty
+Package: placeins 2005/04/18  v 2.2
+)
+(/usr/share/texlive/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+\fancy@headwidth=\skip46
+\f@ncyO@elh=\skip47
+\f@ncyO@erh=\skip48
+\f@ncyO@olh=\skip49
+\f@ncyO@orh=\skip50
+\f@ncyO@elf=\skip51
+\f@ncyO@erf=\skip52
+\f@ncyO@olf=\skip53
+\f@ncyO@orf=\skip54
+)
+(/usr/share/texlive/texmf-dist/tex/latex/lipsum/lipsum.sty
+Package: lipsum 2014/07/27 v1.3 150 paragraphs of Lorem Ipsum dummy text
+\c@lips@count=\count106
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/indentfirst.sty
+Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2015/03/17 v1.2c Input encoding file
+\inpenc@prehook=\toks21
+\inpenc@posthook=\toks22
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def
+File: utf8.def 2015/12/03 v1.1r UTF-8 support for inputenc
+Now handling font encoding OML ...
+... no UTF-8 mapping file for font encoding OML
+Now handling font encoding T1 ...
+... processing UTF-8 mapping file for font encoding T1
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/t1enc.dfu
+File: t1enc.dfu 2015/12/03 v1.1r UTF-8 support for inputenc
+   defining Unicode char U+00A0 (decimal 160)
+   defining Unicode char U+00A1 (decimal 161)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00AB (decimal 171)
+   defining Unicode char U+00AD (decimal 173)
+   defining Unicode char U+00BB (decimal 187)
+   defining Unicode char U+00BF (decimal 191)
+   defining Unicode char U+00C0 (decimal 192)
+   defining Unicode char U+00C1 (decimal 193)
+   defining Unicode char U+00C2 (decimal 194)
+   defining Unicode char U+00C3 (decimal 195)
+   defining Unicode char U+00C4 (decimal 196)
+   defining Unicode char U+00C5 (decimal 197)
+   defining Unicode char U+00C6 (decimal 198)
+   defining Unicode char U+00C7 (decimal 199)
+   defining Unicode char U+00C8 (decimal 200)
+   defining Unicode char U+00C9 (decimal 201)
+   defining Unicode char U+00CA (decimal 202)
+   defining Unicode char U+00CB (decimal 203)
+   defining Unicode char U+00CC (decimal 204)
+   defining Unicode char U+00CD (decimal 205)
+   defining Unicode char U+00CE (decimal 206)
+   defining Unicode char U+00CF (decimal 207)
+   defining Unicode char U+00D0 (decimal 208)
+   defining Unicode char U+00D1 (decimal 209)
+   defining Unicode char U+00D2 (decimal 210)
+   defining Unicode char U+00D3 (decimal 211)
+   defining Unicode char U+00D4 (decimal 212)
+   defining Unicode char U+00D5 (decimal 213)
+   defining Unicode char U+00D6 (decimal 214)
+   defining Unicode char U+00D8 (decimal 216)
+   defining Unicode char U+00D9 (decimal 217)
+   defining Unicode char U+00DA (decimal 218)
+   defining Unicode char U+00DB (decimal 219)
+   defining Unicode char U+00DC (decimal 220)
+   defining Unicode char U+00DD (decimal 221)
+   defining Unicode char U+00DE (decimal 222)
+   defining Unicode char U+00DF (decimal 223)
+   defining Unicode char U+00E0 (decimal 224)
+   defining Unicode char U+00E1 (decimal 225)
+   defining Unicode char U+00E2 (decimal 226)
+   defining Unicode char U+00E3 (decimal 227)
+   defining Unicode char U+00E4 (decimal 228)
+   defining Unicode char U+00E5 (decimal 229)
+   defining Unicode char U+00E6 (decimal 230)
+   defining Unicode char U+00E7 (decimal 231)
+   defining Unicode char U+00E8 (decimal 232)
+   defining Unicode char U+00E9 (decimal 233)
+   defining Unicode char U+00EA (decimal 234)
+   defining Unicode char U+00EB (decimal 235)
+   defining Unicode char U+00EC (decimal 236)
+   defining Unicode char U+00ED (decimal 237)
+   defining Unicode char U+00EE (decimal 238)
+   defining Unicode char U+00EF (decimal 239)
+   defining Unicode char U+00F0 (decimal 240)
+   defining Unicode char U+00F1 (decimal 241)
+   defining Unicode char U+00F2 (decimal 242)
+   defining Unicode char U+00F3 (decimal 243)
+   defining Unicode char U+00F4 (decimal 244)
+   defining Unicode char U+00F5 (decimal 245)
+   defining Unicode char U+00F6 (decimal 246)
+   defining Unicode char U+00F8 (decimal 248)
+   defining Unicode char U+00F9 (decimal 249)
+   defining Unicode char U+00FA (decimal 250)
+   defining Unicode char U+00FB (decimal 251)
+   defining Unicode char U+00FC (decimal 252)
+   defining Unicode char U+00FD (decimal 253)
+   defining Unicode char U+00FE (decimal 254)
+   defining Unicode char U+00FF (decimal 255)
+   defining Unicode char U+0100 (decimal 256)
+   defining Unicode char U+0101 (decimal 257)
+   defining Unicode char U+0102 (decimal 258)
+   defining Unicode char U+0103 (decimal 259)
+   defining Unicode char U+0104 (decimal 260)
+   defining Unicode char U+0105 (decimal 261)
+   defining Unicode char U+0106 (decimal 262)
+   defining Unicode char U+0107 (decimal 263)
+   defining Unicode char U+0108 (decimal 264)
+   defining Unicode char U+0109 (decimal 265)
+   defining Unicode char U+010A (decimal 266)
+   defining Unicode char U+010B (decimal 267)
+   defining Unicode char U+010C (decimal 268)
+   defining Unicode char U+010D (decimal 269)
+   defining Unicode char U+010E (decimal 270)
+   defining Unicode char U+010F (decimal 271)
+   defining Unicode char U+0110 (decimal 272)
+   defining Unicode char U+0111 (decimal 273)
+   defining Unicode char U+0112 (decimal 274)
+   defining Unicode char U+0113 (decimal 275)
+   defining Unicode char U+0114 (decimal 276)
+   defining Unicode char U+0115 (decimal 277)
+   defining Unicode char U+0116 (decimal 278)
+   defining Unicode char U+0117 (decimal 279)
+   defining Unicode char U+0118 (decimal 280)
+   defining Unicode char U+0119 (decimal 281)
+   defining Unicode char U+011A (decimal 282)
+   defining Unicode char U+011B (decimal 283)
+   defining Unicode char U+011C (decimal 284)
+   defining Unicode char U+011D (decimal 285)
+   defining Unicode char U+011E (decimal 286)
+   defining Unicode char U+011F (decimal 287)
+   defining Unicode char U+0120 (decimal 288)
+   defining Unicode char U+0121 (decimal 289)
+   defining Unicode char U+0122 (decimal 290)
+   defining Unicode char U+0123 (decimal 291)
+   defining Unicode char U+0124 (decimal 292)
+   defining Unicode char U+0125 (decimal 293)
+   defining Unicode char U+0128 (decimal 296)
+   defining Unicode char U+0129 (decimal 297)
+   defining Unicode char U+012A (decimal 298)
+   defining Unicode char U+012B (decimal 299)
+   defining Unicode char U+012C (decimal 300)
+   defining Unicode char U+012D (decimal 301)
+   defining Unicode char U+012E (decimal 302)
+   defining Unicode char U+012F (decimal 303)
+   defining Unicode char U+0130 (decimal 304)
+   defining Unicode char U+0131 (decimal 305)
+   defining Unicode char U+0132 (decimal 306)
+   defining Unicode char U+0133 (decimal 307)
+   defining Unicode char U+0134 (decimal 308)
+   defining Unicode char U+0135 (decimal 309)
+   defining Unicode char U+0136 (decimal 310)
+   defining Unicode char U+0137 (decimal 311)
+   defining Unicode char U+0139 (decimal 313)
+   defining Unicode char U+013A (decimal 314)
+   defining Unicode char U+013B (decimal 315)
+   defining Unicode char U+013C (decimal 316)
+   defining Unicode char U+013D (decimal 317)
+   defining Unicode char U+013E (decimal 318)
+   defining Unicode char U+0141 (decimal 321)
+   defining Unicode char U+0142 (decimal 322)
+   defining Unicode char U+0143 (decimal 323)
+   defining Unicode char U+0144 (decimal 324)
+   defining Unicode char U+0145 (decimal 325)
+   defining Unicode char U+0146 (decimal 326)
+   defining Unicode char U+0147 (decimal 327)
+   defining Unicode char U+0148 (decimal 328)
+   defining Unicode char U+014A (decimal 330)
+   defining Unicode char U+014B (decimal 331)
+   defining Unicode char U+014C (decimal 332)
+   defining Unicode char U+014D (decimal 333)
+   defining Unicode char U+014E (decimal 334)
+   defining Unicode char U+014F (decimal 335)
+   defining Unicode char U+0150 (decimal 336)
+   defining Unicode char U+0151 (decimal 337)
+   defining Unicode char U+0152 (decimal 338)
+   defining Unicode char U+0153 (decimal 339)
+   defining Unicode char U+0154 (decimal 340)
+   defining Unicode char U+0155 (decimal 341)
+   defining Unicode char U+0156 (decimal 342)
+   defining Unicode char U+0157 (decimal 343)
+   defining Unicode char U+0158 (decimal 344)
+   defining Unicode char U+0159 (decimal 345)
+   defining Unicode char U+015A (decimal 346)
+   defining Unicode char U+015B (decimal 347)
+   defining Unicode char U+015C (decimal 348)
+   defining Unicode char U+015D (decimal 349)
+   defining Unicode char U+015E (decimal 350)
+   defining Unicode char U+015F (decimal 351)
+   defining Unicode char U+0160 (decimal 352)
+   defining Unicode char U+0161 (decimal 353)
+   defining Unicode char U+0162 (decimal 354)
+   defining Unicode char U+0163 (decimal 355)
+   defining Unicode char U+0164 (decimal 356)
+   defining Unicode char U+0165 (decimal 357)
+   defining Unicode char U+0168 (decimal 360)
+   defining Unicode char U+0169 (decimal 361)
+   defining Unicode char U+016A (decimal 362)
+   defining Unicode char U+016B (decimal 363)
+   defining Unicode char U+016C (decimal 364)
+   defining Unicode char U+016D (decimal 365)
+   defining Unicode char U+016E (decimal 366)
+   defining Unicode char U+016F (decimal 367)
+   defining Unicode char U+0170 (decimal 368)
+   defining Unicode char U+0171 (decimal 369)
+   defining Unicode char U+0172 (decimal 370)
+   defining Unicode char U+0173 (decimal 371)
+   defining Unicode char U+0174 (decimal 372)
+   defining Unicode char U+0175 (decimal 373)
+   defining Unicode char U+0176 (decimal 374)
+   defining Unicode char U+0177 (decimal 375)
+   defining Unicode char U+0178 (decimal 376)
+   defining Unicode char U+0179 (decimal 377)
+   defining Unicode char U+017A (decimal 378)
+   defining Unicode char U+017B (decimal 379)
+   defining Unicode char U+017C (decimal 380)
+   defining Unicode char U+017D (decimal 381)
+   defining Unicode char U+017E (decimal 382)
+   defining Unicode char U+01CD (decimal 461)
+   defining Unicode char U+01CE (decimal 462)
+   defining Unicode char U+01CF (decimal 463)
+   defining Unicode char U+01D0 (decimal 464)
+   defining Unicode char U+01D1 (decimal 465)
+   defining Unicode char U+01D2 (decimal 466)
+   defining Unicode char U+01D3 (decimal 467)
+   defining Unicode char U+01D4 (decimal 468)
+   defining Unicode char U+01E2 (decimal 482)
+   defining Unicode char U+01E3 (decimal 483)
+   defining Unicode char U+01E6 (decimal 486)
+   defining Unicode char U+01E7 (decimal 487)
+   defining Unicode char U+01E8 (decimal 488)
+   defining Unicode char U+01E9 (decimal 489)
+   defining Unicode char U+01EA (decimal 490)
+   defining Unicode char U+01EB (decimal 491)
+   defining Unicode char U+01F0 (decimal 496)
+   defining Unicode char U+01F4 (decimal 500)
+   defining Unicode char U+01F5 (decimal 501)
+   defining Unicode char U+0218 (decimal 536)
+   defining Unicode char U+0219 (decimal 537)
+   defining Unicode char U+021A (decimal 538)
+   defining Unicode char U+021B (decimal 539)
+   defining Unicode char U+01E02 (decimal 7682)
+   defining Unicode char U+01E03 (decimal 7683)
+   defining Unicode char U+200C (decimal 8204)
+   defining Unicode char U+2013 (decimal 8211)
+   defining Unicode char U+2014 (decimal 8212)
+   defining Unicode char U+2018 (decimal 8216)
+   defining Unicode char U+2019 (decimal 8217)
+   defining Unicode char U+201A (decimal 8218)
+   defining Unicode char U+201C (decimal 8220)
+   defining Unicode char U+201D (decimal 8221)
+   defining Unicode char U+201E (decimal 8222)
+   defining Unicode char U+2030 (decimal 8240)
+   defining Unicode char U+2031 (decimal 8241)
+   defining Unicode char U+2039 (decimal 8249)
+   defining Unicode char U+203A (decimal 8250)
+   defining Unicode char U+2423 (decimal 9251)
+)
+Now handling font encoding OT1 ...
+... processing UTF-8 mapping file for font encoding OT1
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/ot1enc.dfu
+File: ot1enc.dfu 2015/12/03 v1.1r UTF-8 support for inputenc
+   defining Unicode char U+00A0 (decimal 160)
+   defining Unicode char U+00A1 (decimal 161)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00AD (decimal 173)
+   defining Unicode char U+00B8 (decimal 184)
+   defining Unicode char U+00BF (decimal 191)
+   defining Unicode char U+00C5 (decimal 197)
+   defining Unicode char U+00C6 (decimal 198)
+   defining Unicode char U+00D8 (decimal 216)
+   defining Unicode char U+00DF (decimal 223)
+   defining Unicode char U+00E6 (decimal 230)
+   defining Unicode char U+00EC (decimal 236)
+   defining Unicode char U+00ED (decimal 237)
+   defining Unicode char U+00EE (decimal 238)
+   defining Unicode char U+00EF (decimal 239)
+   defining Unicode char U+00F8 (decimal 248)
+   defining Unicode char U+0131 (decimal 305)
+   defining Unicode char U+0141 (decimal 321)
+   defining Unicode char U+0142 (decimal 322)
+   defining Unicode char U+0152 (decimal 338)
+   defining Unicode char U+0153 (decimal 339)
+   defining Unicode char U+0174 (decimal 372)
+   defining Unicode char U+0175 (decimal 373)
+   defining Unicode char U+0176 (decimal 374)
+   defining Unicode char U+0177 (decimal 375)
+   defining Unicode char U+0218 (decimal 536)
+   defining Unicode char U+0219 (decimal 537)
+   defining Unicode char U+021A (decimal 538)
+   defining Unicode char U+021B (decimal 539)
+   defining Unicode char U+2013 (decimal 8211)
+   defining Unicode char U+2014 (decimal 8212)
+   defining Unicode char U+2018 (decimal 8216)
+   defining Unicode char U+2019 (decimal 8217)
+   defining Unicode char U+201C (decimal 8220)
+   defining Unicode char U+201D (decimal 8221)
+)
+Now handling font encoding OMS ...
+... processing UTF-8 mapping file for font encoding OMS
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/omsenc.dfu
+File: omsenc.dfu 2015/12/03 v1.1r UTF-8 support for inputenc
+   defining Unicode char U+00A7 (decimal 167)
+   defining Unicode char U+00B6 (decimal 182)
+   defining Unicode char U+00B7 (decimal 183)
+   defining Unicode char U+2020 (decimal 8224)
+   defining Unicode char U+2021 (decimal 8225)
+   defining Unicode char U+2022 (decimal 8226)
+)
+Now handling font encoding OMX ...
+... no UTF-8 mapping file for font encoding OMX
+Now handling font encoding U ...
+... no UTF-8 mapping file for font encoding U
+   defining Unicode char U+00A9 (decimal 169)
+   defining Unicode char U+00AA (decimal 170)
+   defining Unicode char U+00AE (decimal 174)
+   defining Unicode char U+00BA (decimal 186)
+   defining Unicode char U+02C6 (decimal 710)
+   defining Unicode char U+02DC (decimal 732)
+   defining Unicode char U+200C (decimal 8204)
+   defining Unicode char U+2026 (decimal 8230)
+   defining Unicode char U+2122 (decimal 8482)
+   defining Unicode char U+2423 (decimal 9251)
+))
+(/usr/share/texlive/texmf-dist/tex/latex/braket/braket.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/natbib/natbib.sty
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip55
+\bibsep=\skip56
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count107
+)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2012/11/06 v6.83m Hypertext links for LaTeX
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+Package: hobsub-hyperref 2012/05/28 v1.13 Bundle oberdiek, subset hyperref (HO)
+
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+Package: hobsub-generic 2012/05/28 v1.13 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2012/05/28 v1.13 Construct package bundles (HO)
+Package hobsub Info: Skipping package `infwarerr' (already loaded).
+Package hobsub Info: Skipping package `ltxcmds' (already loaded).
+Package hobsub Info: Skipping package `ifluatex' (already loaded).
+Package hobsub Info: Skipping package `ifvtex' (already loaded).
+Package: intcalc 2007/09/27 v1.1 Expandable calculations with integers (HO)
+Package hobsub Info: Skipping package `ifpdf' (already loaded).
+Package hobsub Info: Skipping package `etexcmds' (already loaded).
+Package hobsub Info: Skipping package `kvsetkeys' (already loaded).
+Package hobsub Info: Skipping package `kvdefinekeys' (already loaded).
+Package hobsub Info: Skipping package `pdftexcmds' (already loaded).
+Package: pdfescape 2011/11/25 v1.13 Implements pdfTeX's escape features (HO)
+Package: bigintcalc 2012/04/08 v1.3 Expandable calculations on big integers (HO
+)
+Package: bitset 2011/01/30 v1.1 Handle bit-vector datatype (HO)
+Package: uniquecounter 2011/01/30 v1.2 Provide unlimited unique counter (HO)
+)
+Package hobsub Info: Skipping package `hobsub' (already loaded).
+Package: letltxmacro 2010/09/02 v1.4 Let assignment for LaTeX macros (HO)
+Package: hopatch 2012/05/28 v1.2 Wrapper for package hooks (HO)
+Package: xcolor-patch 2011/01/30 xcolor patch
+Package: atveryend 2011/06/30 v1.8 Hooks at the very end of document (HO)
+Package atveryend Info: \enddocument detected (standard20110627).
+Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
+Package: refcount 2011/10/16 v3.4 Data extraction from label references (HO)
+Package: hycolor 2011/01/30 v1.7 Color options for hyperref/bookmark (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/auxhook.sty
+Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
+)
+\@linkdim=\dimen129
+\Hy@linkcounter=\count108
+\Hy@pagecounter=\count109
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2012/11/06 v6.83m Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+)
+\Hy@SavedSpaceFactor=\count110
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+Package hyperref Info: Option `colorlinks' set `true' on input line 4319.
+Package hyperref Info: Hyper figures OFF on input line 4443.
+Package hyperref Info: Link nesting OFF on input line 4448.
+Package hyperref Info: Hyper index ON on input line 4451.
+Package hyperref Info: Plain pages OFF on input line 4458.
+Package hyperref Info: Backreferencing OFF on input line 4463.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4688.
+\c@Hy@tempcnt=\count111
+
+(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip11
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 5041.
+\XeTeXLinkMargin=\dimen130
+\Fld@menulength=\count112
+\Field@Width=\dimen131
+\Fld@charsize=\dimen132
+Package hyperref Info: Hyper figures OFF on input line 6295.
+Package hyperref Info: Link nesting OFF on input line 6300.
+Package hyperref Info: Hyper index ON on input line 6303.
+Package hyperref Info: backreferencing OFF on input line 6310.
+Package hyperref Info: Link coloring ON on input line 6313.
+Package hyperref Info: Link coloring with OCG OFF on input line 6320.
+Package hyperref Info: PDF/A mode OFF on input line 6325.
+LaTeX Info: Redefining \ref on input line 6365.
+LaTeX Info: Redefining \pageref on input line 6369.
+\Hy@abspage=\count113
+\c@Item=\count114
+\c@Hfootnote=\count115
+)
+
+Package hyperref Message: Driver (autodetected): hpdftex.
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2012/11/06 v6.83m Hyperref driver for pdfTeX
+\Fld@listcount=\count116
+\c@bookmark@seq@number=\count117
+
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+82.
+)
+\Hy@SectionHShift=\skip57
+)
+(/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package xcolor Info: Package option `usenames' ignored on input line 216.
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1341.
+Package xcolor Info: Model `RGB' extended on input line 1353.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1355.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1356.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1357.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/dvipsnam.def
+File: dvipsnam.def 2015/12/30 v3.0k Driver-dependent file (DPC,SPQR)
+)) (./log.aux)
+\openout1 = `log.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(71.13188pt, 455.24411pt, 71.13188pt)
+* v-part:(T,H,B)=(28.45274pt, 759.6886pt, 56.9055pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=455.24411pt
+* \textheight=759.6886pt
+* \oddsidemargin=-1.1381pt
+* \evensidemargin=-1.1381pt
+* \topmargin=-80.81725pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=35.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+(/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count118
+\scratchdimen=\dimen133
+\scratchbox=\box28
+\nofMPsegments=\count119
+\nofMParguments=\count120
+\everyMPshowfont=\toks23
+\MPscratchCnt=\count121
+\MPscratchDim=\dimen134
+\MPnumerator=\count122
+\makeMPintoPDFobject=\count123
+\everyMPtoPDFconversion=\toks24
+)
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: hyperref package is loaded.
+Package caption Info: End \AtBeginDocument code.
+\AtBeginShipoutBox=\box29
+Package hyperref Info: Link coloring ON on input line 61.
+ (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
+)
+\c@section@level=\count124
+)
+LaTeX Info: Redefining \ref on input line 61.
+LaTeX Info: Redefining \pageref on input line 61.
+LaTeX Info: Redefining \nameref on input line 61.
+
+(./log.out) (./log.out)
+\@outlinefile=\write3
+\openout3 = `log.out'.
+
+
+
+LaTeX Warning: No \author given.
+
+(./Article.tex (./log.toc)
+\tf@toc=\write4
+\openout4 = `log.toc'.
+
+
+
+Package natbib Warning: Citation `Basov' on page 1 undefined on input line 10.
+
+
+Package natbib Warning: Citation `Mentink' on page 1 undefined on input line 21
+.
+
+
+Package natbib Warning: Citation `PhysRevB.91.245153' on page 1 undefined on in
+put line 24.
+
+
+Package natbib Warning: Citation `tsuji' on page 1 undefined on input line 31.
+
+[1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+
+Package natbib Warning: Citation `Joura' on page 2 undefined on input line 71.
+
+
+Package natbib Warning: Citation `RMP14' on page 2 undefined on input line 73.
+
+
+Package natbib Warning: Citation `Cavalleri' on page 2 undefined on input line 
+79.
+
+
+Package natbib Warning: Citation `Schlaepfer' on page 2 undefined on input line
+ 80.
+
+
+Package natbib Warning: Citation `Kennes17' on page 2 undefined on input line 8
+7.
+
+
+Package natbib Warning: Citation `PeregBarnea' on page 2 undefined on input lin
+e 89.
+
+
+Package natbib Warning: Citation `Sayyad_1' on page 2 undefined on input line 9
+1.
+
+
+Package natbib Warning: Citation `Sayyad_2' on page 2 undefined on input line 9
+1.
+
+
+Package natbib Warning: Citation `Sayyad_3' on page 2 undefined on input line 9
+1.
+
+
+Package natbib Warning: Citation `Sayyad_4' on page 2 undefined on input line 9
+1.
+
+
+Package natbib Warning: Citation `Higuchi' on page 2 undefined on input line 95
+.
+
+
+LaTeX Warning: Reference `Transient' on page 2 undefined on input line 100.
+
+
+LaTeX Warning: Reference `Pseudo' on page 2 undefined on input line 102.
+
+
+LaTeX Warning: Reference `PulseFS' on page 2 undefined on input line 104.
+
+
+Package natbib Warning: Citation `Rui' on page 2 undefined on input line 113.
+
+
+LaTeX Warning: Reference `Appendix1' on page 2 undefined on input line 116.
+
+[2]
+
+Package natbib Warning: Citation `Naoto' on page 3 undefined on input line 137.
+
+
+
+Package natbib Warning: Citation `Joura' on page 3 undefined on input line 137.
+
+
+
+Package natbib Warning: Citation `Schmidt2002' on page 3 undefined on input lin
+e 148.
+
+
+Package natbib Warning: Citation `RMP14' on page 3 undefined on input line 148.
+
+
+
+Package natbib Warning: Citation `Eckstein10' on page 3 undefined on input line
+ 151.
+
+
+LaTeX Warning: Reference `PulseFS' on page 3 undefined on input line 170.
+
+
+Package natbib Warning: Citation `ALYBCO' on page 3 undefined on input line 170
+.
+
+
+Package natbib Warning: Citation `Naoto08' on page 3 undefined on input line 18
+1.
+
+[3]
+
+LaTeX Warning: Reference `fig:A_crossover' on page 4 undefined on input line 24
+0.
+
+<figures/square_lattice/BZ_1.pdf, id=70, 190.9961pt x 187.66327pt>
+File: figures/square_lattice/BZ_1.pdf Graphic file (type pdf)
+
+<use figures/square_lattice/BZ_1.pdf>
+Package pdftex.def Info: figures/square_lattice/BZ_1.pdf used on input line 278
+.
+(pdftex.def)             Requested size: 159.33821pt x 156.56511pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<figures/square_lattice/xy/G_l_loc.png, id=72, 578.16pt x 433.62pt>
+File: figures/square_lattice/xy/G_l_loc.png Graphic file (type png)
+
+<use figures/square_lattice/xy/G_l_loc.png>
+Package pdftex.def Info: figures/square_lattice/xy/G_l_loc.png used on input li
+ne 290.
+(pdftex.def)             Requested size: 232.17198pt x 174.12642pt.
+
+<figures/square_lattice/y/1_75/G_l_loc.png, id=74, 578.16pt x 433.62pt>
+File: figures/square_lattice/y/1_75/G_l_loc.png Graphic file (type png)
+
+<use figures/square_lattice/y/1_75/G_l_loc.png>
+Package pdftex.def Info: figures/square_lattice/y/1_75/G_l_loc.png used on inpu
+t line 294.
+(pdftex.def)             Requested size: 232.17198pt x 174.12642pt.
+
+Overfull \hbox (11.71094pt too wide) in paragraph at lines 289--296
+[]$[]$  $[]$ 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[4]
+Package epstopdf Info: Source file: <figures/square_lattice/Gret_xy_mid_Y_u.eps
+>
+(epstopdf)                    date: 2019-10-02 19:15:28
+(epstopdf)                    size: 52388 bytes
+(epstopdf)             Output file: <figures/square_lattice/Gret_xy_mid_Y_u-eps
+-converted-to.pdf>
+(epstopdf)                    date: 2019-10-02 19:30:12
+(epstopdf)                    size: 22752 bytes
+(epstopdf)             Command: <repstopdf --outfile=figures/square_lattice/Gre
+t_xy_mid_Y_u-eps-converted-to.pdf figures/square_lattice/Gret_xy_mid_Y_u.eps>
+(epstopdf)             \includegraphics on input line 304.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./figures/square_lattice/Gret_xy_mid_Y_u-eps-con
+verted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.
+5> allowed
+
+<figures/square_lattice/Gret_xy_mid_Y_u-eps-converted-to.pdf, id=85, 433.62pt x
+ 289.08pt>
+File: figures/square_lattice/Gret_xy_mid_Y_u-eps-converted-to.pdf Graphic file 
+(type pdf)
+ <use figures/square_lattice/Gret_xy_mid_Y_u-eps-converted-to.pdf>
+Package pdftex.def Info: figures/square_lattice/Gret_xy_mid_Y_u-eps-converted-t
+o.pdf used on input line 304.
+(pdftex.def)             Requested size: 232.17198pt x 154.78198pt.
+Package epstopdf Info: Source file: <figures/square_lattice/Gret_xy_mid_M_2_u.e
+ps>
+(epstopdf)                    date: 2019-10-02 19:15:22
+(epstopdf)                    size: 52529 bytes
+(epstopdf)             Output file: <figures/square_lattice/Gret_xy_mid_M_2_u-e
+ps-converted-to.pdf>
+(epstopdf)                    date: 2019-10-02 19:33:56
+(epstopdf)                    size: 22552 bytes
+(epstopdf)             Command: <repstopdf --outfile=figures/square_lattice/Gre
+t_xy_mid_M_2_u-eps-converted-to.pdf figures/square_lattice/Gret_xy_mid_M_2_u.ep
+s>
+(epstopdf)             \includegraphics on input line 308.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./figures/square_lattice/Gret_xy_mid_M_2_u-eps-c
+onverted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <
+1.5> allowed
+
+<figures/square_lattice/Gret_xy_mid_M_2_u-eps-converted-to.pdf, id=86, 433.62pt
+ x 289.08pt>
+File: figures/square_lattice/Gret_xy_mid_M_2_u-eps-converted-to.pdf Graphic fil
+e (type pdf)
+
+<use figures/square_lattice/Gret_xy_mid_M_2_u-eps-converted-to.pdf>
+Package pdftex.def Info: figures/square_lattice/Gret_xy_mid_M_2_u-eps-converted
+-to.pdf used on input line 308.
+(pdftex.def)             Requested size: 232.17198pt x 154.78198pt.
+
+Overfull \hbox (11.71094pt too wide) in paragraph at lines 303--310
+[]$[]$  $[]$ 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+Package epstopdf Info: Source file: <figures/square_lattice/Gret_xy_mid_Y.eps>
+(epstopdf)                    date: 2019-10-02 16:52:14
+(epstopdf)                    size: 74223 bytes
+(epstopdf)             Output file: <figures/square_lattice/Gret_xy_mid_Y-eps-c
+onverted-to.pdf>
+(epstopdf)                    date: 2019-10-02 19:33:57
+(epstopdf)                    size: 27768 bytes
+(epstopdf)             Command: <repstopdf --outfile=figures/square_lattice/Gre
+t_xy_mid_Y-eps-converted-to.pdf figures/square_lattice/Gret_xy_mid_Y.eps>
+(epstopdf)             \includegraphics on input line 319.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./figures/square_lattice/Gret_xy_mid_Y-eps-conve
+rted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5>
+ allowed
+
+<figures/square_lattice/Gret_xy_mid_Y-eps-converted-to.pdf, id=88, 433.62pt x 2
+89.08pt>
+File: figures/square_lattice/Gret_xy_mid_Y-eps-converted-to.pdf Graphic file (t
+ype pdf)
+ <use figures/square_lattice/Gret_xy_mid_Y-eps-converted-to.pdf>
+Package pdftex.def Info: figures/square_lattice/Gret_xy_mid_Y-eps-converted-to.
+pdf used on input line 319.
+(pdftex.def)             Requested size: 232.17198pt x 154.78198pt.
+Package epstopdf Info: Source file: <figures/square_lattice/Gret_xy_mid_M_2.eps
+>
+(epstopdf)                    date: 2019-10-02 16:58:00
+(epstopdf)                    size: 74251 bytes
+(epstopdf)             Output file: <figures/square_lattice/Gret_xy_mid_M_2-eps
+-converted-to.pdf>
+(epstopdf)                    date: 2019-10-02 19:33:57
+(epstopdf)                    size: 27857 bytes
+(epstopdf)             Command: <repstopdf --outfile=figures/square_lattice/Gre
+t_xy_mid_M_2-eps-converted-to.pdf figures/square_lattice/Gret_xy_mid_M_2.eps>
+(epstopdf)             \includegraphics on input line 323.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./figures/square_lattice/Gret_xy_mid_M_2-eps-con
+verted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.
+5> allowed
+
+<figures/square_lattice/Gret_xy_mid_M_2-eps-converted-to.pdf, id=89, 433.62pt x
+ 289.08pt>
+File: figures/square_lattice/Gret_xy_mid_M_2-eps-converted-to.pdf Graphic file 
+(type pdf)
+ <use figures/square_lattice/Gret_xy_mid_M_2-eps-converted-to.pdf>
+Package pdftex.def Info: figures/square_lattice/Gret_xy_mid_M_2-eps-converted-t
+o.pdf used on input line 323.
+(pdftex.def)             Requested size: 232.17198pt x 154.78198pt.
+
+Overfull \hbox (11.71094pt too wide) in paragraph at lines 318--325
+[]$[]$  $[]$ 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+Package epstopdf Info: Source file: <figures/square_lattice/DOS_xy_mid_Y.eps>
+(epstopdf)                    date: 2019-10-02 16:54:08
+(epstopdf)                    size: 33957 bytes
+(epstopdf)             Output file: <figures/square_lattice/DOS_xy_mid_Y-eps-co
+nverted-to.pdf>
+(epstopdf)                    date: 2019-10-02 16:55:35
+(epstopdf)                    size: 11895 bytes
+(epstopdf)             Command: <repstopdf --outfile=figures/square_lattice/DOS
+_xy_mid_Y-eps-converted-to.pdf figures/square_lattice/DOS_xy_mid_Y.eps>
+(epstopdf)             \includegraphics on input line 333.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./figures/square_lattice/DOS_xy_mid_Y-eps-conver
+ted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> 
+allowed
+
+<figures/square_lattice/DOS_xy_mid_Y-eps-converted-to.pdf, id=98, 433.62pt x 28
+9.08pt>
+File: figures/square_lattice/DOS_xy_mid_Y-eps-converted-to.pdf Graphic file (ty
+pe pdf)
+ <use figures/square_lattice/DOS_xy_mid_Y-eps-converted-to.pdf>
+Package pdftex.def Info: figures/square_lattice/DOS_xy_mid_Y-eps-converted-to.p
+df used on input line 333.
+(pdftex.def)             Requested size: 232.17198pt x 154.78198pt.
+Package epstopdf Info: Source file: <figures/square_lattice/OCC_xy_mid_Y.eps>
+(epstopdf)                    date: 2019-10-02 17:00:00
+(epstopdf)                    size: 33582 bytes
+(epstopdf)             Output file: <figures/square_lattice/OCC_xy_mid_Y-eps-co
+nverted-to.pdf>
+(epstopdf)                    date: 2019-10-02 17:00:35
+(epstopdf)                    size: 11602 bytes
+(epstopdf)             Command: <repstopdf --outfile=figures/square_lattice/OCC
+_xy_mid_Y-eps-converted-to.pdf figures/square_lattice/OCC_xy_mid_Y.eps>
+(epstopdf)             \includegraphics on input line 337.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./figures/square_lattice/OCC_xy_mid_Y-eps-conver
+ted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> 
+allowed
+
+<figures/square_lattice/OCC_xy_mid_Y-eps-converted-to.pdf, id=99, 433.62pt x 28
+9.08pt>
+File: figures/square_lattice/OCC_xy_mid_Y-eps-converted-to.pdf Graphic file (ty
+pe pdf)
+ <use figures/square_lattice/OCC_xy_mid_Y-eps-converted-to.pdf>
+Package pdftex.def Info: figures/square_lattice/OCC_xy_mid_Y-eps-converted-to.p
+df used on input line 337.
+(pdftex.def)             Requested size: 232.17198pt x 154.78198pt.
+
+Overfull \hbox (11.71094pt too wide) in paragraph at lines 332--339
+[]$[]$  $[]$ 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+Package epstopdf Info: Source file: <figures/square_lattice/Gret_y_mid_Y.eps>
+(epstopdf)                    date: 2019-10-02 17:08:38
+(epstopdf)                    size: 83797 bytes
+(epstopdf)             Output file: <figures/square_lattice/Gret_y_mid_Y-eps-co
+nverted-to.pdf>
+(epstopdf)                    date: 2019-10-02 18:35:43
+(epstopdf)                    size: 26185 bytes
+(epstopdf)             Command: <repstopdf --outfile=figures/square_lattice/Gre
+t_y_mid_Y-eps-converted-to.pdf figures/square_lattice/Gret_y_mid_Y.eps>
+(epstopdf)             \includegraphics on input line 349.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./figures/square_lattice/Gret_y_mid_Y-eps-conver
+ted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> 
+allowed
+
+<figures/square_lattice/Gret_y_mid_Y-eps-converted-to.pdf, id=101, 433.62pt x 2
+89.08pt>
+File: figures/square_lattice/Gret_y_mid_Y-eps-converted-to.pdf Graphic file (ty
+pe pdf)
+ <use figures/square_lattice/Gret_y_mid_Y-eps-converted-to.pdf>
+Package pdftex.def Info: figures/square_lattice/Gret_y_mid_Y-eps-converted-to.p
+df used on input line 349.
+(pdftex.def)             Requested size: 232.17198pt x 154.78198pt.
+Package epstopdf Info: Source file: <figures/square_lattice/Gret_y_mid_M_2.eps>
+
+(epstopdf)                    date: 2019-10-02 17:08:32
+(epstopdf)                    size: 83801 bytes
+(epstopdf)             Output file: <figures/square_lattice/Gret_y_mid_M_2-eps-
+converted-to.pdf>
+(epstopdf)                    date: 2019-10-02 18:35:43
+(epstopdf)                    size: 26189 bytes
+(epstopdf)             Command: <repstopdf --outfile=figures/square_lattice/Gre
+t_y_mid_M_2-eps-converted-to.pdf figures/square_lattice/Gret_y_mid_M_2.eps>
+(epstopdf)             \includegraphics on input line 353.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./figures/square_lattice/Gret_y_mid_M_2-eps-conv
+erted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5
+> allowed
+
+<figures/square_lattice/Gret_y_mid_M_2-eps-converted-to.pdf, id=102, 433.62pt x
+ 289.08pt>
+File: figures/square_lattice/Gret_y_mid_M_2-eps-converted-to.pdf Graphic file (
+type pdf)
+ <use figures/square_lattice/Gret_y_mid_M_2-eps-converted-to.pdf>
+Package pdftex.def Info: figures/square_lattice/Gret_y_mid_M_2-eps-converted-to
+.pdf used on input line 353.
+(pdftex.def)             Requested size: 232.17198pt x 154.78198pt.
+
+Overfull \hbox (11.71094pt too wide) in paragraph at lines 348--355
+[]$[]$  $[]$ 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+Package epstopdf Info: Source file: <figures/square_lattice/DOS_y_mid_Y.eps>
+(epstopdf)                    date: 2019-10-02 19:07:27
+(epstopdf)                    size: 37943 bytes
+(epstopdf)             Output file: <figures/square_lattice/DOS_y_mid_Y-eps-con
+verted-to.pdf>
+(epstopdf)                    date: 2019-10-02 19:07:41
+(epstopdf)                    size: 14202 bytes
+(epstopdf)             Command: <repstopdf --outfile=figures/square_lattice/DOS
+_y_mid_Y-eps-converted-to.pdf figures/square_lattice/DOS_y_mid_Y.eps>
+(epstopdf)             \includegraphics on input line 364.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./figures/square_lattice/DOS_y_mid_Y-eps-convert
+ed-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> a
+llowed
+
+<figures/square_lattice/DOS_y_mid_Y-eps-converted-to.pdf, id=105, 433.62pt x 28
+9.08pt>
+File: figures/square_lattice/DOS_y_mid_Y-eps-converted-to.pdf Graphic file (typ
+e pdf)
+ <use figures/square_lattice/DOS_y_mid_Y-eps-converted-to.pdf>
+Package pdftex.def Info: figures/square_lattice/DOS_y_mid_Y-eps-converted-to.pd
+f used on input line 364.
+(pdftex.def)             Requested size: 232.17198pt x 154.78198pt.
+Package epstopdf Info: Source file: <figures/square_lattice/OCC_y_mid_Y.eps>
+(epstopdf)                    date: 2019-10-02 17:11:59
+(epstopdf)                    size: 39919 bytes
+(epstopdf)             Output file: <figures/square_lattice/OCC_y_mid_Y-eps-con
+verted-to.pdf>
+(epstopdf)                    date: 2019-10-02 18:35:43
+(epstopdf)                    size: 14341 bytes
+(epstopdf)             Command: <repstopdf --outfile=figures/square_lattice/OCC
+_y_mid_Y-eps-converted-to.pdf figures/square_lattice/OCC_y_mid_Y.eps>
+(epstopdf)             \includegraphics on input line 368.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./figures/square_lattice/OCC_y_mid_Y-eps-convert
+ed-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> a
+llowed
+
+<figures/square_lattice/OCC_y_mid_Y-eps-converted-to.pdf, id=106, 433.62pt x 28
+9.08pt>
+File: figures/square_lattice/OCC_y_mid_Y-eps-converted-to.pdf Graphic file (typ
+e pdf)
+ <use figures/square_lattice/OCC_y_mid_Y-eps-converted-to.pdf>
+Package pdftex.def Info: figures/square_lattice/OCC_y_mid_Y-eps-converted-to.pd
+f used on input line 368.
+(pdftex.def)             Requested size: 232.17198pt x 154.78198pt.
+
+Overfull \hbox (11.71094pt too wide) in paragraph at lines 363--370
+[]$[]$  $[]$ 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[5 <./figures/square_lattice/BZ_1.pdf> <./figures/square_lattice/xy/G_l_loc.png
+> <./figures/square_lattice/y/1_75/G_l_loc.png>] [6 <./figures/square_lattice/G
+ret_xy_mid_Y_u-eps-converted-to.pdf> <./figures/square_lattice/Gret_xy_mid_M_2_
+u-eps-converted-to.pdf> <./figures/square_lattice/Gret_xy_mid_Y-eps-converted-t
+o.pdf> <./figures/square_lattice/Gret_xy_mid_M_2-eps-converted-to.pdf> <./figur
+es/square_lattice/DOS_xy_mid_Y-eps-converted-to.pdf> <./figures/square_lattice/
+OCC_xy_mid_Y-eps-converted-to.pdf>]
+<figures/square_lattice/1_5_xy.png, id=192, 815.045pt x 542.025pt>
+File: figures/square_lattice/1_5_xy.png Graphic file (type png)
+
+<use figures/square_lattice/1_5_xy.png>
+Package pdftex.def Info: figures/square_lattice/1_5_xy.png used on input line 3
+80.
+(pdftex.def)             Requested size: 232.17198pt x 154.39601pt.
+
+<figures/square_lattice/1_5_y.png, id=193, 815.045pt x 542.025pt>
+File: figures/square_lattice/1_5_y.png Graphic file (type png)
+
+<use figures/square_lattice/1_5_y.png>
+Package pdftex.def Info: figures/square_lattice/1_5_y.png used on input line 38
+4.
+(pdftex.def)             Requested size: 232.17198pt x 154.39601pt.
+
+<figures/square_lattice/1_75_xy.png, id=194, 816.04875pt x 543.02875pt>
+File: figures/square_lattice/1_75_xy.png Graphic file (type png)
+
+<use figures/square_lattice/1_75_xy.png>
+Package pdftex.def Info: figures/square_lattice/1_75_xy.png used on input line 
+387.
+(pdftex.def)             Requested size: 232.17198pt x 154.49135pt.
+
+<figures/square_lattice/1_75_y.png, id=195, 816.04875pt x 543.02875pt>
+File: figures/square_lattice/1_75_y.png Graphic file (type png)
+
+<use figures/square_lattice/1_75_y.png>
+Package pdftex.def Info: figures/square_lattice/1_75_y.png used on input line 3
+91.
+(pdftex.def)             Requested size: 232.17198pt x 154.49135pt.
+
+<figures/square_lattice/3_0_xy.png, id=196, 815.045pt x 542.025pt>
+File: figures/square_lattice/3_0_xy.png Graphic file (type png)
+
+<use figures/square_lattice/3_0_xy.png>
+Package pdftex.def Info: figures/square_lattice/3_0_xy.png used on input line 3
+94.
+(pdftex.def)             Requested size: 232.17198pt x 154.39601pt.
+
+<figures/square_lattice/3_0_y.png, id=197, 815.045pt x 542.025pt>
+File: figures/square_lattice/3_0_y.png Graphic file (type png)
+
+<use figures/square_lattice/3_0_y.png>
+Package pdftex.def Info: figures/square_lattice/3_0_y.png used on input line 39
+8.
+(pdftex.def)             Requested size: 232.17198pt x 154.39601pt.
+
+Overfull \hbox (11.71094pt too wide) in paragraph at lines 379--400
+[]$[]$  $[]$
+ []
+
+
+Overfull \hbox (11.71094pt too wide) in paragraph at lines 379--400
+[]$  $[]$
+ []
+
+
+Overfull \hbox (11.71094pt too wide) in paragraph at lines 379--400
+[]$  $[]$ 
+ []
+
+
+Underfull \hbox (badness 2158) in paragraph at lines 400--400
+[]\OT1/cmr/m/n/12 Figure 8: |Oc-cu-pied states $\OML/cmm/m/it/12 G[]\OT1/cmr/m/
+n/12 (\OML/cmm/m/it/12 t; !\OT1/cmr/m/n/12 )$ for $\OML/cmm/m/it/12 U$\OT1/cmr/
+m/n/12 =6: (a) $\OML/cmm/m/it/12 A[]$\OT1/cmr/m/n/12 =1.5 $\OML/cmm/m/it/12 XY$
+\OT1/cmr/m/n/12 -polarization;
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+Package epstopdf Info: Source file: <figures/square_lattice/xy/sum_QP_xy.eps>
+(epstopdf)                    date: 2019-10-07 14:32:40
+(epstopdf)                    size: 87026 bytes
+(epstopdf)             Output file: <figures/square_lattice/xy/sum_QP_xy-eps-co
+nverted-to.pdf>
+(epstopdf)                    date: 2019-10-07 16:07:39
+(epstopdf)                    size: 35455 bytes
+(epstopdf)             Command: <repstopdf --outfile=figures/square_lattice/xy/
+sum_QP_xy-eps-converted-to.pdf figures/square_lattice/xy/sum_QP_xy.eps>
+(epstopdf)             \includegraphics on input line 407.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./figures/square_lattice/xy/sum_QP_xy-eps-conver
+ted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> 
+allowed
+
+<figures/square_lattice/xy/sum_QP_xy-eps-converted-to.pdf, id=198, 433.62pt x 2
+89.08pt>
+File: figures/square_lattice/xy/sum_QP_xy-eps-converted-to.pdf Graphic file (ty
+pe pdf)
+ <use figures/square_lattice/xy/sum_QP_xy-eps-converted-to.pdf>
+Package pdftex.def Info: figures/square_lattice/xy/sum_QP_xy-eps-converted-to.p
+df used on input line 407.
+(pdftex.def)             Requested size: 232.17198pt x 154.78198pt.
+Package epstopdf Info: Source file: <figures/square_lattice/y/sum_QP.eps>
+(epstopdf)                    date: 2019-10-04 16:28:31
+(epstopdf)                    size: 87425 bytes
+(epstopdf)             Output file: <figures/square_lattice/y/sum_QP-eps-conver
+ted-to.pdf>
+(epstopdf)                    date: 2019-10-04 16:45:42
+(epstopdf)                    size: 38793 bytes
+(epstopdf)             Command: <repstopdf --outfile=figures/square_lattice/y/s
+um_QP-eps-converted-to.pdf figures/square_lattice/y/sum_QP.eps>
+(epstopdf)             \includegraphics on input line 411.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./figures/square_lattice/y/sum_QP-eps-converted-
+to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allo
+wed
+
+<figures/square_lattice/y/sum_QP-eps-converted-to.pdf, id=199, 433.62pt x 289.0
+8pt>
+File: figures/square_lattice/y/sum_QP-eps-converted-to.pdf Graphic file (type p
+df)
+ <use figures/square_lattice/y/sum_QP-eps-converted-to.pdf>
+Package pdftex.def Info: figures/square_lattice/y/sum_QP-eps-converted-to.pdf u
+sed on input line 411.
+(pdftex.def)             Requested size: 232.17198pt x 154.78198pt.
+
+Overfull \hbox (11.71094pt too wide) in paragraph at lines 406--413
+[]$[]$  $[]$ 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+<figures/square_lattice/xy/band_eq/Band_r_time_1370.png, id=200, 462.528pt x 34
+6.896pt>
+File: figures/square_lattice/xy/band_eq/Band_r_time_1370.png Graphic file (type
+ png)
+ <use figures/square_lattice/xy/band_eq/Band_r_time_1370.png>
+Package pdftex.def Info: figures/square_lattice/xy/band_eq/Band_r_time_1370.png
+ used on input line 421.
+(pdftex.def)             Requested size: 232.17198pt x 174.13039pt.
+
+<figures/square_lattice/xy/band_eq/Band_l_time_1370_0.png, id=201, 462.528pt x 
+346.896pt>
+File: figures/square_lattice/xy/band_eq/Band_l_time_1370_0.png Graphic file (ty
+pe png)
+ <use figures/square_lattice/xy/band_eq/Band_l_time_1370_0.png>
+Package pdftex.def Info: figures/square_lattice/xy/band_eq/Band_l_time_1370_0.p
+ng used on input line 425.
+(pdftex.def)             Requested size: 232.17198pt x 174.13039pt.
+
+Overfull \hbox (11.71094pt too wide) in paragraph at lines 420--427
+[]$[]$  $[]$ 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+<figures/square_lattice/xy/Band_r_time_1370.png, id=202, 462.528pt x 346.896pt>
+File: figures/square_lattice/xy/Band_r_time_1370.png Graphic file (type png)
+<use figures/square_lattice/xy/Band_r_time_1370.png>
+Package pdftex.def Info: figures/square_lattice/xy/Band_r_time_1370.png used on
+ input line 433.
+(pdftex.def)             Requested size: 232.17198pt x 174.13039pt.
+
+<figures/square_lattice/xy/Band_l_time_1370_0.png, id=203, 462.528pt x 346.896p
+t>
+File: figures/square_lattice/xy/Band_l_time_1370_0.png Graphic file (type png)
+ <use figures/square_lattice/xy/Band_l_time_1370_0.png>
+Package pdftex.def Info: figures/square_lattice/xy/Band_l_time_1370_0.png used 
+on input line 437.
+(pdftex.def)             Requested size: 232.17198pt x 174.13039pt.
+
+Overfull \hbox (11.71094pt too wide) in paragraph at lines 432--439
+[]$[]$  $[]$ 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+<figures/square_lattice/y/1_75/Band_r_time_1370.png, id=204, 462.528pt x 346.89
+6pt>
+File: figures/square_lattice/y/1_75/Band_r_time_1370.png Graphic file (type png
+)
+ <use figures/square_lattice/y/1_75/Band_r_time_1370.png>
+Package pdftex.def Info: figures/square_lattice/y/1_75/Band_r_time_1370.png use
+d on input line 449.
+(pdftex.def)             Requested size: 232.17198pt x 174.13039pt.
+
+<figures/square_lattice/y/1_75/Band_l_time_1370_0.png, id=205, 462.528pt x 346.
+896pt>
+File: figures/square_lattice/y/1_75/Band_l_time_1370_0.png Graphic file (type p
+ng)
+ <use figures/square_lattice/y/1_75/Band_l_time_1370_0.png>
+Package pdftex.def Info: figures/square_lattice/y/1_75/Band_l_time_1370_0.png u
+sed on input line 453.
+(pdftex.def)             Requested size: 232.17198pt x 174.13039pt.
+
+<figures/square_lattice/y/3_0/Band_r_time_1370.png, id=206, 462.528pt x 346.896
+pt>
+File: figures/square_lattice/y/3_0/Band_r_time_1370.png Graphic file (type png)
+
+ <use figures/square_lattice/y/3_0/Band_r_time_1370.png>
+Package pdftex.def Info: figures/square_lattice/y/3_0/Band_r_time_1370.png used
+ on input line 456.
+(pdftex.def)             Requested size: 232.17198pt x 174.13039pt.
+
+<figures/square_lattice/y/3_0/Band_l_time_1370_0.png, id=207, 462.528pt x 346.8
+96pt>
+File: figures/square_lattice/y/3_0/Band_l_time_1370_0.png Graphic file (type pn
+g)
+ <use figures/square_lattice/y/3_0/Band_l_time_1370_0.png>
+Package pdftex.def Info: figures/square_lattice/y/3_0/Band_l_time_1370_0.png us
+ed on input line 460.
+(pdftex.def)             Requested size: 232.17198pt x 174.13039pt.
+
+Overfull \hbox (11.71094pt too wide) in paragraph at lines 448--462
+[]$[]$  $[]$
+ []
+
+
+Overfull \hbox (11.71094pt too wide) in paragraph at lines 448--462
+[]$  $[]$ 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[7 <./figures/square_lattice/Gret_y_mid_Y-eps-converted-to.pdf> <./figures/squa
+re_lattice/Gret_y_mid_M_2-eps-converted-to.pdf> <./figures/square_lattice/DOS_y
+_mid_Y-eps-converted-to.pdf> <./figures/square_lattice/OCC_y_mid_Y-eps-converte
+d-to.pdf>] [8 <./figures/square_lattice/1_5_xy.png> <./figures/square_lattice/1
+_5_y.png> <./figures/square_lattice/1_75_xy.png> <./figures/square_lattice/1_75
+_y.png> <./figures/square_lattice/3_0_xy.png> <./figures/square_lattice/3_0_y.p
+ng>] [9 <./figures/square_lattice/xy/sum_QP_xy-eps-converted-to.pdf> <./figures
+/square_lattice/y/sum_QP-eps-converted-to.pdf> <./figures/square_lattice/xy/ban
+d_eq/Band_r_time_1370.png> <./figures/square_lattice/xy/band_eq/Band_l_time_137
+0_0.png> <./figures/square_lattice/xy/Band_r_time_1370.png> <./figures/square_l
+attice/xy/Band_l_time_1370_0.png>] [10 <./figures/square_lattice/y/1_75/Band_r_
+time_1370.png> <./figures/square_lattice/y/1_75/Band_l_time_1370_0.png> <./figu
+res/square_lattice/y/3_0/Band_r_time_1370.png> <./figures/square_lattice/y/3_0/
+Band_l_time_1370_0.png>]
+<figures/square_lattice/y/1_75/G_l_k_M.png, id=283, 578.16pt x 433.62pt>
+File: figures/square_lattice/y/1_75/G_l_k_M.png Graphic file (type png)
+
+<use figures/square_lattice/y/1_75/G_l_k_M.png>
+Package pdftex.def Info: figures/square_lattice/y/1_75/G_l_k_M.png used on inpu
+t line 471.
+(pdftex.def)             Requested size: 232.17198pt x 174.12642pt.
+
+<figures/square_lattice/y/1_75/G_l_k_Y.png, id=284, 578.16pt x 433.62pt>
+File: figures/square_lattice/y/1_75/G_l_k_Y.png Graphic file (type png)
+
+<use figures/square_lattice/y/1_75/G_l_k_Y.png>
+Package pdftex.def Info: figures/square_lattice/y/1_75/G_l_k_Y.png used on inpu
+t line 475.
+(pdftex.def)             Requested size: 232.17198pt x 174.12642pt.
+
+<figures/square_lattice/y/1_75/G_l_k_M_2.png, id=285, 578.16pt x 433.62pt>
+File: figures/square_lattice/y/1_75/G_l_k_M_2.png Graphic file (type png)
+
+<use figures/square_lattice/y/1_75/G_l_k_M_2.png>
+Package pdftex.def Info: figures/square_lattice/y/1_75/G_l_k_M_2.png used on in
+put line 478.
+(pdftex.def)             Requested size: 232.17198pt x 174.12642pt.
+
+<figures/square_lattice/y/1_75/G_l_k_X.png, id=286, 578.16pt x 433.62pt>
+File: figures/square_lattice/y/1_75/G_l_k_X.png Graphic file (type png)
+
+<use figures/square_lattice/y/1_75/G_l_k_X.png>
+Package pdftex.def Info: figures/square_lattice/y/1_75/G_l_k_X.png used on inpu
+t line 482.
+(pdftex.def)             Requested size: 232.17198pt x 174.12642pt.
+
+Overfull \hbox (11.71094pt too wide) in paragraph at lines 470--484
+[]$[]$  $[]$
+ []
+
+
+Overfull \hbox (11.71094pt too wide) in paragraph at lines 470--484
+[]$  $[]$ 
+ []
+
+Package epstopdf Info: Source file: <figures/square_lattice/y/1_75/1_75_y_sum_F
+S.eps>
+(epstopdf)                    date: 2019-10-02 20:03:58
+(epstopdf)                    size: 59554 bytes
+(epstopdf)             Output file: <figures/square_lattice/y/1_75/1_75_y_sum_F
+S-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-10-04 14:57:50
+(epstopdf)                    size: 25585 bytes
+(epstopdf)             Command: <repstopdf --outfile=figures/square_lattice/y/1
+_75/1_75_y_sum_FS-eps-converted-to.pdf figures/square_lattice/y/1_75/1_75_y_sum
+_FS.eps>
+(epstopdf)             \includegraphics on input line 490.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./figures/square_lattice/y/1_75/1_75_y_sum_FS-ep
+s-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most versio
+n <1.5> allowed
+
+<figures/square_lattice/y/1_75/1_75_y_sum_FS-eps-converted-to.pdf, id=287, 433.
+62pt x 289.08pt>
+File: figures/square_lattice/y/1_75/1_75_y_sum_FS-eps-converted-to.pdf Graphic 
+file (type pdf)
+
+<use figures/square_lattice/y/1_75/1_75_y_sum_FS-eps-converted-to.pdf>
+Package pdftex.def Info: figures/square_lattice/y/1_75/1_75_y_sum_FS-eps-conver
+ted-to.pdf used on input line 490.
+(pdftex.def)             Requested size: 232.17198pt x 154.78198pt.
+Package epstopdf Info: Source file: <figures/square_lattice/y/3_0/3_0_y_sum_FS.
+eps>
+(epstopdf)                    date: 2019-10-02 20:06:08
+(epstopdf)                    size: 59600 bytes
+(epstopdf)             Output file: <figures/square_lattice/y/3_0/3_0_y_sum_FS-
+eps-converted-to.pdf>
+(epstopdf)                    date: 2019-10-04 14:57:51
+(epstopdf)                    size: 26405 bytes
+(epstopdf)             Command: <repstopdf --outfile=figures/square_lattice/y/3
+_0/3_0_y_sum_FS-eps-converted-to.pdf figures/square_lattice/y/3_0/3_0_y_sum_FS.
+eps>
+(epstopdf)             \includegraphics on input line 494.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./figures/square_lattice/y/3_0/3_0_y_sum_FS-eps-
+converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version 
+<1.5> allowed
+
+<figures/square_lattice/y/3_0/3_0_y_sum_FS-eps-converted-to.pdf, id=288, 433.62
+pt x 289.08pt>
+File: figures/square_lattice/y/3_0/3_0_y_sum_FS-eps-converted-to.pdf Graphic fi
+le (type pdf)
+
+<use figures/square_lattice/y/3_0/3_0_y_sum_FS-eps-converted-to.pdf>
+Package pdftex.def Info: figures/square_lattice/y/3_0/3_0_y_sum_FS-eps-converte
+d-to.pdf used on input line 494.
+(pdftex.def)             Requested size: 232.17198pt x 154.78198pt.
+Package epstopdf Info: Source file: <figures/square_lattice/xy/1_75_xy_sum_FS.e
+ps>
+(epstopdf)                    date: 2019-10-04 15:10:02
+(epstopdf)                    size: 60747 bytes
+(epstopdf)             Output file: <figures/square_lattice/xy/1_75_xy_sum_FS-e
+ps-converted-to.pdf>
+(epstopdf)                    date: 2019-10-04 15:10:22
+(epstopdf)                    size: 28127 bytes
+(epstopdf)             Command: <repstopdf --outfile=figures/square_lattice/xy/
+1_75_xy_sum_FS-eps-converted-to.pdf figures/square_lattice/xy/1_75_xy_sum_FS.ep
+s>
+(epstopdf)             \includegraphics on input line 497.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./figures/square_lattice/xy/1_75_xy_sum_FS-eps-c
+onverted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <
+1.5> allowed
+
+<figures/square_lattice/xy/1_75_xy_sum_FS-eps-converted-to.pdf, id=289, 433.62p
+t x 289.08pt>
+File: figures/square_lattice/xy/1_75_xy_sum_FS-eps-converted-to.pdf Graphic fil
+e (type pdf)
+
+<use figures/square_lattice/xy/1_75_xy_sum_FS-eps-converted-to.pdf>
+Package pdftex.def Info: figures/square_lattice/xy/1_75_xy_sum_FS-eps-converted
+-to.pdf used on input line 497.
+(pdftex.def)             Requested size: 232.17198pt x 154.78198pt.
+Package epstopdf Info: Source file: <figures/square_lattice/E_b_sq_latt.eps>
+(epstopdf)                    date: 2019-10-04 19:34:38
+(epstopdf)                    size: 23713 bytes
+(epstopdf)             Output file: <figures/square_lattice/E_b_sq_latt-eps-con
+verted-to.pdf>
+(epstopdf)                    date: 2019-10-04 19:35:11
+(epstopdf)                    size: 8487 bytes
+(epstopdf)             Command: <repstopdf --outfile=figures/square_lattice/E_b
+_sq_latt-eps-converted-to.pdf figures/square_lattice/E_b_sq_latt.eps>
+(epstopdf)             \includegraphics on input line 501.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./figures/square_lattice/E_b_sq_latt-eps-convert
+ed-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> a
+llowed
+
+<figures/square_lattice/E_b_sq_latt-eps-converted-to.pdf, id=290, 433.62pt x 28
+9.08pt>
+File: figures/square_lattice/E_b_sq_latt-eps-converted-to.pdf Graphic file (typ
+e pdf)
+ <use figures/square_lattice/E_b_sq_latt-eps-converted-to.pdf>
+Package pdftex.def Info: figures/square_lattice/E_b_sq_latt-eps-converted-to.pd
+f used on input line 501.
+(pdftex.def)             Requested size: 232.17198pt x 154.78198pt.
+
+Overfull \hbox (11.71094pt too wide) in paragraph at lines 489--503
+[]$[]$  $[]$
+ []
+
+
+Overfull \hbox (11.71094pt too wide) in paragraph at lines 489--503
+[]$  $[]$ 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+Package epstopdf Info: Source file: <figures/square_lattice/xy/band_eq/FS_time_
+1370.eps>
+(epstopdf)                    date: 2019-10-07 13:45:07
+(epstopdf)                    size: 250586 bytes
+(epstopdf)             Output file: <figures/square_lattice/xy/band_eq/FS_time_
+1370-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-10-07 13:50:04
+(epstopdf)                    size: 12339 bytes
+(epstopdf)             Command: <repstopdf --outfile=figures/square_lattice/xy/
+band_eq/FS_time_1370-eps-converted-to.pdf figures/square_lattice/xy/band_eq/FS_
+time_1370.eps>
+(epstopdf)             \includegraphics on input line 509.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./figures/square_lattice/xy/band_eq/FS_time_1370
+-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most ver
+sion <1.5> allowed
+
+<figures/square_lattice/xy/band_eq/FS_time_1370-eps-converted-to.pdf, id=291, 2
+45.91875pt x 196.735pt>
+File: figures/square_lattice/xy/band_eq/FS_time_1370-eps-converted-to.pdf Graph
+ic file (type pdf)
+
+<use figures/square_lattice/xy/band_eq/FS_time_1370-eps-converted-to.pdf>
+Package pdftex.def Info: figures/square_lattice/xy/band_eq/FS_time_1370-eps-con
+verted-to.pdf used on input line 509.
+(pdftex.def)             Requested size: 232.17198pt x 185.74443pt.
+Package epstopdf Info: Source file: <figures/square_lattice/y/1_75/FS_time_1370
+_mid.eps>
+(epstopdf)                    date: 2019-10-07 13:27:46
+(epstopdf)                    size: 251185 bytes
+(epstopdf)             Output file: <figures/square_lattice/y/1_75/FS_time_1370
+_mid-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-10-07 13:50:05
+(epstopdf)                    size: 12209 bytes
+(epstopdf)             Command: <repstopdf --outfile=figures/square_lattice/y/1
+_75/FS_time_1370_mid-eps-converted-to.pdf figures/square_lattice/y/1_75/FS_time
+_1370_mid.eps>
+(epstopdf)             \includegraphics on input line 513.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./figures/square_lattice/y/1_75/FS_time_1370_mid
+-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most ver
+sion <1.5> allowed
+
+<figures/square_lattice/y/1_75/FS_time_1370_mid-eps-converted-to.pdf, id=292, 2
+45.91875pt x 196.735pt>
+File: figures/square_lattice/y/1_75/FS_time_1370_mid-eps-converted-to.pdf Graph
+ic file (type pdf)
+
+<use figures/square_lattice/y/1_75/FS_time_1370_mid-eps-converted-to.pdf>
+Package pdftex.def Info: figures/square_lattice/y/1_75/FS_time_1370_mid-eps-con
+verted-to.pdf used on input line 513.
+(pdftex.def)             Requested size: 232.17198pt x 185.74443pt.
+Package epstopdf Info: Source file: <figures/square_lattice/y/1_75/FS_time_1370
+_md.eps>
+(epstopdf)                    date: 2019-10-07 13:29:12
+(epstopdf)                    size: 250760 bytes
+(epstopdf)             Output file: <figures/square_lattice/y/1_75/FS_time_1370
+_md-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-10-07 13:50:05
+(epstopdf)                    size: 11937 bytes
+(epstopdf)             Command: <repstopdf --outfile=figures/square_lattice/y/1
+_75/FS_time_1370_md-eps-converted-to.pdf figures/square_lattice/y/1_75/FS_time_
+1370_md.eps>
+(epstopdf)             \includegraphics on input line 516.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./figures/square_lattice/y/1_75/FS_time_1370_md-
+eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most vers
+ion <1.5> allowed
+
+<figures/square_lattice/y/1_75/FS_time_1370_md-eps-converted-to.pdf, id=293, 24
+5.91875pt x 196.735pt>
+File: figures/square_lattice/y/1_75/FS_time_1370_md-eps-converted-to.pdf Graphi
+c file (type pdf)
+
+<use figures/square_lattice/y/1_75/FS_time_1370_md-eps-converted-to.pdf>
+Package pdftex.def Info: figures/square_lattice/y/1_75/FS_time_1370_md-eps-conv
+erted-to.pdf used on input line 516.
+(pdftex.def)             Requested size: 232.17198pt x 185.74443pt.
+Package epstopdf Info: Source file: <figures/square_lattice/y/3_0/FS_time_1370.
+eps>
+(epstopdf)                    date: 2019-10-07 13:37:17
+(epstopdf)                    size: 250218 bytes
+(epstopdf)             Output file: <figures/square_lattice/y/3_0/FS_time_1370-
+eps-converted-to.pdf>
+(epstopdf)                    date: 2019-10-07 13:50:25
+(epstopdf)                    size: 11653 bytes
+(epstopdf)             Command: <repstopdf --outfile=figures/square_lattice/y/3
+_0/FS_time_1370-eps-converted-to.pdf figures/square_lattice/y/3_0/FS_time_1370.
+eps>
+(epstopdf)             \includegraphics on input line 520.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./figures/square_lattice/y/3_0/FS_time_1370-eps-
+converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version 
+<1.5> allowed
+
+<figures/square_lattice/y/3_0/FS_time_1370-eps-converted-to.pdf, id=294, 245.91
+875pt x 196.735pt>
+File: figures/square_lattice/y/3_0/FS_time_1370-eps-converted-to.pdf Graphic fi
+le (type pdf)
+
+<use figures/square_lattice/y/3_0/FS_time_1370-eps-converted-to.pdf>
+Package pdftex.def Info: figures/square_lattice/y/3_0/FS_time_1370-eps-converte
+d-to.pdf used on input line 520.
+(pdftex.def)             Requested size: 232.17198pt x 185.74443pt.
+
+Overfull \hbox (11.71094pt too wide) in paragraph at lines 508--522
+[]$[]$  $[]$
+ []
+
+
+Overfull \hbox (11.71094pt too wide) in paragraph at lines 508--522
+[]$  $[]$ 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+Package epstopdf Info: Source file: <figures/square_lattice/xy/FS_time_1370_mid
+.eps>
+(epstopdf)                    date: 2019-10-07 13:58:05
+(epstopdf)                    size: 251234 bytes
+(epstopdf)             Output file: <figures/square_lattice/xy/FS_time_1370_mid
+-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-10-07 14:01:01
+(epstopdf)                    size: 13328 bytes
+(epstopdf)             Command: <repstopdf --outfile=figures/square_lattice/xy/
+FS_time_1370_mid-eps-converted-to.pdf figures/square_lattice/xy/FS_time_1370_mi
+d.eps>
+(epstopdf)             \includegraphics on input line 529.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./figures/square_lattice/xy/FS_time_1370_mid-eps
+-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version
+ <1.5> allowed
+
+<figures/square_lattice/xy/FS_time_1370_mid-eps-converted-to.pdf, id=295, 245.9
+1875pt x 196.735pt>
+File: figures/square_lattice/xy/FS_time_1370_mid-eps-converted-to.pdf Graphic f
+ile (type pdf)
+
+<use figures/square_lattice/xy/FS_time_1370_mid-eps-converted-to.pdf>
+Package pdftex.def Info: figures/square_lattice/xy/FS_time_1370_mid-eps-convert
+ed-to.pdf used on input line 529.
+(pdftex.def)             Requested size: 232.17198pt x 185.74443pt.
+Package epstopdf Info: Source file: <figures/square_lattice/xy/FS_time_1370_md.
+eps>
+(epstopdf)                    date: 2019-10-07 13:58:31
+(epstopdf)                    size: 250696 bytes
+(epstopdf)             Output file: <figures/square_lattice/xy/FS_time_1370_md-
+eps-converted-to.pdf>
+(epstopdf)                    date: 2019-10-07 14:01:01
+(epstopdf)                    size: 12122 bytes
+(epstopdf)             Command: <repstopdf --outfile=figures/square_lattice/xy/
+FS_time_1370_md-eps-converted-to.pdf figures/square_lattice/xy/FS_time_1370_md.
+eps>
+(epstopdf)             \includegraphics on input line 533.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./figures/square_lattice/xy/FS_time_1370_md-eps-
+converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version 
+<1.5> allowed
+
+<figures/square_lattice/xy/FS_time_1370_md-eps-converted-to.pdf, id=296, 245.91
+875pt x 196.735pt>
+File: figures/square_lattice/xy/FS_time_1370_md-eps-converted-to.pdf Graphic fi
+le (type pdf)
+
+<use figures/square_lattice/xy/FS_time_1370_md-eps-converted-to.pdf>
+Package pdftex.def Info: figures/square_lattice/xy/FS_time_1370_md-eps-converte
+d-to.pdf used on input line 533.
+(pdftex.def)             Requested size: 232.17198pt x 185.74443pt.
+
+Overfull \hbox (11.71094pt too wide) in paragraph at lines 528--535
+[]$[]$  $[]$ 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+Package epstopdf Info: Source file: <figures/square_lattice/y/1_75/FS_time_1370
+_st_st.eps>
+(epstopdf)                    date: 2019-10-09 15:38:43
+(epstopdf)                    size: 251847 bytes
+(epstopdf)             Output file: <figures/square_lattice/y/1_75/FS_time_1370
+_st_st-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-10-09 16:16:33
+(epstopdf)                    size: 12508 bytes
+(epstopdf)             Command: <repstopdf --outfile=figures/square_lattice/y/1
+_75/FS_time_1370_st_st-eps-converted-to.pdf figures/square_lattice/y/1_75/FS_ti
+me_1370_st_st.eps>
+(epstopdf)             \includegraphics on input line 541.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./figures/square_lattice/y/1_75/FS_time_1370_st_
+st-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most v
+ersion <1.5> allowed
+
+<figures/square_lattice/y/1_75/FS_time_1370_st_st-eps-converted-to.pdf, id=297,
+ 245.91875pt x 196.735pt>
+File: figures/square_lattice/y/1_75/FS_time_1370_st_st-eps-converted-to.pdf Gra
+phic file (type pdf)
+
+<use figures/square_lattice/y/1_75/FS_time_1370_st_st-eps-converted-to.pdf>
+Package pdftex.def Info: figures/square_lattice/y/1_75/FS_time_1370_st_st-eps-c
+onverted-to.pdf used on input line 541.
+(pdftex.def)             Requested size: 250.38564pt x 200.3158pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[11
+
+ <./figures/square_lattice/y/1_75/G_l_k_M.png> <./figures/square_lattice/y/1_75
+/G_l_k_Y.png> <./figures/square_lattice/y/1_75/G_l_k_M_2.png> <./figures/square
+_lattice/y/1_75/G_l_k_X.png>] [12 <./figures/square_lattice/y/1_75/1_75_y_sum_F
+S-eps-converted-to.pdf> <./figures/square_lattice/y/3_0/3_0_y_sum_FS-eps-conver
+ted-to.pdf> <./figures/square_lattice/xy/1_75_xy_sum_FS-eps-converted-to.pdf> <
+./figures/square_lattice/E_b_sq_latt-eps-converted-to.pdf>] [13 <./figures/squa
+re_lattice/xy/band_eq/FS_time_1370-eps-converted-to.pdf> <./figures/square_latt
+ice/y/1_75/FS_time_1370_mid-eps-converted-to.pdf> <./figures/square_lattice/y/1
+_75/FS_time_1370_md-eps-converted-to.pdf> <./figures/square_lattice/y/3_0/FS_ti
+me_1370-eps-converted-to.pdf> <./figures/square_lattice/xy/FS_time_1370_mid-eps
+-converted-to.pdf> <./figures/square_lattice/xy/FS_time_1370_md-eps-converted-t
+o.pdf>] [14 <./figures/square_lattice/y/1_75/FS_time_1370_st_st-eps-converted-t
+o.pdf>]
+Package epstopdf Info: Source file: <figures/t_t_lattice/xy/n_xy_05.eps>
+(epstopdf)                    date: 2019-10-04 18:37:07
+(epstopdf)                    size: 58035 bytes
+(epstopdf)             Output file: <figures/t_t_lattice/xy/n_xy_05-eps-convert
+ed-to.pdf>
+(epstopdf)                    date: 2019-10-04 18:41:05
+(epstopdf)                    size: 25729 bytes
+(epstopdf)             Command: <repstopdf --outfile=figures/t_t_lattice/xy/n_x
+y_05-eps-converted-to.pdf figures/t_t_lattice/xy/n_xy_05.eps>
+(epstopdf)             \includegraphics on input line 559.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./figures/t_t_lattice/xy/n_xy_05-eps-converted-t
+o.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allow
+ed
+
+<figures/t_t_lattice/xy/n_xy_05-eps-converted-to.pdf, id=463, 433.62pt x 289.08
+pt>
+File: figures/t_t_lattice/xy/n_xy_05-eps-converted-to.pdf Graphic file (type pd
+f)
+ <use figures/t_t_lattice/xy/n_xy_05-eps-converted-to.pdf>
+Package pdftex.def Info: figures/t_t_lattice/xy/n_xy_05-eps-converted-to.pdf us
+ed on input line 559.
+(pdftex.def)             Requested size: 232.17198pt x 154.78198pt.
+Package epstopdf Info: Source file: <figures/t_t_lattice/xy/n_xy_0425.eps>
+(epstopdf)                    date: 2019-10-04 18:35:47
+(epstopdf)                    size: 58750 bytes
+(epstopdf)             Output file: <figures/t_t_lattice/xy/n_xy_0425-eps-conve
+rted-to.pdf>
+(epstopdf)                    date: 2019-10-04 18:41:23
+(epstopdf)                    size: 22382 bytes
+(epstopdf)             Command: <repstopdf --outfile=figures/t_t_lattice/xy/n_x
+y_0425-eps-converted-to.pdf figures/t_t_lattice/xy/n_xy_0425.eps>
+(epstopdf)             \includegraphics on input line 563.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./figures/t_t_lattice/xy/n_xy_0425-eps-converted
+-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> all
+owed
+
+<figures/t_t_lattice/xy/n_xy_0425-eps-converted-to.pdf, id=464, 433.62pt x 289.
+08pt>
+File: figures/t_t_lattice/xy/n_xy_0425-eps-converted-to.pdf Graphic file (type 
+pdf)
+ <use figures/t_t_lattice/xy/n_xy_0425-eps-converted-to.pdf>
+Package pdftex.def Info: figures/t_t_lattice/xy/n_xy_0425-eps-converted-to.pdf 
+used on input line 563.
+(pdftex.def)             Requested size: 232.17198pt x 154.78198pt.
+Package epstopdf Info: Source file: <figures/t_t_lattice/y/n_y_05.eps>
+(epstopdf)                    date: 2019-10-04 18:37:30
+(epstopdf)                    size: 56590 bytes
+(epstopdf)             Output file: <figures/t_t_lattice/y/n_y_05-eps-converted
+-to.pdf>
+(epstopdf)                    date: 2019-10-04 18:41:23
+(epstopdf)                    size: 24236 bytes
+(epstopdf)             Command: <repstopdf --outfile=figures/t_t_lattice/y/n_y_
+05-eps-converted-to.pdf figures/t_t_lattice/y/n_y_05.eps>
+(epstopdf)             \includegraphics on input line 566.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./figures/t_t_lattice/y/n_y_05-eps-converted-to.
+pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+
+
+<figures/t_t_lattice/y/n_y_05-eps-converted-to.pdf, id=465, 433.62pt x 289.08pt
+>
+File: figures/t_t_lattice/y/n_y_05-eps-converted-to.pdf Graphic file (type pdf)
+
+ <use figures/t_t_lattice/y/n_y_05-eps-converted-to.pdf>
+Package pdftex.def Info: figures/t_t_lattice/y/n_y_05-eps-converted-to.pdf used
+ on input line 566.
+(pdftex.def)             Requested size: 232.17198pt x 154.78198pt.
+Package epstopdf Info: Source file: <figures/t_t_lattice/y/n_y_0425.eps>
+(epstopdf)                    date: 2019-10-04 18:35:51
+(epstopdf)                    size: 58760 bytes
+(epstopdf)             Output file: <figures/t_t_lattice/y/n_y_0425-eps-convert
+ed-to.pdf>
+(epstopdf)                    date: 2019-10-04 18:41:23
+(epstopdf)                    size: 22574 bytes
+(epstopdf)             Command: <repstopdf --outfile=figures/t_t_lattice/y/n_y_
+0425-eps-converted-to.pdf figures/t_t_lattice/y/n_y_0425.eps>
+(epstopdf)             \includegraphics on input line 570.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./figures/t_t_lattice/y/n_y_0425-eps-converted-t
+o.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allow
+ed
+
+<figures/t_t_lattice/y/n_y_0425-eps-converted-to.pdf, id=466, 433.62pt x 289.08
+pt>
+File: figures/t_t_lattice/y/n_y_0425-eps-converted-to.pdf Graphic file (type pd
+f)
+ <use figures/t_t_lattice/y/n_y_0425-eps-converted-to.pdf>
+Package pdftex.def Info: figures/t_t_lattice/y/n_y_0425-eps-converted-to.pdf us
+ed on input line 570.
+(pdftex.def)             Requested size: 232.17198pt x 154.78198pt.
+
+Overfull \hbox (11.71094pt too wide) in paragraph at lines 558--572
+[]$[]$  $[]$
+ []
+
+
+Overfull \hbox (11.71094pt too wide) in paragraph at lines 558--572
+[]$  $[]$ 
+ []
+
+
+<figures/t_t_lattice/xy/1_75/3d_A_les_05.png, id=467, 814.04124pt x 543.02875pt
+>
+File: figures/t_t_lattice/xy/1_75/3d_A_les_05.png Graphic file (type png)
+ <use figures/t_t_lattice/xy/1_75/3d_A_les_05.png>
+Package pdftex.def Info: figures/t_t_lattice/xy/1_75/3d_A_les_05.png used on in
+put line 581.
+(pdftex.def)             Requested size: 232.17198pt x 154.87251pt.
+
+<figures/t_t_lattice/xy/1_75/3d_A_les_0425.png, id=468, 815.045pt x 542.025pt>
+File: figures/t_t_lattice/xy/1_75/3d_A_les_0425.png Graphic file (type png)
+
+<use figures/t_t_lattice/xy/1_75/3d_A_les_0425.png>
+Package pdftex.def Info: figures/t_t_lattice/xy/1_75/3d_A_les_0425.png used on 
+input line 585.
+(pdftex.def)             Requested size: 232.17198pt x 154.39601pt.
+
+<figures/t_t_lattice/y/1_75/3d_A_les_05.png, id=469, 814.04124pt x 543.02875pt>
+File: figures/t_t_lattice/y/1_75/3d_A_les_05.png Graphic file (type png)
+<use figures/t_t_lattice/y/1_75/3d_A_les_05.png>
+Package pdftex.def Info: figures/t_t_lattice/y/1_75/3d_A_les_05.png used on inp
+ut line 588.
+(pdftex.def)             Requested size: 232.17198pt x 154.87251pt.
+
+<figures/t_t_lattice/y/1_75/3d_A_les_0425.png, id=470, 814.04124pt x 543.02875p
+t>
+File: figures/t_t_lattice/y/1_75/3d_A_les_0425.png Graphic file (type png)
+ <use figures/t_t_lattice/y/1_75/3d_A_les_0425.png>
+Package pdftex.def Info: figures/t_t_lattice/y/1_75/3d_A_les_0425.png used on i
+nput line 592.
+(pdftex.def)             Requested size: 232.17198pt x 154.87251pt.
+
+Overfull \hbox (11.71094pt too wide) in paragraph at lines 580--594
+[]$[]$  $[]$
+ []
+
+
+Overfull \hbox (11.71094pt too wide) in paragraph at lines 580--594
+[]$  $[]$ 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+Package epstopdf Info: Source file: <figures/t_t_lattice/sum_QP.eps>
+(epstopdf)                    date: 2019-10-07 18:22:21
+(epstopdf)                    size: 59623 bytes
+(epstopdf)             Output file: <figures/t_t_lattice/sum_QP-eps-converted-t
+o.pdf>
+(epstopdf)                    date: 2019-10-07 18:25:46
+(epstopdf)                    size: 26619 bytes
+(epstopdf)             Command: <repstopdf --outfile=figures/t_t_lattice/sum_QP
+-eps-converted-to.pdf figures/t_t_lattice/sum_QP.eps>
+(epstopdf)             \includegraphics on input line 600.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./figures/t_t_lattice/sum_QP-eps-converted-to.pd
+f): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+
+<figures/t_t_lattice/sum_QP-eps-converted-to.pdf, id=471, 433.62pt x 289.08pt>
+File: figures/t_t_lattice/sum_QP-eps-converted-to.pdf Graphic file (type pdf)
+
+<use figures/t_t_lattice/sum_QP-eps-converted-to.pdf>
+Package pdftex.def Info: figures/t_t_lattice/sum_QP-eps-converted-to.pdf used o
+n input line 600.
+(pdftex.def)             Requested size: 232.17198pt x 154.78198pt.
+Package epstopdf Info: Source file: <figures/t_t_lattice/E_b_t_t.eps>
+(epstopdf)                    date: 2019-10-04 19:32:49
+(epstopdf)                    size: 25403 bytes
+(epstopdf)             Output file: <figures/t_t_lattice/E_b_t_t-eps-converted-
+to.pdf>
+(epstopdf)                    date: 2019-10-04 19:37:26
+(epstopdf)                    size: 10782 bytes
+(epstopdf)             Command: <repstopdf --outfile=figures/t_t_lattice/E_b_t_
+t-eps-converted-to.pdf figures/t_t_lattice/E_b_t_t.eps>
+(epstopdf)             \includegraphics on input line 604.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./figures/t_t_lattice/E_b_t_t-eps-converted-to.p
+df): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+
+<figures/t_t_lattice/E_b_t_t-eps-converted-to.pdf, id=472, 433.62pt x 289.08pt>
+File: figures/t_t_lattice/E_b_t_t-eps-converted-to.pdf Graphic file (type pdf)
+<use figures/t_t_lattice/E_b_t_t-eps-converted-to.pdf>
+Package pdftex.def Info: figures/t_t_lattice/E_b_t_t-eps-converted-to.pdf used 
+on input line 604.
+(pdftex.def)             Requested size: 232.17198pt x 154.78198pt.
+
+Overfull \hbox (11.71094pt too wide) in paragraph at lines 599--606
+[]$[]$  $[]$ 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<figures/t_t_lattice/xy/1_75/G_l_k_Y_05.png, id=473, 578.16pt x 433.62pt>
+File: figures/t_t_lattice/xy/1_75/G_l_k_Y_05.png Graphic file (type png)
+
+<use figures/t_t_lattice/xy/1_75/G_l_k_Y_05.png>
+Package pdftex.def Info: figures/t_t_lattice/xy/1_75/G_l_k_Y_05.png used on inp
+ut line 612.
+(pdftex.def)             Requested size: 232.17198pt x 174.12642pt.
+
+<figures/t_t_lattice/xy/1_75/G_l_k_Y_0425.png, id=474, 578.16pt x 433.62pt>
+File: figures/t_t_lattice/xy/1_75/G_l_k_Y_0425.png Graphic file (type png)
+
+<use figures/t_t_lattice/xy/1_75/G_l_k_Y_0425.png>
+Package pdftex.def Info: figures/t_t_lattice/xy/1_75/G_l_k_Y_0425.png used on i
+nput line 616.
+(pdftex.def)             Requested size: 232.17198pt x 174.12642pt.
+
+<figures/t_t_lattice/y/1_75/G_l_k_Y_05.png, id=475, 578.16pt x 433.62pt>
+File: figures/t_t_lattice/y/1_75/G_l_k_Y_05.png Graphic file (type png)
+
+<use figures/t_t_lattice/y/1_75/G_l_k_Y_05.png>
+Package pdftex.def Info: figures/t_t_lattice/y/1_75/G_l_k_Y_05.png used on inpu
+t line 619.
+(pdftex.def)             Requested size: 232.17198pt x 174.12642pt.
+
+<figures/t_t_lattice/y/1_75/G_l_k_Y_0425.png, id=476, 578.16pt x 433.62pt>
+File: figures/t_t_lattice/y/1_75/G_l_k_Y_0425.png Graphic file (type png)
+
+<use figures/t_t_lattice/y/1_75/G_l_k_Y_0425.png>
+Package pdftex.def Info: figures/t_t_lattice/y/1_75/G_l_k_Y_0425.png used on in
+put line 623.
+(pdftex.def)             Requested size: 232.17198pt x 174.12642pt.
+
+Overfull \hbox (11.71094pt too wide) in paragraph at lines 611--625
+[]$[]$  $[]$
+ []
+
+
+Overfull \hbox (11.71094pt too wide) in paragraph at lines 611--625
+[]$  $[]$ 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+Package epstopdf Info: Source file: <figures/t_t_lattice/Gret_xy_mid_loc.eps>
+(epstopdf)                    date: 2019-10-07 16:05:17
+(epstopdf)                    size: 62565 bytes
+(epstopdf)             Output file: <figures/t_t_lattice/Gret_xy_mid_loc-eps-co
+nverted-to.pdf>
+(epstopdf)                    date: 2019-10-07 16:07:40
+(epstopdf)                    size: 18636 bytes
+(epstopdf)             Command: <repstopdf --outfile=figures/t_t_lattice/Gret_x
+y_mid_loc-eps-converted-to.pdf figures/t_t_lattice/Gret_xy_mid_loc.eps>
+(epstopdf)             \includegraphics on input line 632.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./figures/t_t_lattice/Gret_xy_mid_loc-eps-conver
+ted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> 
+allowed
+
+<figures/t_t_lattice/Gret_xy_mid_loc-eps-converted-to.pdf, id=477, 433.62pt x 2
+89.08pt>
+File: figures/t_t_lattice/Gret_xy_mid_loc-eps-converted-to.pdf Graphic file (ty
+pe pdf)
+ <use figures/t_t_lattice/Gret_xy_mid_loc-eps-converted-to.pdf>
+Package pdftex.def Info: figures/t_t_lattice/Gret_xy_mid_loc-eps-converted-to.p
+df used on input line 632.
+(pdftex.def)             Requested size: 232.17198pt x 154.78198pt.
+Package epstopdf Info: Source file: <figures/t_t_lattice/Gret_xy_mid.eps>
+(epstopdf)                    date: 2019-10-07 15:55:54
+(epstopdf)                    size: 62918 bytes
+(epstopdf)             Output file: <figures/t_t_lattice/Gret_xy_mid-eps-conver
+ted-to.pdf>
+(epstopdf)                    date: 2019-10-07 16:07:41
+(epstopdf)                    size: 28642 bytes
+(epstopdf)             Command: <repstopdf --outfile=figures/t_t_lattice/Gret_x
+y_mid-eps-converted-to.pdf figures/t_t_lattice/Gret_xy_mid.eps>
+(epstopdf)             \includegraphics on input line 636.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./figures/t_t_lattice/Gret_xy_mid-eps-converted-
+to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allo
+wed
+
+<figures/t_t_lattice/Gret_xy_mid-eps-converted-to.pdf, id=478, 433.62pt x 289.0
+8pt>
+File: figures/t_t_lattice/Gret_xy_mid-eps-converted-to.pdf Graphic file (type p
+df)
+ <use figures/t_t_lattice/Gret_xy_mid-eps-converted-to.pdf>
+Package pdftex.def Info: figures/t_t_lattice/Gret_xy_mid-eps-converted-to.pdf u
+sed on input line 636.
+(pdftex.def)             Requested size: 232.17198pt x 154.78198pt.
+
+Overfull \hbox (11.71094pt too wide) in paragraph at lines 631--638
+[]$[]$  $[]$ 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[15
+
+ <./figures/t_t_lattice/xy/n_xy_05-eps-converted-to.pdf> <./figures/t_t_lattice
+/xy/n_xy_0425-eps-converted-to.pdf> <./figures/t_t_lattice/y/n_y_05-eps-convert
+ed-to.pdf> <./figures/t_t_lattice/y/n_y_0425-eps-converted-to.pdf>] [16 <./figu
+res/t_t_lattice/xy/1_75/3d_A_les_05.png> <./figures/t_t_lattice/xy/1_75/3d_A_le
+s_0425.png> <./figures/t_t_lattice/y/1_75/3d_A_les_05.png> <./figures/t_t_latti
+ce/y/1_75/3d_A_les_0425.png> <./figures/t_t_lattice/sum_QP-eps-converted-to.pdf
+> <./figures/t_t_lattice/E_b_t_t-eps-converted-to.pdf>] [17 <./figures/t_t_latt
+ice/xy/1_75/G_l_k_Y_05.png> <./figures/t_t_lattice/xy/1_75/G_l_k_Y_0425.png> <.
+/figures/t_t_lattice/y/1_75/G_l_k_Y_05.png> <./figures/t_t_lattice/y/1_75/G_l_k
+_Y_0425.png> <./figures/t_t_lattice/Gret_xy_mid_loc-eps-converted-to.pdf> <./fi
+gures/t_t_lattice/Gret_xy_mid-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <figures/t_t_lattice/FS_time_1370_eq.eps>
+(epstopdf)                    date: 2019-10-09 16:24:54
+(epstopdf)                    size: 250968 bytes
+(epstopdf)             Output file: <figures/t_t_lattice/FS_time_1370_eq-eps-co
+nverted-to.pdf>
+(epstopdf)                    date: 2019-10-09 16:55:12
+(epstopdf)                    size: 12387 bytes
+(epstopdf)             Command: <repstopdf --outfile=figures/t_t_lattice/FS_tim
+e_1370_eq-eps-converted-to.pdf figures/t_t_lattice/FS_time_1370_eq.eps>
+(epstopdf)             \includegraphics on input line 651.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./figures/t_t_lattice/FS_time_1370_eq-eps-conver
+ted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> 
+allowed
+
+<figures/t_t_lattice/FS_time_1370_eq-eps-converted-to.pdf, id=548, 245.91875pt 
+x 196.735pt>
+File: figures/t_t_lattice/FS_time_1370_eq-eps-converted-to.pdf Graphic file (ty
+pe pdf)
+ <use figures/t_t_lattice/FS_time_1370_eq-eps-converted-to.pdf>
+Package pdftex.def Info: figures/t_t_lattice/FS_time_1370_eq-eps-converted-to.p
+df used on input line 651.
+(pdftex.def)             Requested size: 232.17198pt x 185.74443pt.
+Package epstopdf Info: Source file: <figures/t_t_lattice/y/1_75/FS_time_1370_mi
+d.eps>
+(epstopdf)                    date: 2019-10-09 16:31:00
+(epstopdf)                    size: 251728 bytes
+(epstopdf)             Output file: <figures/t_t_lattice/y/1_75/FS_time_1370_mi
+d-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-10-09 16:55:13
+(epstopdf)                    size: 12414 bytes
+(epstopdf)             Command: <repstopdf --outfile=figures/t_t_lattice/y/1_75
+/FS_time_1370_mid-eps-converted-to.pdf figures/t_t_lattice/y/1_75/FS_time_1370_
+mid.eps>
+(epstopdf)             \includegraphics on input line 655.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./figures/t_t_lattice/y/1_75/FS_time_1370_mid-ep
+s-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most versio
+n <1.5> allowed
+
+<figures/t_t_lattice/y/1_75/FS_time_1370_mid-eps-converted-to.pdf, id=549, 245.
+91875pt x 196.735pt>
+File: figures/t_t_lattice/y/1_75/FS_time_1370_mid-eps-converted-to.pdf Graphic 
+file (type pdf)
+
+<use figures/t_t_lattice/y/1_75/FS_time_1370_mid-eps-converted-to.pdf>
+Package pdftex.def Info: figures/t_t_lattice/y/1_75/FS_time_1370_mid-eps-conver
+ted-to.pdf used on input line 655.
+(pdftex.def)             Requested size: 232.17198pt x 185.74443pt.
+Package epstopdf Info: Source file: <figures/t_t_lattice/xy/1_75/FS_time_1370_m
+id.eps>
+(epstopdf)                    date: 2019-10-09 16:41:19
+(epstopdf)                    size: 252332 bytes
+(epstopdf)             Output file: <figures/t_t_lattice/xy/1_75/FS_time_1370_m
+id-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-10-09 16:55:14
+(epstopdf)                    size: 13683 bytes
+(epstopdf)             Command: <repstopdf --outfile=figures/t_t_lattice/xy/1_7
+5/FS_time_1370_mid-eps-converted-to.pdf figures/t_t_lattice/xy/1_75/FS_time_137
+0_mid.eps>
+(epstopdf)             \includegraphics on input line 658.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./figures/t_t_lattice/xy/1_75/FS_time_1370_mid-e
+ps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most versi
+on <1.5> allowed
+
+<figures/t_t_lattice/xy/1_75/FS_time_1370_mid-eps-converted-to.pdf, id=550, 245
+.91875pt x 196.735pt>
+File: figures/t_t_lattice/xy/1_75/FS_time_1370_mid-eps-converted-to.pdf Graphic
+ file (type pdf)
+
+<use figures/t_t_lattice/xy/1_75/FS_time_1370_mid-eps-converted-to.pdf>
+Package pdftex.def Info: figures/t_t_lattice/xy/1_75/FS_time_1370_mid-eps-conve
+rted-to.pdf used on input line 658.
+(pdftex.def)             Requested size: 232.17198pt x 185.74443pt.
+Package epstopdf Info: Source file: <figures/t_t_lattice/xy/1_75/FS_time_1370_m
+d.eps>
+(epstopdf)                    date: 2019-10-09 16:41:02
+(epstopdf)                    size: 251796 bytes
+(epstopdf)             Output file: <figures/t_t_lattice/xy/1_75/FS_time_1370_m
+d-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-10-09 16:55:14
+(epstopdf)                    size: 13291 bytes
+(epstopdf)             Command: <repstopdf --outfile=figures/t_t_lattice/xy/1_7
+5/FS_time_1370_md-eps-converted-to.pdf figures/t_t_lattice/xy/1_75/FS_time_1370
+_md.eps>
+(epstopdf)             \includegraphics on input line 662.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./figures/t_t_lattice/xy/1_75/FS_time_1370_md-ep
+s-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most versio
+n <1.5> allowed
+
+<figures/t_t_lattice/xy/1_75/FS_time_1370_md-eps-converted-to.pdf, id=551, 245.
+91875pt x 196.735pt>
+File: figures/t_t_lattice/xy/1_75/FS_time_1370_md-eps-converted-to.pdf Graphic 
+file (type pdf)
+
+<use figures/t_t_lattice/xy/1_75/FS_time_1370_md-eps-converted-to.pdf>
+Package pdftex.def Info: figures/t_t_lattice/xy/1_75/FS_time_1370_md-eps-conver
+ted-to.pdf used on input line 662.
+(pdftex.def)             Requested size: 232.17198pt x 185.74443pt.
+
+Overfull \hbox (11.71094pt too wide) in paragraph at lines 650--664
+[]$[]$  $[]$
+ []
+
+
+Overfull \hbox (11.71094pt too wide) in paragraph at lines 650--664
+[]$  $[]$ 
+ []
+
+Package epstopdf Info: Source file: <figures/t_t_lattice/y/1_75/FS_time_1370_st
+_st.eps>
+(epstopdf)                    date: 2019-10-09 15:44:16
+(epstopdf)                    size: 251645 bytes
+(epstopdf)             Output file: <figures/t_t_lattice/y/1_75/FS_time_1370_st
+_st-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-10-09 16:59:53
+(epstopdf)                    size: 12499 bytes
+(epstopdf)             Command: <repstopdf --outfile=figures/t_t_lattice/y/1_75
+/FS_time_1370_st_st-eps-converted-to.pdf figures/t_t_lattice/y/1_75/FS_time_137
+0_st_st.eps>
+(epstopdf)             \includegraphics on input line 671.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./figures/t_t_lattice/y/1_75/FS_time_1370_st_st-
+eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most vers
+ion <1.5> allowed
+
+<figures/t_t_lattice/y/1_75/FS_time_1370_st_st-eps-converted-to.pdf, id=552, 24
+5.91875pt x 196.735pt>
+File: figures/t_t_lattice/y/1_75/FS_time_1370_st_st-eps-converted-to.pdf Graphi
+c file (type pdf)
+
+<use figures/t_t_lattice/y/1_75/FS_time_1370_st_st-eps-converted-to.pdf>
+Package pdftex.def Info: figures/t_t_lattice/y/1_75/FS_time_1370_st_st-eps-conv
+erted-to.pdf used on input line 671.
+(pdftex.def)             Requested size: 232.17198pt x 185.74443pt.
+Package epstopdf Info: Source file: <figures/t_t_lattice/xy/1_75/FS_time_1370_s
+t_st.eps>
+(epstopdf)                    date: 2019-10-09 15:48:01
+(epstopdf)                    size: 250936 bytes
+(epstopdf)             Output file: <figures/t_t_lattice/xy/1_75/FS_time_1370_s
+t_st-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-10-09 16:59:53
+(epstopdf)                    size: 13264 bytes
+(epstopdf)             Command: <repstopdf --outfile=figures/t_t_lattice/xy/1_7
+5/FS_time_1370_st_st-eps-converted-to.pdf figures/t_t_lattice/xy/1_75/FS_time_1
+370_st_st.eps>
+(epstopdf)             \includegraphics on input line 675.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./figures/t_t_lattice/xy/1_75/FS_time_1370_st_st
+-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most ver
+sion <1.5> allowed
+
+<figures/t_t_lattice/xy/1_75/FS_time_1370_st_st-eps-converted-to.pdf, id=553, 2
+45.91875pt x 196.735pt>
+File: figures/t_t_lattice/xy/1_75/FS_time_1370_st_st-eps-converted-to.pdf Graph
+ic file (type pdf)
+
+<use figures/t_t_lattice/xy/1_75/FS_time_1370_st_st-eps-converted-to.pdf>
+Package pdftex.def Info: figures/t_t_lattice/xy/1_75/FS_time_1370_st_st-eps-con
+verted-to.pdf used on input line 675.
+(pdftex.def)             Requested size: 232.17198pt x 185.74443pt.
+
+Overfull \hbox (11.71094pt too wide) in paragraph at lines 670--677
+[]$[]$  $[]$ 
+ []
+
+) [18
+
+ <./figures/t_t_lattice/FS_time_1370_eq-eps-converted-to.pdf> <./figures/t_t_la
+ttice/y/1_75/FS_time_1370_mid-eps-converted-to.pdf> <./figures/t_t_lattice/xy/1
+_75/FS_time_1370_mid-eps-converted-to.pdf> <./figures/t_t_lattice/xy/1_75/FS_ti
+me_1370_md-eps-converted-to.pdf> <./figures/t_t_lattice/y/1_75/FS_time_1370_st_
+st-eps-converted-to.pdf> <./figures/t_t_lattice/xy/1_75/FS_time_1370_st_st-eps-
+converted-to.pdf>] (./log.bbl)
+
+Package natbib Warning: There were undefined citations.
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 70.
+[19
+
+]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 70.
+ (./log.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 70.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 70.
+Package rerunfilecheck Info: File `log.out' has not changed.
+(rerunfilecheck)             Checksum: 950D3A3F60628BD1CC4BA61901971B54;492.
+
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 70.
+ ) 
+Here is how much of TeX's memory you used:
+ 9143 strings out of 493029
+ 143495 string characters out of 6136233
+ 338194 words of memory out of 5000000
+ 12429 multiletter control sequences out of 15000+600000
+ 11070 words of font info for 40 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 42i,19n,43p,601b,352s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/share
+/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texli
+ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmss12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cms
+y10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb
+></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr
+/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
+Output written on log.pdf (19 pages, 2422824 bytes).
+PDF statistics:
+ 710 PDF objects out of 1000 (max. 8388607)
+ 530 compressed objects within 6 object streams
+ 67 named destinations out of 1000 (max. 500000)
+ 387 words of extra memory for PDF output out of 10000 (max. 10000000)
+

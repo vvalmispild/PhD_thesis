@@ -1,0 +1,68 @@
+This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: log.aux
+The style file: abbrvnat.bst
+Database file #1: references.bib
+Warning--I didn't find a database entry for "Basov"
+Warning--I didn't find a database entry for "Mentink"
+Warning--I didn't find a database entry for "PhysRevB.91.245153"
+Warning--I didn't find a database entry for "tsuji"
+Warning--I didn't find a database entry for "Joura"
+Warning--I didn't find a database entry for "RMP14"
+Warning--I didn't find a database entry for "Cavalleri"
+Warning--I didn't find a database entry for "Schlaepfer"
+Warning--I didn't find a database entry for "Kennes17"
+Warning--I didn't find a database entry for "PeregBarnea"
+Warning--I didn't find a database entry for "Sayyad_1"
+Warning--I didn't find a database entry for "Sayyad_2"
+Warning--I didn't find a database entry for "Sayyad_3"
+Warning--I didn't find a database entry for "Sayyad_4"
+Warning--I didn't find a database entry for "Higuchi"
+Warning--I didn't find a database entry for "Rui"
+Warning--I didn't find a database entry for "Naoto"
+Warning--I didn't find a database entry for "Schmidt2002"
+Warning--I didn't find a database entry for "Eckstein10"
+Warning--I didn't find a database entry for "ALYBCO"
+Warning--I didn't find a database entry for "Naoto08"
+You've used 4 entries,
+            2773 wiz_defined-function locations,
+            674 strings with 6106 characters,
+and the built_in function-call counts, 2069 in all, are:
+= -- 191
+> -- 120
+< -- 3
++ -- 40
+- -- 36
+* -- 183
+:= -- 334
+add.period$ -- 20
+call.type$ -- 4
+change.case$ -- 24
+chr.to.int$ -- 4
+cite$ -- 8
+duplicate$ -- 81
+empty$ -- 154
+format.name$ -- 46
+if$ -- 424
+int.to.chr$ -- 1
+int.to.str$ -- 1
+missing$ -- 4
+newline$ -- 36
+num.names$ -- 16
+pop$ -- 32
+preamble$ -- 1
+purify$ -- 20
+quote$ -- 0
+skip$ -- 63
+stack$ -- 0
+substring$ -- 80
+swap$ -- 8
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 44
+warning$ -- 0
+while$ -- 16
+width$ -- 0
+write$ -- 75
+(There were 21 warnings)

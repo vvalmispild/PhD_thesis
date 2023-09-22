@@ -1,0 +1,42 @@
+\begin{thebibliography}{4}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Freericks and Turkowski(2009)]{PhysRevB.80.115119}
+J.~K. Freericks and V.~Turkowski.
+\newblock Inhomogeneous spectral moment sum rules for the retarded green
+  function and self-energy of strongly correlated electrons or ultracold
+  fermionic atoms in optical lattices.
+\newblock \emph{Phys. Rev. B}, 80:\penalty0 115119, Sep 2009.
+\newblock \doi{10.1103/PhysRevB.80.115119}.
+\newblock URL \url{https://link.aps.org/doi/10.1103/PhysRevB.80.115119}.
+
+\bibitem[Shen et~al.(2014)Shen, Ge, Liu, Krishnamurthy, Devereaux, and
+  Freericks]{PhysRevLett.112.176404}
+W.~Shen, Y.~Ge, A.~Y. Liu, H.~R. Krishnamurthy, T.~P. Devereaux, and J.~K.
+  Freericks.
+\newblock Nonequilibrium ``melting'' of a charge density wave insulator via an
+  ultrafast laser pulse.
+\newblock \emph{Phys. Rev. Lett.}, 112:\penalty0 176404, May 2014.
+\newblock \doi{10.1103/PhysRevLett.112.176404}.
+\newblock URL \url{https://link.aps.org/doi/10.1103/PhysRevLett.112.176404}.
+
+\bibitem[Turkowski and Freericks(2005)]{PhysRevB.71.085104}
+V.~Turkowski and J.~K. Freericks.
+\newblock Nonlinear response of bloch electrons in infinite dimensions.
+\newblock \emph{Phys. Rev. B}, 71:\penalty0 085104, Feb 2005.
+\newblock \doi{10.1103/PhysRevB.71.085104}.
+\newblock URL \url{https://link.aps.org/doi/10.1103/PhysRevB.71.085104}.
+
+\bibitem[Turkowski and Freericks(2006)]{PhysRevB.73.209902}
+V.~M. Turkowski and J.~K. Freericks.
+\newblock Erratum: Spectral moment sum rules for strongly correlated electrons
+  in time-dependent electric fields [phys. rev. b 73, 075108 (2006)].
+\newblock \emph{Phys. Rev. B}, 73:\penalty0 209902, May 2006.
+\newblock \doi{10.1103/PhysRevB.73.209902}.
+\newblock URL \url{https://link.aps.org/doi/10.1103/PhysRevB.73.209902}.
+
+\end{thebibliography}
