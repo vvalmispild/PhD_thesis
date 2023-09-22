@@ -1,2 +1,2 @@
 # PhD_thesis
-Overleaf/tex template and PhD thesis
+Template of tex files and PhD thesis
