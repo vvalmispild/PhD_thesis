@@ -1,0 +1,669 @@
+%\tableofcontents
+
+\chapter{Nonequilibrium many-body theory}
+
+\section{Introduction}
+
+\FloatBarrier
+
+\section{Nonequilibrum Green's function approach}
+
+There exist different approaches to account for time dependencies in a quantum mechanical system with its advantages and disadvantages. One of the most popular is Keldysh formalism for nonequilibrium Green’s functions. Kadanoff and Baym \citep{bookKadanoff_and_Baym} introduced the concept of two real-time Green functions, thus developing the standard equilibrium (imaginary-time) formalism \citep{Abrikosov:107441} to nonequilibrium \citep{10.1063/1.1703727}. In this work, we use L-shaped Green contour functions, which were introduced by Keldysh \citep{Keldysh:1964ud} and Danilevich \citep{DANIELEWICZ1984239}. Many theoretical approaches that have been developed for the study of strongly correlated systems can be adapted for non-equilibrium systems using the Keldysh formalism.
+
+\FloatBarrier
+
+\subsection{Contour idea}
+	
+Time-dependent experimental measurements can be related with expectation values of observables $\langle{O(t)}\rangle$. Expectation value of quantum mechanical operator $O$ at time $t$ given by 
+\begin{align}
+\langle O(t)\rangle
+  &=
+    Tr[\rho(t)O].
+\label{expectation value}
+\end{align}
+where $\rho(t)$ - time-dependent density matrix. 
+
+Initial (at $t=0$) system is in a mixed state represented by a density operator
+\begin{align}
+\rho(0)
+&=
+    \frac{1}{Z}e^{-\beta H(0)},
+\label{rho0}
+\end{align}
+where  $H(t)$ - time-dependent Hamiltonian, $\beta=1/T$ is the inverse temperature, $Z={\rm Tr}\, e^{-\beta \mathcal{H}(0)}$ is the thermal equilibrium partition function.
+At $t=0$ we switch on a driving field, and the system starts to evolve from its initial state. 
+Neumann equation describes how a density operator evolves in time and has following expression
+\begin{align}
+i\frac{d}{dt}\rho(t)
+  &=
+    [H(t),\rho(t)],
+\label{von Neumann}
+\end{align}
+where the brackets denote a commutator. Solution for the equation can be written as 
+\begin{align}
+\rho(t)
+&= U(t,0)\, \rho(0) \, U(0,t),
+\label{formal rho}
+\end{align}
+
+where the interaction time evolution operator defined as
+\begin{align}
+U(t,t')
+  &=
+    \begin{cases}
+      \vspace{.2cm}
+      \displaystyle
+      T \exp\left(-i\int_{t'}^t d\bar{t}\, H(\bar{t})\right) 
+      & t>t'
+      \\
+      \displaystyle
+      \bar{T} \exp\left(-i\int_{t'}^t d\bar{t}\, H(\bar{t})\right)
+      & t<t'
+    \end{cases}.
+\label{U def}
+\end{align}
+Here $T$ denotes time-ordering and $\bar{T}$ anti-time-ordering operators. Operator $H(t)$ odered by operator $T$ such that the time
+arguments $\bar{t}$ increase from right to left (and vice versa for $\bar{T}$. The density matrix involves one exponent with a forward integration along the time axis due to $U(t,t')$, one with a backwards integration due to $U(t',t)$, and in initial state with $exp(- \beta H(0))$.
+
+
+\begin{figure}[h!]
+\center{\includegraphics[width=0.5\linewidth]{Chapters/Theory_Kelgysh/figure/kadanoff-baym_contour.eps}} 
+\caption{L-shaped contour}
+\label{L-shaped contour}
+\end{figure}
+
+	
+Finally, time-dependent expectation value with respect of initial equilibrium and time-dependent density matrix can be expressed as
+\begin{align}
+\left\langle O(t) \right\rangle =\dfrac{1}{Z}
+Tr\left[ U(-i \beta,0) U(0,t) O U(t,0) \right] =
+\dfrac{Tr\left[ T_C e^{-i \int_C d \hat{t} H(\hat{t}) O(t) } \right] }{Tr\left[ T_C e^{-i \int_C d \hat{t} H(\hat{t})} \right] }
+\label{expectation value2}
+\end{align}
+
+where $T_{C}$ is a contour-ordering operator that organize operators on the contour $C$ in the order 
+ $0 \rightarrow t_{max} \rightarrow 0 \rightarrow -i \beta$ (Fig.~\ref{L-shaped contour}), $O(t)$ indicates that the operator $O$ is inserted at time $t$ on the contour $C$ \citep{bookKadanoff_and_Baym}.
+ 
+Such time parametrization along a contour allows to move many techniques from equilibrium many-body theory to nonequilibrium. 
+It should be noted that other time contours can also be used depending on the physical situation.
+
+
+	
+\FloatBarrier
+\subsection{Contur-ordered Green's functions and self energy}
+	
+One particle contour-ordering Green's functions defined according to
+\begin{align}
+G(t,t')
+&\equiv
+-i\langle T_{C}\, c(t)\, c^\dagger(t')\rangle,
+\label{green def}
+\end{align}
+
+where $c^{\dagger}$($c$) is a creation (annihilation) operator of particles, and $t,t' \in C$. Spin and orbital indices are not shown to simplify writing equations.
+
+The contour $C$ is divided into three branches $C_1$, $C_2$ and $C_3$ as in Fig.~\ref{L-shaped contour}. there are nine possibilities to distribute the arguments along the contur, which can be grouped in a $(3 \times 3)$ matrix \citep{PhysRevB.44.6104}. 
+
+Each component of Green's functions satisfies
+\begin{subequations}
+\begin{align}
+  \label{redundancy-1}
+  G^{11}(t,t')
+    &=
+      G^{12}(t,t') \quad ({\rm for}\; t\le t'),
+  \\
+  G^{11}(t,t')
+    &=
+      G^{21}(t,t') \quad ({\rm for}\; t>t'),
+  \\
+  G^{22}(t,t')
+    &=
+      G^{21}(t,t') \quad ({\rm for}\; t<t'),
+  \\
+  \label{redundancy-4}
+  G^{22}(t,t')
+    &=
+      G^{12}(t,t') \quad ({\rm for}\; t\ge t'),
+  \\
+  G^{13}(t,\tau ')
+    &=
+      G^{23}(t,\tau '),
+  \\
+  G^{31}(\tau,t')
+    &=
+      G^{32}(\tau,t').
+\end{align}
+\label{redundancy}
+\end{subequations}
+
+
+Some components can be summarized as
+
+\begin{align}
+G^{11}(t,t')+G^{22}(t,t')
+  &=
+    G^{12}(t,t')+G^{21}(t,t'). 
+\label{linear dependence1}
+\end{align}
+
+But such matrix representation overcomplete because not all components are independent. We can reduce $(3 \times 3)$ matrix using linear transformation (Keldysh rotation),
+\begin{align}
+  \hat{G}
+    &=
+      \begin{pmatrix}
+        G^{R} & G^{K} & \sqrt{2} G^{\lh} \\
+        0 & G^{A} & 0 \\
+        0 & \sqrt{2} G^{\rh} & G^{M}
+      \end{pmatrix}
+      =L\tau_3
+      \begin{pmatrix}
+        G^{11}(t,t') & G^{12}(t,t') & G^{13}(t,\tau ') \\
+        G^{21}(t,t') & G^{22}(t,t') & G^{23}(t,\tau ') \\
+        G^{31}(\tau,t') & G^{32}(\tau,t') & G^{33}(\tau,\tau')
+      \end{pmatrix}L^{\dagger}.
+  \label{G_3x3}
+\end{align}
+where rotating $L$ and Pauli $\tau_3$ matrices,
+\begin{align}
+  L
+    &=\frac{1}{\sqrt{2}}
+      \begin{pmatrix}
+        1 & -1 & 0 \\
+        1 & 1 & 0 \\
+        0 & 0 & \sqrt{2}
+      \end{pmatrix}
+       , \: \: \: \: \tau_3=
+      \begin{pmatrix}
+        1 & 0 & 0 \\
+        0 & -1 & 0 \\
+        0 & 0 & 1
+      \end{pmatrix}.
+  \label{rotating_pauli}
+\end{align}
+
+Thus, only six linearly independent Greens functions remains. They are called the retarded ($G^R$), advanced ($G^A$), Keldysh ($G^K$), left-mixing ($G^{\lh}$), right-mixing ($G^{\rh}$), and Matsubara Green's function ($G^M$). They can be parameterized as follows
+\begin{subequations}
+\label{physical green def}
+\begin{align}
+G^R(t,t')
+  &=
+     \tfrac12(G^{11}(t,t')-G^{12}(t,t')+G^{21}(t,t')-G^{22}(t,t'))
+\nonumber
+\\
+  &=
+    -i\theta(t-t') \langle [c(t),c^\dagger(t')]_\mp \rangle,
+\\
+G^A(t,t')
+  &=
+     \tfrac12(G^{11}(t,t')+G^{12}(t,t')-G^{21}(t,t')-G^{22}(t,t'))
+\nonumber
+\\
+  &=
+    i\theta(t'-t) \langle [c(t),c^\dagger(t')]_\mp \rangle,
+\label{advanced green def}
+\\
+G^K(t,t')
+  &=
+     \tfrac12(G^{11}(t,t')+G^{12}(t,t')+G^{21}(t,t')+G^{22}(t,t'))
+\nonumber
+\\
+  &=
+    -i \langle [c(t),c^\dagger(t')]_\pm \rangle,
+\label{keldysh green function}
+\\
+G^{\lh}(t,\tau ')
+  &=
+     \tfrac12(G^{13}(t,\tau ')+G^{23}(t,\tau '))
+  =
+     \mp i \langle c^\dagger(\tau ') c(t) \rangle,
+\\
+G^{\rh}(\tau, t')
+  &=
+     \tfrac12(G^{31}(\tau,t')+G^{32}(\tau,t'))
+  =
+     -i\langle c(\tau) c^\dagger(t') \rangle,
+\\ \:
+\:G^M(\tau,\tau ')
+  &=
+     -iG^{33}(\tau,\tau')
+  =
+     -\langle \mathcal{T}_\tau\, c(\tau) c^\dagger(\tau ') \rangle.   
+\end{align}
+\end{subequations}
+
+Also important are the correlation functions $G^{>}$ and $G^{<}$ which correspond propagation of a "particle" and "hole", respectively.
+\begin{align}
+\label{gles def}
+  G^<(t,t')
+    &=
+      G^{12}(t,t')
+    =
+      \mp i \langle c^\dagger(t') c(t) \rangle
+    = \tfrac12
+      (G^K(t,t')-G^R(t,t')+G^A(t,t')),   
+  \\
+\label{ggtr def}
+  G^>(t,t')
+    &=
+      G^{21}(t,t')
+    =
+      -i \langle c(t) c^\dagger(t') \rangle
+    = \tfrac12
+      (G^K(t,t')+G^R(t,t')-G^A(t,t')).
+\end{align}
+
+Using the above contur-ordered Green's function one can rewrite as inverse adopting for noninteracting tight-binding Hamiltonian $H_0(t)=\sum_k[\epsilon_k(t)-\mu]c_k^\dagger c_k$:
+\begin{align}
+\label{G0inv_k}
+G^{-1}_{0,k}(t,t')=[i\partial_t+\mu -\varepsilon_k(t)]\delta_C(t,t')
+\end{align}
+where $\delta_C(t,t')=\partial_t \theta_C(t,t')$.
+
+It is possible to describethe many-body interactions of a single particle by introducing an energy dependent effective potential called self-energy ($\Sigma$). An analogy with the Green's functions the self-energy is defined on the L-shaped contour and has a $(3 \times 3)$ matrix structure which can be reduced using Keldysh rotation(cite!!!M Wagner):
+\begin{align}
+  \hat{\Sigma}
+    &=
+      \begin{pmatrix}
+        \Sigma^{R} & \Sigma^{K} & \sqrt{2} \Sigma^{\lh} \\
+        0 & \Sigma^{A} & 0 \\
+        0 & \sqrt{2} \Sigma^{\rh} & \Sigma^{M}
+      \end{pmatrix}
+      =L\tau_3
+      \begin{pmatrix}
+        \Sigma^{11}(t,t') & \Sigma^{12}(t,t') & \Sigma^{13}(t,\tau ') \\
+        \Sigma^{21}(t,t') & \Sigma^{22}(t,t') & \Sigma^{23}(t,\tau ') \\
+        \Sigma^{31}(\tau,t') & \Sigma^{32}(\tau,t') & \Sigma^{33}(\tau,\tau')
+      \end{pmatrix}L^{\dagger}.
+  \label{S 3x3}
+\end{align}
+This components are called the retarded ($\Sigma^R$), advanced ($\Sigma^A$), Keldysh ($\Sigma^K$), left-mixing ($\Sigma^{\lh}$), right-mixing ($\Sigma^{\rh}$), and Matsubara ($\Sigma^M$).
+
+The self-energy operator is related to the bare $G_0$ and dressed $G$ propagators and via the Dyson equation: 
+\begin{align}
+\label{dyson1}
+\hat{G} = \hat{G_0} +  \hat{G_0} \convz \hat{\Sigma} \convz \hat{G}.
+\end{align}
+where $*$ denotes convolution. Using a differential form for $G_0^{-1}$ this expression can be rewritten for various components as
+\begin{align}
+\label{dyson2}
+&[i\partial_t - \mu +\varepsilon_k(t) ] G(t,t') - \int_\CC \!d\bar t\, \Sigma(t,\bar t) G(\bar t,t') 
+= \delta_\CC(t,t')
+\end{align}
+From the physics point of view, the solutions of this equation describe the time-dependent single-particle spectrum $(G^R)$ and particle distribution $(G^<)$.
+
+
+\FloatBarrier
+
+\section{Hubbard model}
+In 1960s the Hubbard model has been proposed by Hubbard \citep{doi:10.1098/rspa.1963.0204}, Gutzwiller \citep{PhysRevLett.10.159} and Kanamori \citep{1963PThPh..30..275K}  to describe electrons in $3d$ transition metal monoxides (FeO, NiO, CoO). 
+
+The Hubbard model is one of the most important models in theoretical physics due to its simplicity and the number of physical phenomena that it can describe. These phenomena include metal-insulator transition, antiferromagnetism, ferrimagnetism, ferromagnetism and superconductivity. 
+Hamiltonian for single-band Hubbard model with time-dependent hopping amplitudes and local Coulomb repulsion,
+\begin{subequations}
+\begin{align}
+\label{Habbard_Hamiltonian}
+&
+H(t)=H_{kin}(t)+H_{pot}(t)
+\\
+\label{Habbard_Hamiltonian_kin}
+&
+H_{kin}(t)=\sum_{ij\sigma} {t_{ij}(t)c^{\dagger}_{i \sigma} c_{j \sigma}}
+\\
+\label{Habbard_Hamiltonian_pot}
+&
+H_{pot}(t)=U(t) \sum_i{(n_{i\uparrow}-\frac{1}{2})(n_{i\downarrow}-\frac{1}{2})}
+\end{align}
+\end{subequations}
+where $c^{\dagger}_{i \sigma}(c_{j \sigma})$ are creation (annihilation) operators for an electron with spin $\sigma$ in the orbital at lattice site $i$, $n_{i\sigma}=c^{\dagger}_{i \sigma} c_{j \sigma}$ counts the number of electrons with spin $\sigma$ in the orbital at site $i$. Kinetic energy $H_{kin}(t)$ allow for tunneling of particles between sites of the lattice with amplitudes $t_{ij}(t)$. Potential term of the Hamiltonian $H_{pot}(t)$ correspond of an on-site Coulomb interaction.
+
+Due to recent growth of experimental interest in systems driven out of equilibrium such as ultrafast pump-probe spectroscopies, theoretical methods to study such correlated systems are necessary. Thus, in later chapters we will study the behavior of the Hubbard model out of equilibrium under the action of an external electromagnetic field. To do this, we describe the external spatially uniform electric field via the vector potential $A(t)$
+\begin{align}
+\label{Vector_potential}
+E(t)=-\frac{\partial A}{\partial t}
+\end{align}
+
+The Peierls substitution \citep{Peierls1933} is used to account for the electric field in the Hamiltonian, so the hopping matrix in the general case elements satisfy
+\begin{align}
+\label{hoppings_1}
+t_{ij}(t)=t_{ij}exp \left(-\int_{{\bf R}_i}^{{\bf R}_j} d{\bf r} {\bf A}({\bf{r}},t)\right)   
+\end{align}
+
+Studying electronic properties of the $CuO$ planes what are a common feature of high-Tc superconducting materiais we write the dispersion law for a square lattice in the k-space:
+\begin{subequations}
+\begin{align}
+\label{dispersion_1}
+&
+{\varepsilon_1(k,t)={2t_1(cos(k_x+{\bf A}_x(t))+cos(k_y+{\bf A}_y(t)))}},
+\\
+\label{dispersion_2}
+&
+{\varepsilon_2(k,t)={2t_1(cos(k_x+{\bf A}_x(t))+cos(k_y+{\bf A}_y(t)))+4t_2(cos(k_x+{\bf A}_x(t))\cdot cos(k_y+{\bf A}_y(t)))}}.
+\end{align}
+\end{subequations}
+
+Due to the fact that DMFT becomes exact in the limit of lattices with an infinite coordination we use for benchmarks Bethe lattice with semielliptic density of states:
+\begin{align}
+\label{Bethe_lattice}
+\rho(\varepsilon)=\dfrac{2\sqrt{1-(\varepsilon/D)^2}}{\pi D}
+\end{align}
+where $D$ is half-bandwidth.
+
+The model has two extreme cases: 1) Limit with $U\rightarrow 0$ is tight-binding model which completely analogous to the investigation of spin less free fermions; 2) Limit with $t\rightarrow 0$ called atomic limit where electrons can not move, such case represent Mott insulator.
+
+
+\FloatBarrier
+
+\section{Nonequilibrium dynamical mean-field theory}
+In equilibrium, DMFT \citep{RevModPhys.68.13} played a large role in understanding systems with strong electron correlations. An examples of such DMFT success is explanation transition between a metal and a Mott insulator and in combination with other theories for realistic simulation of many correlated materials. 
+
+This chapter will be presented nonequilibrium dynamical mean-field theory (NEDMFT) \citep{RevModPhys.86.779} which allows to study strongly correlated many-body systems out of equilibrium. 
+
+
+\FloatBarrier
+\subsection{Self-consistency loop}
+Approximation of equilibrium and out of equilibrium DMFT is the local nature of the self-energy. This means that self-energy is momentum-independent.
+\begin{equation}
+\Sigma_{ij}^\text{lat}(t,t')\approx \delta_{ij}\Sigma^\text{imp}(t,t').
+\end{equation}
+This fact allows mapping of lattice problem to a self-consistent solution of a quantum impurity model, which is exact in the limit of infinite dimensions. 
+We can write nonequilibrium single-site action as
+\begin{align}
+\label{Action}
+S_{imp}=-i\int_C dt H_{pot}(t)-i\sum_{\sigma}{\int_C dt dt' c^{\dagger}_{\sigma}(t) \Delta_i (t,t') c_{\sigma}(t')}
+\end{align}
+where $\Delta_i (t,t')$ time-dependent hybridization function wich represents the hopping amplitude from the impurity into the bath \citep{PhysRevB.45.6479}.
+
+After that we can define contour-ordered impurity Green’s function
+\begin{align}
+\label{Green_imp}
+G_{imp}(t,t')=-i\langle T_C c(t) c^{\dagger}(t') \rangle_{S_{imp}}
+\end{align}
+where $\langle...\rangle_{S_{imp}}=\dfrac{Tr\left[T_C exp (S_{imp})\cdots\right] }{Tr \left[T_C exp (S_{imp})\right]}$ the expectation value of observables.
+
+The time-dependent Weiss Green's function is the Green's function of non-interacting impurity and related with the hybridization function:
+\begin{align}
+\label{Green_Weiss}
+\mathcal{G}(t,t')=(i\partial_t+\mu(t))\delta_C(t,t')-\Delta(t,t')
+\end{align}
+
+Lattice and Weiss Green's functions need to be determined iteratively.
+
+ 
+1) This self-consistent loop starts with the calculation of impurity Green's function $G_{imp}(t,t')$ and $\mathcal{G}(t,t')$.
+
+2) From impurity Green's function the self-energy can be extracted using Dyson's equation: $\Sigma_{imp}(t,t')=\mathcal{G}^{-1}(t,t')-G_{imp}^{-1}(t,t')$
+
+3) Due to DMFT approximation, identify the lattice self-energy with the impurity one, $\Sigma_{\bf k}(t,t')=\Sigma_{imp}(t,t')$. The local lattice Green’s function by integrating over all ${\bf k}$-points in the first Brilluin zone $G_{loc}(t,t')=\int(d {\bf k})[(i\partial_t+\mu(t)-\varepsilon_{\bf k}(t))\delta_C(t,t')-\Sigma_{imp}(t,t')]^{-1}$
+
+4) The self-consistency condition of DMFT is $G_{loc}(t,t')=G_{imp}(t,t')$. Use this definition to define a new Weiss Green's function $\mathcal{G}^{-1}(t,t')=G_{loc}^{-1}(t,t')+\Sigma_{imp}(t,t')$. To enhance the convergence of the self-consistency loop one can mixed new and old Weiss field: $\mathcal{G}_{new}^{-1}(t,t')=(1-\xi)\mathcal{G}_{old}^{-1}(t,t')+\xi \left[G_{loc}^{-1}(t,t') + \Sigma_{imp}(t,t') \right]$.
+
+
+\FloatBarrier
+\subsection{Equal-time observables}
+The lattice Green's functions which we obtain after NEDMFT iterations allows us compute physical observables:
+
+Using definition of lesser Green function expression for the number of particles with spin $\sigma$ on site $i$:
+\begin{align}
+\label{Number_of_particles}
+n_{\sigma}(t)=\dfrac{1}{L}\sum_i {\left\langle c_{i \sigma}^{\dagger}(t) c_{i \sigma}(t)\right\rangle} = -iG_{\sigma}^{<}(t,t),
+\end{align}
+here $L$ is the lattice site.
+
+Momentum ocupation we obtain from $\bf k$-resolved Green function
+\begin{align}
+\label{Number_of_particles_k}
+n({\bf \tilde{k}},t)=-iG_{{\bf k}+{\bf A}(t),\sigma}^{<}(t,t)=-i\tilde{G}_{{\bf k},\sigma}^{<}(t,t)
+\end{align}
+this is gage invariant form, where wave vector is ${\bf \tilde{k}}={\bf k}+{\bf A}(t)$ \citep{PhysRevB.38.1667}.
+
+Current operator \citep{PhysRevLett.68.2830} is defined as
+\begin{align}
+\label{Current}
+{\bf j}(t)
+&
+=\dfrac{e}{V}\sum_{{\bf k} \sigma} v_{\bf k}(t)n_{\tilde{\bf k}, \sigma}(t)
+\\
+&
+=-\dfrac{ie}{V}\sum_{{\bf k} \sigma} v_{{\bf k}-{\bf A}(t)} G_{{\bf k},\sigma}^{<}(t,t) =-\dfrac{ie}{V}\sum_{{\bf k} \sigma} v_{\bf k} G_{{\bf k}+{\bf A}(t),\sigma}^{<}(t,t)=-\dfrac{ie}{V}\sum_{{\bf k} \sigma} v_{\bf k} \tilde{G}_{{\bf k},\sigma}^{<}(t,t),
+\end{align}
+where $V$ is the volume, $v_k$ - group velocity (derivative of the dispersion law).
+
+
+The kinetic energy per lattice site 
+\begin{align}
+\label{Kinetic_energy}
+E_{kin}(t)=\dfrac{1}{L}\sum_{{\bf k} \sigma} \varepsilon_{{\bf k}, \sigma}{\left\langle c_{{\bf k} \sigma}^{\dagger}(t) c_{{\bf k} \sigma}(t)\right\rangle}
+=-\dfrac{i}{L} \sum_{{\bf k} \sigma} \varepsilon_{{\bf k}, \sigma}G_{{\bf k},\sigma}^{<}(t,t).
+\end{align}
+
+Double occupation per lattice site
+\begin{align}
+\label{Double_occupation}
+d(t)=\dfrac{1}{L}\sum_i{ \left\langle  {n}_{i\uparrow}(t) {n}_{i\downarrow}(t) \right\rangle  }.
+\end{align}
+
+Interaction energy
+\begin{align}
+\label{Interaction_energy}
+E_{pot}(t)
+&
+=U(t) \sum_{i}\left\langle 
+\left(  {n}_{i\uparrow}(t)-\dfrac{1}{2} \right) 
+\left( {n}_{i\downarrow}(t)-\dfrac{1}{2} \right)  \right\rangle
+\\ 
+&
+= U(t)\left[ d(t)-\dfrac{1}{2} \left({n}_{\uparrow}(t) + {n}_{\downarrow}(t)  \right) +\dfrac{1}{4} \right]. 
+\end{align}
+
+The total energy is a sum of kinetic and potential energies:
+\begin{align}
+\label{Total_energy}
+E_{tot}(t)=E_{kin}(t)+E_{pot}(t).
+\end{align}
+
+\FloatBarrier
+\subsection{Spectral function and photoemission spectrum}
+Pump-probe time-resolved photoemission spectroscopy (TRPES) and angular-resolved photoemission spectroscopy(TRARPES) allows to probe the excited state non-equilibrium dynamics of electrons in solids. These methods can provide data about time-dependent electronic structure of strongly correlated materials.
+
+DMFT based retarded and lesser Green's functions can give information about excitation and occupation spectrum \citep{PhysRevB.81.115131}, which is closely related with the intensity in TRPES:
+\begin{align}
+\label{Spectr_R_L}
+&
+A^R(t,\omega)=-\dfrac{1}{\pi}Im \int_0^t ds e^{i\omega s}G^R(t,t-s),
+\\
+&
+A^<(t,\omega)=\dfrac{1}{\pi}Im \int_0^t ds e^{i\omega s}G^<(t,t-s).
+\end{align}
+
+The $k$-resolved spectral function and occupied density of states which is associated with TRARPES calculated by the formulas:
+\begin{align}
+\label{Spectr_R_L_k}
+&
+A^R(k,t,\omega)=-\dfrac{1}{\pi}Im \int_0^t ds e^{i\omega s}G^R_k(t,t-s),
+\\
+&
+A^<(k,t,\omega)=\dfrac{1}{\pi}Im \int_0^t ds e^{i\omega s}G^<_k(t,t-s).
+\end{align}
+
+Photoemission intensity of emitted electrons ander action of a short probe pulse as a function of energy and time-delay \citep{PhysRevB.95.115132}:
+\begin{align}
+\label{PES}
+I(\omega,t_p)=-i\int dtdt'S(t)S(t')e^{i\omega(t-t')}G^{<}(t+t_p,t'+t_p)
+\end{align}
+here $t_p$ is time-delay between the pump and probe pulses; $S(t)$ - probe envelope. 
+This TRPES equations has frequancy-time uncertainty. If the probe pulse is very short one measures occupations using Wigner transorm of the lesser Green's function $I(\omega,t_p)=\int ds e^{i\omega t_p} G^< (t_p+s/2,t_p-s/2)$, but lost all energy resolution.
+It is also important to note such an expression of the photoemission spectrum neglects interactions between the outgoing electron
+and the bulk (sudden approximation).
+
+
+\FloatBarrier
+\subsection{Impurity solvers}
+
+As we discussed earlier, lattice model of correlated electrons are mapped onto the Anderson impurity model (AIM) by neglecting the nonlocal electron correlations.
+
+Solving the impurity problem in time-dependent systems numerically much expensive compared to equilibrium as one must manipulate contur-ordered objects sach as Green function and self-energy that depends on two time variables. 
+
+The most popular exact time-dependent impurity solvers:
+
+1) Continuous-time quantum Monte Carlo (CT-QMC). There are several varieties of this solver, interaction expansion (CT-INT) and hybridisation expansion (CT-HYB). The disadvantage of these methods is the high cost of calculations in which the computation time grows exponentially with simulation time. There is the successful extention of CT-HYB is Inch worm QMC, where computational time grows 
+polynomially.
+
+2) Density matrix renormalization group (DMRG). Here computation time also grows exponentially with modeling time.
+
+3) Exact diagonalization (ED). In this method, the simulation time may be large, but there is a limit of lattice sites.
+
+As well there are many approximate impurity solvers:
+
+1) Iterated perturbation theory (IPT). Approximation based on second-order perturbation theory in terms of Coulomb interaction. It works well in a weak-coupling regime and  was found that accidentally reproduce the strong-coupling limit and is believed to describe moderate and strong-coupling regimes qualitatively.
+
+2) Non crossing approximation (NCA) ana one-crossing approximation (OCA). They are conserving approximations and based on a strong-coupling perturbation theory, in this way can treat strongly interacting systems.
+
+In non-equilibrium physics, it is very important to have sufficient simulation time for presentation observables properties and understanding ultrafast processes. Therefore, in this thesis, we developed and used some perturbation methods based on weak coupling expansion which require reasonable computational time. 
+
+Thus we calculate momentum independent self-energies for weak coupling expansion \citep{1989AnPhy.193..206B}:
+
+{Hartree-Fock self-energy}:
+\begin{align}
+\label{HF_single_band}
+\Sigma^{HF}(t)=U(t)n(t)
+\end{align}
+
+{Second order self-energy}:
+\begin{align}
+\label{S2_single_band}
+\Sigma^{2}(t,t')=i V^2(t,t')G(t,t') 
+\end{align}
+where potential given by
+\begin{align}
+\label{V2_single_band}
+V^2(t,t')=U(t)\chi^{PH}_0(t,t')U(t')
+\end{align}
+here bare particle-hole polarization bubble:
+\begin{align}
+\label{chi02_single_band}
+\chi^{PH}_0(t,t')=-iG(t,t')G(t',t)
+\end{align}
+
+{Self-energy for particle-hole channel}:
+\begin{align}
+\label{Sph_single_band}
+\Sigma^{PH}(t,t')=iV^{PH}(t,t')G(t,t')
+\end{align}
+where potential of particle-hole channel has charge and magnetic contributions:
+\begin{align}
+\label{Vph_single_band}
+V^{PH}(t,t')=\dfrac{1}{2}\left[ U_d(t) \left( \chi_d^{PH}(t,t')-\chi_{0d}^{PH}(t,t')  \right) U_d(t')  \right] + \dfrac{3}{2}  \left[ U_m(t) \left( \chi_m^{PH}(t,t')-\chi_{0m}^{PH}(t,t')  \right) U_m(t')  \right]
+\end{align}
+The total propagators of charge and magnetic parts of the channel have to be found from RPA-like equation:
+\begin{align}
+\label{chiph_d_single_band}
+\chi^{PH}_d(t,t')=\chi^{PH}_{0d}(t,t')+\int_C \chi^{PH}_{0d}(t,t_1) U_d(t_1)  \chi^{PH}_d(t_1,t') dt_1
+\end{align}
+\begin{align}
+\label{chiph_m_single_band}
+\chi^{PH}_m(t,t')=\chi^{PH}_{0m}(t,t')+\int_C \chi^{PH}_{0m}(t,t_1) U_m(t_1)  \chi^{PH}_m(t_1,t') dt_1
+\end{align}
+bare particle-hole polarization bubbles:
+\begin{align}
+\label{chiph_0_single_band}
+\chi^{PH}_{0d}(t,t')=\chi^{PH}_{0m}(t,t')=-iG(t,t')G(t',t)
+\end{align}
+
+{Self-energy for particle-particle channel}:
+\begin{align}
+\label{Spp_single_band}
+\Sigma^{PP}(t,t')=-iV^{PP}(t,t')G(t',t)
+\end{align}
+where particle-particle potential given by
+\begin{align}
+\label{Vpp_single_band}
+V^{PP}(t,t')= U_s(t) \left( \chi_s^{PP}(t,t')-\chi_{0s}^{PP}(t,t')  \right) U_s(t') 
+\end{align}
+The total propagator have to be found as:
+\begin{align}
+\label{chipp_s_single_band}
+\chi^{PP}_s(t,t')=\chi^{PP}_{0s}(t,t')+\int_C \chi^{PP}_{0s}(t,t_1) U_s(t_1)  \chi^{PP}_s(t_1,t') dt_1
+\end{align}
+bare particle-particle polarization bubbles:
+\begin{align}
+\label{chipp_0_single_band}
+\chi^{PP}_{0s}(t,t')=iG(t,t')G(t,t').
+\end{align}
+Coulomb interaction for different channels is renormalized as
+$U_d(t)=U(t)$, $U_m(t)=-U(t)$, $U_s(t)=U(t)$.
+
+Thus second order self-energy (SOPT):
+\begin{align}
+\label{S_so_single_band}
+\Sigma^{SOPT}(t,t')=\Sigma^{HF}(t)+\Sigma^{2}(t,t').
+\end{align}
+
+Self-energy for particle-hole T-matrix approximation (TMA-PH):
+% is sums the series of particle-hole ladder diagrams:
+\begin{align}
+\label{Stma_ph_single_band}
+\Sigma^{TMA-PH}(t,t')=\Sigma^{HF}(t)+\Sigma^{2}(t,t')+\Sigma^{PH}(t,t').
+\end{align}
+
+Self-energy for particle-particle T-matrix approximation (TMA-PP):
+% is sums the series of particle-particle ladder diagrams:
+\begin{align}
+\label{Stma_pp_single_band}
+\Sigma^{TMA-PP}(t,t')=\Sigma^{HF}(t)+\Sigma^{2}(t,t')+\Sigma^{PP}(t,t').
+\end{align}
+
+Self-energy for fluctuation-exchange approximation (FLEX):
+% bubble, particle-particle, and particle-hole ladder diagrams are included:
+\begin{align}
+\label{Sflex_single_band}
+\Sigma^{FLEX}(t,t')=\Sigma^{HF}(t)+\Sigma^{2}(t,t')+\Sigma^{PH}(t,t')+\Sigma^{PP}(t,t').
+\end{align}
+
+Below we provide colculation for 2D square lattice Eq. \eqref{dispersion_1}, hopping amplitude $t$=1, inverse temperature $\beta=1/T$=10 and 64$\times$64 k-grid. 
+
+Changing spectral function for different self energies with $U$=2.66 depicted in Fig.~\ref{Eq_comp_DOS}a. Compare all figures it seen tendention formation peaks in FLEX self-energy case and smoothing in DMFT+SOPT (IPT). In Fig.~\ref{Eq_comp_DOS}b two density of states representing DMFT+TMA-PH calculated using different codes: red line analytic continuation from imaginary axis and blue line getting using real-time Keldysh contour. Both results are fit well. 
+
+In \citep{PhysRevB.91.235114} systematic studies of the accuracy calculating the self-energy for the single-band model where was found that in weak-coupling regime second order perturbation theory is more reliable than performing additional channals summations. It is also known that the magnetic part of the particle-hole channal has a divergence in the denominator, which does not allow use it in the standard form of the DMFT scheme for $U>0.3W$($W$-bandwidth). Based on these, further calculations for the single-band model in this work will be provide using 2D square lattice and IPT scheme. 
+
+
+%\citet{PhysRevB.91.235114}%
+
+
+
+
+
+
+\begin{figure}[h!]
+\begin{minipage}[h]{0.5\linewidth}
+\center{\includegraphics[width=1\linewidth]{Chapters/Theory_Kelgysh/figure/DOS_methods.eps}} (a) \\
+\end{minipage}
+\hfill
+\begin{minipage}[h]{0.5\linewidth}
+\center{\includegraphics[width=1\linewidth]{Chapters/Theory_Kelgysh/figure/DOS_comp.eps}} (b) \\
+\end{minipage}
+\caption{(a) Influence of different accounting diagrams in impurity solver on the equilibrium spectral function ($U$=2.66). (b) Comparison of DMFT+TMA-PH spectral functions obtained using different methods ($U$=2.88).}
+\label{Eq_comp_DOS}
+\end{figure}
+
+
+In Fig.~\ref{Eq_IPT_DOS}a equilibrium IPT spectral functions characterized by different Coulomb interactions. Results for $U$=0 represent tight-binding model with $W$=8. With increasing interaction we observe the disappearance of sharp edges and the gradual blurring of the density of states which leads to an increase in the bandwidth. In high $U$=6 seen formation of three peak structure, which is present in the $U \sim W$ region. Decreasing temperature not significantly increase to peak height at $\omega$=0 Fig.~\ref{Eq_IPT_DOS}b.
+
+\begin{figure}[h!]
+\begin{minipage}[h]{0.5\linewidth}
+\center{\includegraphics[width=1\linewidth]{Chapters/Theory_Kelgysh/figure/DOS_U.eps}} (a) \\
+\end{minipage}
+\hfill
+\begin{minipage}[h]{0.5\linewidth}
+\center{\includegraphics[width=1\linewidth]{Chapters/Theory_Kelgysh/figure/DOS_T.eps}} (b) \\
+\end{minipage}
+\caption{(a) IPT spectral function with different Coulomb interaction. (b) IPT spectral function with different inverse temperature.}
+\label{Eq_IPT_DOS}
+\end{figure}
+
+
+\FloatBarrier
+
+
+
+
+

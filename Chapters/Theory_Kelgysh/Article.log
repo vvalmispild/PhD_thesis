@@ -1,0 +1,524 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.7.21)  9 DEC 2016 15:46
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**Article.tex
+(./Article.tex
+LaTeX2e <2016/02/01>
+Babel <3.9q> and hyphenation patterns for 5 language(s) loaded.
+! Undefined control sequence.
+l.2 \tableofcontents
+                    
+? 
+
+! LaTeX Error: Environment figure undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.7 \begin{figure}
+                  [h]
+? 
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.7 \begin{figure}[
+                   h]
+? 
+Missing character: There is no [ in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no ] in font nullfont!
+! Undefined control sequence.
+l.9   \includegraphics
+                      [width=0.8\textwidth]{figure/DOS_FeRhfm.eps}
+? 
+Missing character: There is no [ in font nullfont!
+Missing character: There is no w in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 8 in font nullfont!
+! Missing number, treated as zero.
+<to be read again> 
+                   ]
+l.9   \includegraphics[width=0.8\textwidth]
+                                           {figure/DOS_FeRhfm.eps}
+? 
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   ]
+l.9   \includegraphics[width=0.8\textwidth]
+                                           {figure/DOS_FeRhfm.eps}
+? 
+Missing character: There is no ] in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no D in font nullfont!
+Missing character: There is no O in font nullfont!
+Missing character: There is no S in font nullfont!
+! Missing $ inserted.
+<inserted text> 
+                $
+l.9 ...degraphics[width=0.8\textwidth]{figure/DOS_
+                                                  FeRhfm.eps}
+? 
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 9.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 9.
+! Extra }, or forgotten $.
+l.9 ...width=0.8\textwidth]{figure/DOS_FeRhfm.eps}
+                                                  
+? 
+! Undefined control sequence.
+l.10   \includegraphics
+                       [width=0.8\textwidth]{figure/bands_FeRh_fm.eps}
+? 
+! Missing number, treated as zero.
+<to be read again> 
+                   ]
+l.10   \includegraphics[width=0.8\textwidth]
+                                            {figure/bands_FeRh_fm.eps}
+? 
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   ]
+l.10   \includegraphics[width=0.8\textwidth]
+                                            {figure/bands_FeRh_fm.eps}
+? 
+
+! LaTeX Error: \caption outside float.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.11   \caption
+               {Bands and DOS FeRh-fm.}
+? 
+
+! LaTeX Error: \begin{document} ended by \end{figure}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.13 \end{figure}
+                 
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.13 \end{figure}
+                 
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.13 \end{figure}
+                 
+? 
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 7--14
+[]
+ []
+
+
+Overfull \hbox (95.42538pt too wide) in paragraph at lines 7--14
+[]\OML/cmm/m/it/10 eRhfm:eps\OT1/cmr/m/n/10 [\OML/cmm/m/it/10 width \OT1/cmr/m/
+n/10 =
+ []
+
+
+Overfull \hbox (256.188pt too wide) in paragraph at lines 7--14
+\OT1/cmr/m/n/10 0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 8][][][]$ 
+ []
+
+
+! LaTeX Error: Environment figure undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.15 \begin{figure}
+                   [h]
+? 
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.15 \begin{figure}[
+                    h]
+? 
+Missing character: There is no [ in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no ] in font nullfont!
+! Undefined control sequence.
+l.17   \includegraphics
+                       [width=0.8\textwidth]{figure/GX.eps}
+? 
+Missing character: There is no [ in font nullfont!
+Missing character: There is no w in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 8 in font nullfont!
+! Missing number, treated as zero.
+<to be read again> 
+                   ]
+l.17   \includegraphics[width=0.8\textwidth]
+                                            {figure/GX.eps}
+? 
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   ]
+l.17   \includegraphics[width=0.8\textwidth]
+                                            {figure/GX.eps}
+? 
+Missing character: There is no ] in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no G in font nullfont!
+Missing character: There is no X in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no s in font nullfont!
+! Undefined control sequence.
+l.18   \includegraphics
+                       [width=0.8\textwidth]{figure/GX0.eps}
+? 
+Missing character: There is no [ in font nullfont!
+Missing character: There is no w in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 8 in font nullfont!
+! Missing number, treated as zero.
+<to be read again> 
+                   ]
+l.18   \includegraphics[width=0.8\textwidth]
+                                            {figure/GX0.eps}
+? 
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   ]
+l.18   \includegraphics[width=0.8\textwidth]
+                                            {figure/GX0.eps}
+? 
+Missing character: There is no ] in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no G in font nullfont!
+Missing character: There is no X in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no s in font nullfont!
+
+! LaTeX Error: \caption outside float.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19   \caption
+               {Transverse spin density fluctuations, â€˜Bareâ€˜ transverse ...
+
+? 
+Missing character: There is no T in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no v in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no y in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no â in font nullfont!
+Missing character: There is no € in font nullfont!
+Missing character: There is no ˜ in font nullfont!
+Missing character: There is no B in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no â in font nullfont!
+Missing character: There is no € in font nullfont!
+Missing character: There is no ˜ in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no v in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no y in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no . in font nullfont!
+
+! LaTeX Error: \begin{document} ended by \end{figure}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.21 \end{figure}
+                 
+? 
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 15--22
+[]
+ []
+
+
+! LaTeX Error: Environment figure undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.23 \begin{figure}
+                   [h]
+? 
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.23 \begin{figure}[
+                    h]
+? 
+Missing character: There is no [ in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no ] in font nullfont!
+! Undefined control sequence.
+l.25   \includegraphics
+                       [width=0.8\textwidth]{figure/FeRh_fm.png}
+? 
+Missing character: There is no [ in font nullfont!
+Missing character: There is no w in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 8 in font nullfont!
+! Missing number, treated as zero.
+<to be read again> 
+                   ]
+l.25   \includegraphics[width=0.8\textwidth]
+                                            {figure/FeRh_fm.png}
+? 
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   ]
+l.25   \includegraphics[width=0.8\textwidth]
+                                            {figure/FeRh_fm.png}
+? 
+Missing character: There is no ] in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no F in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no R in font nullfont!
+Missing character: There is no h in font nullfont!
+! Missing $ inserted.
+<inserted text> 
+                $
+l.25 ...graphics[width=0.8\textwidth]{figure/FeRh_
+                                                  fm.png}
+? 
+! Extra }, or forgotten $.
+l.25 ...s[width=0.8\textwidth]{figure/FeRh_fm.png}
+                                                  
+? 
+! Undefined control sequence.
+l.26   \includegraphics
+                       [width=0.8\textwidth]{figure/FeRh_fm_BZ.png}
+? 
+! Missing number, treated as zero.
+<to be read again> 
+                   ]
+l.26   \includegraphics[width=0.8\textwidth]
+                                            {figure/FeRh_fm_BZ.png}
+? 
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   ]
+l.26   \includegraphics[width=0.8\textwidth]
+                                            {figure/FeRh_fm_BZ.png}
+? 
+
+! LaTeX Error: \caption outside float.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.27   \caption
+               { }
+? 
+
+! LaTeX Error: \begin{document} ended by \end{figure}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.29 \end{figure}
+                 
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.29 \end{figure}
+                 
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.29 \end{figure}
+                 
+? 
+)
+*
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 23--0
+[]
+ []
+
+
+Overfull \hbox (71.68831pt too wide) in paragraph at lines 23--0
+[]\OML/cmm/m/it/10 m:png\OT1/cmr/m/n/10 [\OML/cmm/m/it/10 width \OT1/cmr/m/n/10
+ =
+ []
+
+
+Overfull \hbox (122.95232pt too wide) in paragraph at lines 23--0
+\OT1/cmr/m/n/10 0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 8][][][]$ 
+ []
+
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*^^X
+! Text line contains an invalid character.
+<*> ^^X
+       
+? x
+ 
+Here is how much of TeX's memory you used:
+ 9 strings out of 494910
+ 177 string characters out of 6179836
+ 45442 words of memory out of 5000000
+ 3401 multiletter control sequences out of 15000+600000
+ 3640 words of font info for 14 fonts, out of 8000000 for 9000
+ 36 hyphenation exceptions out of 8191
+ 18i,2n,12p,114b,72s stack positions out of 5000i,500n,10000p,200000b,80000s
+No pages of output.
+PDF statistics:
+ 0 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+
