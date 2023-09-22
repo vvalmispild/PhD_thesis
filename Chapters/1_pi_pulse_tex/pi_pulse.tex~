@@ -1,0 +1,332 @@
+\tableofcontents
+
+
+\section{Introduction.}
+
+Studying the interparticle interactions in a correlated electron system by applying laser pulses is a challenging perspective, which may lead to some states of matter that do not exist in equilibrium. For example, changing the electron-electron interaction from the original Coulomb repulsion to an attraction, can induce an s-wave superconducting state with very high transition temperature,1,2 or the BCS-BEC crossover.2,3
+
+Creation a population inversion in metallic bands corresponding to a negative temperature (T) state.9,10 is one of the way to control the interaction. Such investigation done in work of [Naoto,Hideo] for hipercubic lattice, where was shown that it is possible to induce a population inversion in metallic systems using a properly shaped  half-cycle or monocycle pulses, the system without energy dissipation will thermalize in the negative T state after the pulse. This implies an effective switching of the interaction from repulsive to attractive, since a density matrix $\exp(-H/T)$ for a Hamiltonian $H$ with temperature $T < 0$ corresponds to the one for the inverted $-H$ with $-T > 0$.11,12 
+
+Effective switching of the interaction from repulsive to attractive occur because a density matrix $\exp{-H/T}$ for a Hamiltonian $H$ with temperature $T < 0$ corresponds inverted $-H$ with $-T > 0$.
+
+In this chapter we repeat work [Naoto,Hideo] taking realistic 2d square lattice and focused in transient nonequilibrium dynamics.
+By the half-cycle pulse we induce shift in the momentum distribution of the electrons. Selecting the parameters of such a pulse we can achieve half of the Brillouin zone, the system is brought to a negative-T state, this is often (depending on the value of the interaction) leads to change of the interaction from repulsive to attractive.
+
+Model for correlated electrons is the single-band Hubbard model driven by an electric field with the Hamiltonian
+
+The total energy has the origin at zero.
+
+{\bf The purpose of the present work} to study the polarization dependence in the Hubbard model on 2D square lattice under the influence of a laser pulse. In this paper we present the results for $\pi$-pulse.
+\clearpage
+
+The vector potential has the form \citet{PhysRevB.85.155124}:
+
+\begin{equation}
+A(t)=\frac{A_{max}}{\tau}(t-\tau sin(2\pi t/\tau))
+\end{equation}
+
+where $A_{max}$ - amplitude of vector potential; $\tau$ - pulse length.
+
+
+\begin{figure}[h!]
+\begin{minipage}[h]{0.55\linewidth}
+\center{\includegraphics[width=1\linewidth]{figure/xy/PulseA.eps}} a) \\
+\end{minipage}
+\hfill
+\begin{minipage}[h]{0.55\linewidth}
+\center{\includegraphics[width=1\linewidth]{figure/y/PulseA.eps}} \\b)
+\end{minipage}
+
+\begin{minipage}[h]{0.55\linewidth}
+\center{\includegraphics[width=1\linewidth]{figure/xy/PulseE.eps}} c) \\
+\end{minipage}
+\hfill
+\begin{minipage}[h]{0.55\linewidth}
+\center{\includegraphics[width=1\linewidth]{figure/y/PulseE.eps}} \\d)
+\end{minipage}
+
+\caption{a,c vector potential and external electric field for diagonal direction; b,d vector potential and external electric field for Y direction}
+\label{fig:Pulses}
+\end{figure}
+
+In case Y direction of field, the maximum value of the vector potential $A_{max} = \pi$ (Figure \ref{fig:Pulses}a,c). For diagonal direction of field the maximum value of the vector potential $A_{max} =\pi*\sqrt{2}$ (Figure \ref{fig:Pulses}b,d). This allows to shift the momentum distribution in the case of Y-field from $\Gamma$ to Y, in the case of diagonal field from $\Gamma$ to M in the Brillouin zone.
+
+
+
+In this paper, we investigate properties of the model:
+
+1) Change in the sign of the interaction under the action of a half-cycle laser pulse;
+
+2) Polarization dependence;
+
+3) Dependence on the pulse amplitude;
+
+4) Dependence on the pulse width.
+
+
+
+\clearpage
+\section{Total energy and double occupancy.}
+
+\begin{figure}[h!]
+\begin{minipage}[h]{0.55\linewidth}
+\center{\includegraphics[width=1\linewidth]{figure/xy/E_tot_xy.eps}} a) \\
+\end{minipage}
+\hfill
+\begin{minipage}[h]{0.55\linewidth}
+\center{\includegraphics[width=1\linewidth]{figure/y/E_tot_y.eps}} \\b)
+\end{minipage}
+
+\begin{minipage}[h]{0.55\linewidth}
+\center{\includegraphics[width=1\linewidth]{figure/xy/docc_xy.eps}} c) \\
+\end{minipage}
+\hfill
+\begin{minipage}[h]{0.55\linewidth}
+\center{\includegraphics[width=1\linewidth]{figure/y/docc_y.eps}} \\d)
+\end{minipage}
+
+\caption{a,c total energy and double occupancy for XY direction of pulse ($A_{max} =\pi\sqrt{2}$); b,d total energy and double occupancy for Y direction of pulse ($A_{max} = \pi$).}
+\label{fig:E_tot}
+\end{figure}
+
+We can observe a change in the sign of the interaction in case of field in the diagonal direction, U=2 and U=3. $E_{tot}>0$ and double occupancy $docc>0.25$ after pulse (Figure \ref{fig:E_tot}).
+
+For a field in the Y direction, we do not observe a change in the sign of interaction.
+
+
+
+
+\begin{figure}[h!]
+\center{\includegraphics[width=0.7\linewidth]{figure/xy/E_mpi.eps}} \\
+\caption{The total energy after the pulse as a function of the magnitude of the vector potential.}
+\label{fig:E_tot_A}
+\end{figure}
+
+In Figure \ref{fig:E_tot_A} total energy after the pulse ($\tau$=4) as a function of the magnitude of the vector potential for XY and Y field directions. The graph shows that for the field in the diagonal direction there is a positive total energy which means that the sign of interaction has changed. The value of the total energy is maximum when the value of the amplitude of the vector potential is maximal. As the magnitude of the vector potential decreases, the total energy decreases and, for a certain value of the vector potential, the total energy becomes negative. What is in accordance with the article [\citet{PhysRevB.85.155124} (Figure 3)]. When the interaction is increased, the value of the total energy decreases and the range of values of the total energy for the different amplitudes of the vector potential (at least in the range that exists Figure \ref{fig:E_tot_A}), such dependence is shown in [\citet{PhysRevB.85.155124} (Figure 3)]. In Y-direction of the field, there is no change in the sign of the interaction with different values of the vector potential and the Coulomb interaction (U=2,3).
+
+In Figure \ref{fig:E_tot_tau} total energy after the pulse ($A_{max} = \pi$ Y-field; $A_{max} =\pi\sqrt{2}$ XY-field) as a function of pulse width. It can be seen from the figure that for a pulse with width 2(XY field direction), the total energy has a positive and maximum value (red and blue lines), this pulse is also the narrowest in the calculations. With increasing pulse width, the total energy after the pulse can become negative, as seen on the blue line. This behavior was demonstrated in the work [\citet{PhysRevB.85.155124} (Figure 3)].
+In the case of a pulse in the Y-direction, the total energy is always negative. With increasing pulse width the total energy goes to a more negative region.
+
+
+
+\begin{figure}[h!]
+\center{\includegraphics[width=0.7\linewidth]{figure/xy/E_tau.eps}} \\
+\caption{The total energy after the pulse as a function of the pulse width.}
+\label{fig:E_tot_tau}
+\end{figure}
+\clearpage
+
+
+
+\section{Momentum distribution. $A_{max}$-pulse.}
+This part of the notes shows the momentum distribution and how it varies with time under the action of half-cycle cosine pulse. 
+
+\begin{figure}[h!]
+\center{\includegraphics[width=0.7\linewidth]{figure/y/A_0.jpg}} \\
+\caption{Momentum distribution for U=2, time=0, equilibrium.}
+\label{fig:md_u2_t0}
+\end{figure}
+
+The Figure \ref{fig:md_u2_t0} shows momentum distribution of the interacting system (U=2) at time t = 0 when the system is in equilibrium and the field does not act on it. The maximum of the momentum distribution is at the $\Gamma$-point and the minimum at the angles of the first Brillouin zone.
+
+When the field is turned on, momentum distribution begins to move in the direction of the vector potential (or opposite to the direction of the electric field).
+
+Below we consider changes in the momentum distribution under the action of a field with a vector potential $A_{max} = \pi$ for Y-field and $A_{max} =\pi\sqrt{2}$ for diagonal field.
+
+In Figure \ref{fig:md_u2_A_max} is shown momenum distribution for U=2 during the action of the pulse. The pulse exists at time 0 to 4 ($\tau$=4). In the diagonal direction of the field (Figure \ref{fig:md_u2_A_max}a,c,e), the shift and flattening of the momentum distribution are seen. This shift leads to inversion of the population, since the maximum of the momentum distribution at the final instant of time (t=4) is at the corners of the first Brillouin zone and the minimum at the $\Gamma$-point. This finite distribution does not change much after the pulse (Figures \ref{fig:md_u2_A_max_relaxation}a,c,e). Also on (Figure \ref{fig:E_tot}a) seen that after the pulse the total energy is positive.
+
+For a field in Y-direction there is no population inversion (Figures \ref{fig:md_u2_A_max}b,d,f). Under the influence of the field, it also shifts to the value of the vector potential. For the Y-direction momentum distribution has a long relaxation time (Figures \ref{fig:md_u2_A_max_relaxation}b,d,f) in comparison with the XY-direction(Figures \ref{fig:md_u2_A_max_relaxation}a,c,e).
+
+\begin{figure}[h!]
+
+\begin{minipage}[h]{0.43\linewidth}
+\center{\includegraphics[width=1\linewidth]{figure/xy/u2/A_200.jpg}} a) \\
+\end{minipage}
+\hfill
+\begin{minipage}[h]{0.43\linewidth}
+\center{\includegraphics[width=1\linewidth]{figure/y/u2/A_200.jpg}} \\b)
+\end{minipage}
+\begin{minipage}[h]{0.43\linewidth}
+\center{\includegraphics[width=1\linewidth]{figure/xy/u2/A_300.jpg}} c) \\
+\end{minipage}
+\hfill
+\begin{minipage}[h]{0.43\linewidth}
+\center{\includegraphics[width=1\linewidth]{figure/y/u2/A_300.jpg}} \\d)
+\end{minipage}
+\begin{minipage}[h]{0.43\linewidth}
+\center{\includegraphics[width=1\linewidth]{figure/xy/u2/A_400.jpg}} e) \\
+\end{minipage}
+\hfill
+\begin{minipage}[h]{0.43\linewidth}
+\center{\includegraphics[width=1\linewidth]{figure/y/u2/A_400.jpg}} \\f)
+\end{minipage}
+\caption{Momentum distribution for U=2 in different times (from 2 to 4), $\tau$=4. Left column a,c,e - field in XY direction; right column b,d,f - field in Y direction.}
+\label{fig:md_u2_A_max}
+\end{figure}
+\clearpage
+
+
+\begin{figure}[h!]
+
+\begin{minipage}[h]{0.43\linewidth}
+\center{\includegraphics[width=1\linewidth]{figure/xy/u2/A_500.jpg}} a) \\
+\end{minipage}
+\hfill
+\begin{minipage}[h]{0.43\linewidth}
+\center{\includegraphics[width=1\linewidth]{figure/y/u2/A_500.jpg}} \\b)
+\end{minipage}
+\begin{minipage}[h]{0.43\linewidth}
+\center{\includegraphics[width=1\linewidth]{figure/xy/u2/A_700.jpg}} c) \\
+\end{minipage}
+\hfill
+\begin{minipage}[h]{0.43\linewidth}
+\center{\includegraphics[width=1\linewidth]{figure/y/u2/A_700.jpg}} \\d)
+\end{minipage}
+\begin{minipage}[h]{0.43\linewidth}
+\center{\includegraphics[width=1\linewidth]{figure/xy/u2/A_1000.jpg}} e) \\
+\end{minipage}
+\hfill
+\begin{minipage}[h]{0.43\linewidth}
+\center{\includegraphics[width=1\linewidth]{figure/y/u2/A_1000.jpg}} \\f)
+\end{minipage}
+\caption{Relaxation of momentum distribution (after pulse) for U=2 in different times (from 2 to 4), $\tau$=4. Left column a,c,e - field in XY direction; right column b,d,f - field in Y direction.}
+\label{fig:md_u2_A_max_relaxation}
+\end{figure}
+\clearpage
+
+
+\begin{figure}[h!]
+\begin{minipage}[h]{0.43\linewidth}
+\center{\includegraphics[width=1\linewidth]{figure/xy/u3/A_200.jpg}} a) \\
+\end{minipage}
+\hfill
+\begin{minipage}[h]{0.43\linewidth}
+\center{\includegraphics[width=1\linewidth]{figure/y/u3/A_200.jpg}} \\b)
+\end{minipage}
+\begin{minipage}[h]{0.43\linewidth}
+\center{\includegraphics[width=1\linewidth]{figure/xy/u3/A_300.jpg}} c) \\
+\end{minipage}
+\hfill
+\begin{minipage}[h]{0.43\linewidth}
+\center{\includegraphics[width=1\linewidth]{figure/y/u3/A_300.jpg}} \\d)
+\end{minipage}
+\begin{minipage}[h]{0.43\linewidth}
+\center{\includegraphics[width=1\linewidth]{figure/xy/u3/A_400.jpg}} e) \\
+\end{minipage}
+\hfill
+\begin{minipage}[h]{0.43\linewidth}
+\center{\includegraphics[width=1\linewidth]{figure/y/u3/A_400.jpg}} \\f)
+\end{minipage}
+\caption{Momentum distribution for U=3 in different times (from 2 to 4), $\tau$=4. Left column a,c,e - field in XY direction; right column b,d,f - field in Y direction.}
+\label{fig:md_u3_A_max}
+\end{figure}
+\clearpage
+
+
+\begin{figure}[h!]
+\begin{minipage}[h]{0.43\linewidth}
+\center{\includegraphics[width=1\linewidth]{figure/xy/u3/A_500.jpg}} a) \\
+\end{minipage}
+\hfill
+\begin{minipage}[h]{0.43\linewidth}
+\center{\includegraphics[width=1\linewidth]{figure/y/u3/A_500.jpg}} \\b)
+\end{minipage}
+\begin{minipage}[h]{0.43\linewidth}
+\center{\includegraphics[width=1\linewidth]{figure/xy/u3/A_700.jpg}} c) \\
+\end{minipage}
+\hfill
+\begin{minipage}[h]{0.43\linewidth}
+\center{\includegraphics[width=1\linewidth]{figure/y/u3/A_700.jpg}} \\d)
+\end{minipage}
+\caption{Relaxation of momentum distribution (after pulse) for U=3 in times 5 and 7, $\tau$=4. Left column a,c - field in XY direction; right column b,d - field in Y direction.}
+\label{fig:md_u3_A_max_relaxation}
+\end{figure}
+
+
+In Figure \ref{fig:md_u3_A_max} is shown momentum distribution for U=3 during the action of the pulse. In the diagonal direction of the field (Figure \ref{fig:md_u3_A_max}a,c,e), the shift and flattening of the momentum distribution are seen. This shift leads to inversion of the population. This finite distribution does not change after the pulse (Figures \ref{fig:md_u3_A_max_relaxation}a,c). In Figure \ref{fig:E_tot}a seen that after the pulse the total energy is positive but less than in the case of U=2.
+
+For a field in Y-direction there is no population inversion (Figures \ref{fig:md_u3_A_max}b,d,f). Under the influence of the field, it also shifts to the value of the vector potential. For the Y-direction momentum distribution has a short relaxation time (Figures \ref{fig:md_u3_A_max_relaxation}b,d).
+
+Thus, as the interaction is increased, pulse parameters are preserved, so that the momentum distribution becomes flatter for all directions and the relaxation time for the Y-direction is decreased.
+\clearpage
+
+
+
+\section{Momentum distribution. $0.8A_{max}$-pulse.}
+
+\begin{figure}[h!]
+\begin{minipage}[h]{0.43\linewidth}
+\center{\includegraphics[width=1\linewidth]{figure/xy/u2_08A/A_200.jpg}} a) \\
+\end{minipage}
+\hfill
+\begin{minipage}[h]{0.43\linewidth}
+\center{\includegraphics[width=1\linewidth]{figure/y/u2_08A/A_200.jpg}} \\b)
+\end{minipage}
+\begin{minipage}[h]{0.43\linewidth}
+\center{\includegraphics[width=1\linewidth]{figure/xy/u2_08A/A_300.jpg}} c) \\
+\end{minipage}
+\hfill
+\begin{minipage}[h]{0.43\linewidth}
+\center{\includegraphics[width=1\linewidth]{figure/y/u2_08A/A_300.jpg}} \\d)
+\end{minipage}
+\begin{minipage}[h]{0.43\linewidth}
+\center{\includegraphics[width=1\linewidth]{figure/xy/u2_08A/A_400.jpg}} e) \\
+\end{minipage}
+\hfill
+\begin{minipage}[h]{0.43\linewidth}
+\center{\includegraphics[width=1\linewidth]{figure/y/u2_08A/A_400.jpg}} \\f)
+\end{minipage}
+\caption{Momentum distribution for U=2 in different times (from 2 to 4), $\tau$=4. Left column a,c,e - field in XY direction; right column b,d,f - field in Y direction.}
+\label{fig:md_u2_08A}
+\end{figure}
+\clearpage
+
+
+\begin{figure}[h!]
+\begin{minipage}[h]{0.43\linewidth}
+\center{\includegraphics[width=1\linewidth]{figure/xy/u2_08A/A_500.jpg}} a) \\
+\end{minipage}
+\hfill
+\begin{minipage}[h]{0.43\linewidth}
+\center{\includegraphics[width=1\linewidth]{figure/y/u2_08A/A_500.jpg}} \\b)
+\end{minipage}
+\begin{minipage}[h]{0.43\linewidth}
+\center{\includegraphics[width=1\linewidth]{figure/xy/u2_08A/A_700.jpg}} c) \\
+\end{minipage}
+\hfill
+\begin{minipage}[h]{0.43\linewidth}
+\center{\includegraphics[width=1\linewidth]{figure/y/u2_08A/A_700.jpg}} \\d)
+\end{minipage}
+\begin{minipage}[h]{0.43\linewidth}
+\center{\includegraphics[width=1\linewidth]{figure/xy/u2_08A/A_1000.jpg}} e) \\
+\end{minipage}
+\hfill
+\begin{minipage}[h]{0.43\linewidth}
+\center{\includegraphics[width=1\linewidth]{figure/y/u2_08A/A_1000.jpg}} \\f)
+\end{minipage}
+\caption{Relaxation of momentum distribution (after pulse) for U=2, $\tau$=4. Left column a,c,e - field in XY direction; right column b,d,f - field in Y direction.}
+\label{fig:md_u2_08A_relaxation}
+\end{figure}
+
+In Figures \ref{fig:md_u2_08A} and \ref{fig:md_u2_08A_relaxation} is shown momentum distribution for U=2 during the action of the pulse and relaxation. There were used a pulses with $0.8A_{max}$. This do not allows to shift the momentum distribution in the case of Y-field from $\Gamma$ to Y, in the case of diagonal field from $\Gamma$ to M in the Brillouin zone during the pulse. This can be seen in the Figures \ref{fig:md_u2_08A}e,f, these are the graphs of the momentum distribution in which the pulse end.
+In the process of relaxation Figures \ref{fig:md_u2_08A_relaxation}, the minimum of the momentum distribution is shifted to the $\Gamma$ point for all the considered directions of the electric field. This relaxation effect has been demonstrated in [\citet{PhysRevB.85.155124} (Figure 5a)] for hypercubic lattice.
+
+\clearpage
+
+
+
+\section{Summary.}
+
+1.  In considered 2D lattice in the case of a diagonal field, many effects have been found which were shown in the article \citet{PhysRevB.85.155124} for a diagonal field on a hypercubic lattice:
+
+a) Population inversion at the pulse with $A_{max} =\pi\sqrt{2}$ which shift maximum of momentum distribution from $\Gamma$ to M (Figures: \ref{fig:E_tot}a,c; \ref{fig:FS_u2_A_max}a,c,e; \ref{fig:FS_u3_A_max}a,c,e).
+
+b) Appearance of a population inversion and dependence of the total energy for different amplitudes of the vector potential (Figure \ref{fig:E_tot_A}), the Coulomb interaction and the pulse width (Figure \ref{fig:E_tot_tau}).
+
+c) Relaxation of the momentum distribution after the pulse with amplitude $0.8A_{max}$ (Figure \ref{fig:md_u2_08A_relaxation}a,c,e).
+
+2.  Relaxation time of the momentum distribution decreases with increasing Coulomb interaction. This can be seen from the comparison Figure \ref{fig:md_u2_A_max_relaxation} and Figure \ref{fig:md_u3_A_max_relaxation}.
+
+3.  For a field in the Y-direction. Such a field does not create a population inversion for considered parameters (Figures: \ref{fig:E_tot_A}, \ref{fig:E_tot_tau}). It was shown how momentum distribution and Fermi surface change for different values of vector potential, Coulomb interaction and the pulse width before and after the pulse.
+
+4.  For a field in the Y-direction Fermi surface forms a gap (Figures: \ref{fig:FS_u2_A_max}f, \ref{fig:FS_u3_A_max}d, \ref{fig:FS_u2_08A_max}f). From the beginning of the formation of the gap Fermi surface changes strongly and at the end of the relaxation it looks like before the pulse.

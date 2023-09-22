@@ -1,0 +1,12 @@
+\contentsline {section}{\numberline {1}Controlling the interparticle interactions in a correlated electron system}{1}{section.1}
+\contentsline {subsection}{\numberline {1.1}Creation of population inversion by linear polarized electric field}{1}{subsection.1.1}
+\contentsline {subsubsection}{\numberline {1.1.1}Half-cycle vector potential}{2}{subsubsection.1.1.1}
+\contentsline {subsubsection}{\numberline {1.1.2}Total energy and double occupancy.}{2}{subsubsection.1.1.2}
+\contentsline {subsubsection}{\numberline {1.1.3}Momentum distribution. $A_{max}$-pulse.}{4}{subsubsection.1.1.3}
+\contentsline {subsubsection}{\numberline {1.1.4}Momentum distribution. $0.8A_{max}$-pulse.}{10}{subsubsection.1.1.4}
+\contentsline {subsection}{\numberline {1.2}Change the sign of the interaction using a circularly polarized field}{12}{subsection.1.2}
+\contentsline {subsubsection}{\numberline {1.2.1}Polarization dependence of the circular $\pi $-pulse}{12}{subsubsection.1.2.1}
+\contentsline {subsubsection}{\numberline {1.2.2}The frequency dependence of the circular $\pi $-pulse}{13}{subsubsection.1.2.2}
+\contentsline {subsubsection}{\numberline {1.2.3}Circular monocycle pulse with different initial phases.}{15}{subsubsection.1.2.3}
+\contentsline {subsubsection}{\numberline {1.2.4}Away from monocycle condition for $\pi $-pulse.}{18}{subsubsection.1.2.4}
+\contentsline {subsubsection}{\numberline {1.2.5}Multicycle pulse.}{20}{subsubsection.1.2.5}

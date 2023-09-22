@@ -1,0 +1,16 @@
+\begin{thebibliography}{1}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Tsuji et~al.(2012)Tsuji, Oka, Aoki, and Werner]{PhysRevB.85.155124}
+N.~Tsuji, T.~Oka, H.~Aoki, and P.~Werner.
+\newblock Repulsion-to-attraction transition in correlated electron systems
+  triggered by a monocycle pulse.
+\newblock \emph{Phys. Rev. B}, 85:\penalty0 155124, Apr 2012.
+\newblock \doi{10.1103/PhysRevB.85.155124}.
+\newblock URL \url{https://link.aps.org/doi/10.1103/PhysRevB.85.155124}.
+
+\end{thebibliography}
