@@ -1,0 +1,553 @@
+%\documentclass[pre,aps,amsmath,amssymb,amsfonts,floatfix,superscriptaddress,nofootinbib]{revtex4-1}
+%\documentclass{book}
+
+\documentclass[
+12pt, % The default document font size, options: 10pt, 11pt, 12pt
+%oneside, % Two side (alternating margins) for binding by default, uncomment to switch to one side
+english, % ngerman for German
+singlespacing, % Single line spacing, alternatives: onehalfspacing or doublespacing
+%draft, % Uncomment to enable draft mode (no pictures, no links, overfull hboxes indicated)
+%nolistspacing, % If the document is onehalfspacing or doublespacing, uncomment this to set spacing in lists to single
+liststotoc, % Uncomment to add the list of figures/tables/etc to the table of contents
+%toctotoc, % Uncomment to add the main table of contents to the table of contents
+%parskip, % Uncomment to add space between paragraphs
+%nohyperref, % Uncomment to not load the hyperref package
+headsepline, % Uncomment to get a line under the header
+%chapterinoneline, % Uncomment to place the chapter title next to the number on one line
+%consistentlayout, % Uncomment to change the layout of the declaration, abstract and acknowledgements pages to match the default layout
+]{MastersDoctoralThesis} % The class file specifying the document structure
+
+\usepackage[percent]{overpic}
+
+\usepackage{everyshi}
+\usepackage{marginnote}
+\usepackage{layout}
+\usepackage{graphicx}
+\usepackage{color}
+%\usepackage{bbm}
+\usepackage[utf8]{inputenc}
+%\usepackage{ngerman}
+\usepackage[T1]{fontenc}
+\usepackage{dcolumn}
+\usepackage{hyperref}
+\usepackage{textcomp}
+\usepackage{enumitem}
+\usepackage{braket}
+\usepackage{makecell}
+\usepackage{wrapfig}
+\usepackage{array}
+\usepackage{fancyvrb}
+\usepackage{multirow}
+\makeatletter
+\newcommand*\bigcdot{\mathpalette\bigcdot@{.5}}
+\newcommand*\bigcdot@[2]{\mathbin{\vcenter{\hbox{\scalebox{#2}{$\m@th#1\bullet$}}}}}
+\makeatother
+
+%\usepackage[ngerman,english]{babel}
+%\usepackage[backend=bibtex,natbib=true]{biblatex} % Use the bibtex backend with the authoryear citation style (which resembles APA)
+%\usepackage[backend=bibtex,style=authoryear,natbib=true]{biblatex} % Use the bibtex backend with the authoryear citation style (which resembles APA)
+%\usepackage[backend=bibtex,style=authoryear,natbib=true]{biblatex} % Use the bibtex backend with the authoryear citation style (which resembles APA)
+\usepackage[maxbibnames=99,backend=biber,style=numeric,natbib=true]{biblatex} % Use the bibtex backend with the authoryear citation style (which resembles APA)
+\makeatletter
+\DeclareCiteCommand{\fullcite}
+{\defcounter{maxnames}{\blx@maxbibnames}%
+\usebibmacro{prenote}}
+{\usedriver
+{\DeclareNameAlias{sortname}{default}}
+{\thefield{entrytype}}}
+{\multicitedelim}
+{\usebibmacro{postnote}}
+\DeclareCiteCommand{\footfullcite}[\mkbibfootnote]
+{\defcounter{maxnames}{\blx@maxbibnames}%
+\usebibmacro{prenote}}
+{\usedriver
+{\DeclareNameAlias{sortname}{default}}
+{\thefield{entrytype}}}
+{\multicitedelim}
+{\usebibmacro{postnote}}
+\makeatother
+
+
+%\usepackage{biblatex} % Use the bibtex backend with the authoryear citation style (which resembles APA)
+\addbibresource{main.bib}
+\usepackage[autostyle=true]{csquotes} % Required to generate language-dependent quotes in the bibliography
+
+%\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsmath}
+%\usepackage{lipsum}
+%\usepackage{txfonts}
+\numberwithin{equation}{section}
+\usepackage{placeins}
+\usepackage{comment}
+%\usepackage[dvipsnames]{xcolor}
+\usepackage{tikz}
+\usetikzlibrary{calc}
+\usetikzlibrary{decorations.pathmorphing}
+\usetikzlibrary{decorations.pathreplacing}
+\usetikzlibrary{decorations.markings}
+\usetikzlibrary{shapes.misc}
+\usetikzlibrary{positioning}
+\usetikzlibrary{snakes}
+\usetikzlibrary{arrows}
+%%%%%MY%%%%
+
+
+%\usepackage{graphicx}
+\usepackage{graphicx}
+\newcommand{\XY}[1]{\textcolor{magenta}{X$\rightarrow$ Y: #1}}
+\usepackage{mathrsfs,bbm}
+\usepackage{comment}
+\newcommand{\bm}[1]{\boldsymbol #1}
+\newcommand{\lh}{\mbox{$\neg$}}
+\newcommand{\rh}{\reflectbox{$\neg$}}
+\DeclareSymbolFont{symbols}{OMS}{cmsy}{m}{n}
+\DeclareSymbolFont{largesymbols}{OMX}{cmex}{m}{n}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%Contour calculus notation
+\newcommand{\CS}{\mathcal{S}}
+\newcommand{\ii}{^j}
+\newcommand{\delC}{\delta_\CC}
+\newcommand{\intC}{\int_\CC}
+\newcommand{\tmin}{t_{\text{min}}}
+\newcommand{\tmax}{t_{\text{max}}}
+\newcommand{\CC}{\mathcal{C}}
+\newcommand{\TC}{\mathcal{T}_{\CC}}
+\newcommand{\gtrc}{\succ}
+\newcommand{\lesc}{\prec}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%Keldysh Green functions
+\newcommand{\convz}{\ast}
+\newcommand{\convi}{\bullet}
+\newcommand{\convr}{\circ}
+\newcommand{\ret}{{\text{R}}}
+\newcommand{\adv}{{\text{A}}}
+\newcommand{\mat}{{\text{\tiny M}}}
+\newcommand{\tv}{{\makebox{$\neg$}}}
+\newcommand{\vt}{{\reflectbox{$\neg$}}}
+\newcommand{\les}{<}
+\newcommand{\lar}{>}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%\usetikzlibrary{decorations.pathreplacing,decorations.markings,snakes}
+\tikzset{snake it/.style={decorate, decoration=snake}}
+
+
+\usetikzlibrary{3d}
+\usepackage{mathtools}
+%\usetikzlibrary{arrows.meta}
+    \tikzset{
+            partial ellipse/.style args={#1:#2:#3}{
+                        insert path={+ (#1:#3) arc (#1:#2:#3)}
+                            }
+                        }
+
+\usetikzlibrary{calc}
+\tikzset{
+      %> = {stealth},
+        % specifying distances in cm puts them in the paper coordinates,
+          % without units puts them in these tikz xy(z) coordinates
+            inertial frame/.style = {x={(-20:2cm)}, y={(-160:2cm)}, z={(90:2cm)}},
+              local frame/.style = {shift={(local origin)}, x={(40:.7cm)}, y={(150:.7cm)}, z={(105:.7cm)}}
+          }
+
+
+
+    \tikzset{middlearrow/.style={
+                decoration={markings,
+                            mark= at position 0.5 with {\arrow{#1}} ,
+                                    },
+                                            postaction={decorate}
+                                                }
+                                                }
+\tikzset{cross/.style={cross out, draw, 
+         minimum size=2*(#1-\pgflinewidth), 
+                  inner sep=0pt, outer sep=0pt}}
+\hypersetup{colorlinks=true,breaklinks,linkcolor=blue,urlcolor=blue,citecolor=blue}
+
+\newcolumntype{L}{>{$}l<{$}}
+
+\setcounter{secnumdepth}{3}
+%\renewcommand{\thechapter}{\arabic{section}}
+\renewcommand{\thesection}{\Alph{section}}
+\renewcommand{\theparagraph}{\textbf{§\arabic{paragraph}}}
+\renewcommand{\thesubsubsection}{}
+\newcommand{\und}[1]{\ensuremath{\underline{#1}}}
+\renewcommand{\i}{{\ensuremath{i}}}
+\newcommand{\vect}[1]{\boldsymbol{#1}}
+%\newcommand{\tr}[1]{\ensuremath{\text{Tr}\left( #1 \right)}}
+\newcommand{\kv}{\ensuremath{\mathbf{k}}}
+\newcommand{\qv}{\ensuremath{\mathbf{q}}}
+\newcommand{\Qv}{\ensuremath{\mathbf{Q}}}
+\newcommand{\pv}{\ensuremath{\mathbf{p}}}
+\newcommand{\av}[1]{\ensuremath{\left\langle #1 \right\rangle}}
+%\newcommand{\up}{\ensuremath{\uparrow}}
+\newcommand{\dn}{\ensuremath{\downarrow}}
+%\newcommand{\ket}[1]{\ensuremath{\left| #1\right\rangle}}
+\newcommand{\impav}[1]{\ensuremath{\left\langle #1 \right\rangle^{\text{imp}}}}
+\newcommand{\rv}{\ensuremath{\mathbf{r}}} 
+\newcommand{\Rv}{\ensuremath{\mathbf{R}}} 
+\newcommand{\dv}{\ensuremath{\boldsymbol{\delta}}} 
+\newcommand{\Ttau}{\ensuremath{T_{\tau}}}
+\newcommand{\vc}[1]{\ensuremath{\mathbf{#1}}}
+\newcommand{\ketvac}{\ensuremath{|0\rangle}}
+\newcommand{\ketup}{\ensuremath{|\uparrow\rangle}}
+\newcommand{\ketdn}{\ensuremath{|\downarrow\rangle}}
+\newcommand{\ketud}{\ensuremath{|\updownarrow\rangle}}
+\newcommand{\ketsig}{\ensuremath{|\sigma\rangle}}
+\newcommand{\ketmsig}{\ensuremath{|\bar{\sigma}\rangle}}
+\newcommand{\bravac}{\ensuremath{\langle 0|}}
+\newcommand{\braup}{\ensuremath{\langle\uparrow|}}
+\newcommand{\bradn}{\ensuremath{\langle\downarrow|}}
+\newcommand{\braud}{\ensuremath{\langle\updownarrow|}}
+\newcommand{\brasig}{\ensuremath{\langle\sigma|}}
+\newcommand{\bramsig}{\ensuremath{\langle\bar{\sigma}|}}
+\newcommand{\rguideqp}{\marginpar{\vspace{.4em}\textbf{\textit{\textcolor{green}{Q}}\textit{\textcolor{red}{P}}}}}
+\newcommand{\rguideq}{\marginpar{\vspace{.4em}\textbf{\textit{\textcolor{green}{Q}}}}}
+\newcommand{\rguidep}{\marginpar{\vspace{.4em}\textbf{\textit{\textcolor{red}{P}}}}}
+\newcommand{\greenq}{\textbf{\textit{\textcolor{green}{Q}}}}
+\newcommand{\redp}{\textbf{\textit{\textcolor{red}{P}}}}
+\newcommand{\toclink}{\addtocontents{toc}{\protect\hypertarget{sec:\thechapter\thesection}{}}}
+\newcommand{\toclinksub}{\addtocontents{toc}{\protect\hypertarget{ssec:\thechapter\thesubsection}{}}}
+
+
+\def \Im {\mathop {\rm Im}}
+\newcommand{\chiimp}{\ensuremath{\chi^{\text{imp}}}}
+\newcommand{\Xch}{\ensuremath{X^{\text{ch}}}}
+\newcommand{\Xsz}{\ensuremath{X^{\text{sz}}}}
+\newcommand{\EvL}[1]{{\color{red}#1}}
+\newcommand{\FJK}[1]{{\color{WildStrawberry}#1}}
+\newcommand{\HH}[1]{{\color{blue}#1}}
+
+\newcommand{\hint}{\ensuremath{H_{\text{int}}}}
+\newcommand{\iom}{{\ensuremath{\i\omega}}}
+\newcommand{\inu}{{\ensuremath{\i\nu}}}
+\newcommand{\msigma}{{\ensuremath{\bar{\sigma}}}}
+\newcommand{\RV}{\ensuremath{\mathbf{R}}}
+\newcommand{\ev}{\ensuremath{\mathbf{e}}}
+\newcommand{\Av}{\ensuremath{\mathbf{A}}}
+\newcommand{\jv}{\ensuremath{\mathbf{j}}}
+\newcommand{\abs}[1]{\ensuremath{\lvert#1\rvert}}
+\newcommand{\dtau}{{\ensuremath{\partial_\tau}}}
+\newcommand{\um}{\ensuremath{\mathbbm{1}}}
+\newcommand{\cdag}{{\ensuremath{\mathop{c^{\dagger}}}}}
+\newcommand{\tti}{\ensuremath{\tilde{t}}}
+%\usepackage{showlabels}
+\newcolumntype{C}[1]{>{\centering\arraybackslash}p{#1}}
+
+\thesistitle{Ultrafast dynamics of strongly correlated systems} % Your thesis title, this is used in the title and abstract, print it elsewhere with \ttitle
+%\supervisor{Dr. James \textsc{Smith}} % Your supervisor's name, this is used in the title page, print it elsewhere with \supname
+\examiner{} % Your examiner's name, this is not currently used anywhere in the template, print it elsewhere with \examname
+\degree{Doctor of Philosophy} % Your degree name, this is used in the title page and abstract, print it elsewhere with \degreename
+\author{Viktor \textsc{Valmispild}} % Your name, this is used in the title page and abstract, print it elsewhere with \authorname
+\addresses{} % Your address, this is not currently used anywhere in the template, print it elsewhere with \addressname
+
+%\subject{Biological Sciences} % Your subject area, this is not currently used anywhere in the template, print it elsewhere with \subjectname
+\keywords{} % Keywords for your thesis, this is not currently used anywhere in the template, print it elsewhere with \keywordnames
+\university{Universität Hamburg} % Your university's name and URL, this is used in the title page and abstract, print it elsewhere with \univname
+
+\AtBeginDocument{
+\hypersetup{pdftitle=\ttitle} % Set the PDF's title to your title
+\hypersetup{pdfauthor=\authorname} % Set the PDF's author to your name
+\hypersetup{pdfkeywords=\keywordnames} % Set the PDF's keywords to your keywords
+}
+
+\begin{document}
+\EveryShipout{%
+      \ifthenelse{\isodd{\value{page}}}%
+          {\global\marginparsep=-3cm}% Next page is even
+              {\global\marginparsep=.8cm}% Next page is odd
+              }
+%titlepage
+\frontmatter % Use roman page numbering style (i, ii, iii, iv...) for the pre-content pages
+\pagestyle{plain} % Default to the plain heading style until the thesis style is called for the body content
+\begin{titlepage}
+\begin{center}
+
+\HRule \\[0.4cm] % Horizontal line
+{\huge \bfseries \ttitle\par}\vspace{0.4cm} % Thesis title
+\HRule \\[1.5cm] % Horizontal line
+\vfill
+
+\Large \textit{Dissertation\\~\\zur Erlangung des Doktorgrades\\~\\des Fachbereichs Physik\\~\\der Universität Hamburg}\\[0.3cm] % University requirement text
+    \vspace{1cm} 
+    
+%%%%My    %%%%%%%%%%%%%%
+\vfill
+\Large vorgelegt von\\
+\authorname\\
+%aus Münster in Westfalen
+%%%%%%%%%%%%%%%%%
+
+    \vspace{1cm} 
+\Large Hamburg 2019
+ 
+\vfill
+\end{center}
+\end{titlepage}
+
+\vspace*{5cm}
+\begin{minipage}{0.43\linewidth}
+Gutachter der Dissertation: \\
+\, \\
+\end{minipage}
+\begin{minipage}{1\linewidth}
+Prof. Dr. Alexander I. Lichtenstein \\
+Dr. Frank Lechermann \\
+\end{minipage}
+\vspace{1cm}
+
+
+\begin{minipage}{0.43\linewidth}
+Zusammensetzung der \\
+Prüfungskommission: 
+\, \\
+\, \\
+\, \\
+\, \\
+\, \\
+\, \\
+\end{minipage}
+\begin{minipage}{1\linewidth}
+Prof. Dr. Alexander I. Lichtenstein \\
+Dr. Frank Lechermann \\
+Prof. Dr. Michael Potthoff \\
+Prof. Dr. Daniela Pfannkuche \\
+Dr. Kirsten von Bergmann \\
+\end{minipage}
+
+
+
+
+\vspace{1cm}
+
+\begin{minipage}{0.43\linewidth}
+Vorsitzende der \\
+Prüfungskommission:
+\, \\
+\end{minipage}
+\begin{minipage}{1\linewidth}
+Prof. Dr. Daniela Pfannkuche
+\end{minipage}
+
+\vspace{1cm}
+
+\begin{minipage}{0.43\linewidth}
+Datum der Disputation: 
+\end{minipage}
+\begin{minipage}{1\linewidth}
+(offen)
+\end{minipage}
+
+
+\vspace{1cm}
+
+\begin{minipage}{0.43\linewidth}
+Vorsitzender Fach-\\
+Promotionsausschusses Physik: \\
+\end{minipage}
+\begin{minipage}{1\linewidth}
+Prof. Dr. Günter H.W. Sigl
+\end{minipage}
+
+\begin{minipage}{0.43\linewidth}
+Leiter des Fachbereichs Physik: \\
+\end{minipage}
+\begin{minipage}{1\linewidth}
+Prof. Dr. Wolfgang Hansen
+\, \\
+\end{minipage}
+
+\vspace{1cm}
+\begin{minipage}{0.43\linewidth}
+Dekan der Fakultät MIN: \\
+\end{minipage}
+\begin{minipage}{1\linewidth}
+Prof. Dr. Heinrich Graener
+\, \\
+\end{minipage}
+
+
+%Prof. Dr. Wolfgang Hansen
+
+\cleardoublepage
+
+%----------------------------------------------------------------------------------------
+%	QUOTATION PAGE
+%----------------------------------------------------------------------------------------
+
+%\vspace*{0.2\textheight}
+
+%\noindent\enquote{\itshape Warum plagen wir einer den andern?\\ Das Leben zerrinnt, und es versammelt uns nur einmal wie heute die Zeit.}\bigbreak
+
+%\hfill Friedrich von Schiller
+
+\cleardoublepage
+%chapters
+\include{intro/intro}
+\include{Chapters/introduction_1/introduction}
+\include{Chapters/Theory_Kelgysh/Keldysh}
+\include{Chapters/1_pi_pulse_tex/pi_pulse}
+\include{Chapters/KH_solid/KH_solid}
+\include{Chapters/Fermi_surface/Fermi_surface}
+%\include{Chapters/doublons/doublons_for_thesis}
+\include{Chapters/2orb_DMFT/2orb_DMFT}
+\include{Chapters/TDDFT/TDDFT}
+\include{Chapters/Summary_and_outlook/Summary}
+%\include{appendix/appendix}
+
+\newpage
+
+%\bibliographystyle{abbrv}
+%\bibliography{main}
+
+\printbibliography %[heading=bibintoc]
+
+
+
+\pagestyle{plain}
+
+%\begin{definitions}{lc} %@{${}={}$}l % The list of physical constants is a three column table
+% The \SI{}{} command is provided by the siunitx package, see its documentation for instructions on how to use it
+
+
+%\end{definitions}
+
+%\begin{listofpub}
+%\addchaptertocentry{\listofpubname} % Add the declaration to the table of contents
+%    \setmaxnames{99}
+
+%\textbf{Refereed publications:}
+%    \begin{itemize}
+%        \item\fullcite{Medvedeva17}
+%        \item\fullcite{Krien17}
+%        \item\fullcite{vanLoon16}
+%    \end{itemize}
+
+%\textbf{Publications in preparation:}
+%    \begin{itemize}
+%    \item\fullcite{Stepanov18}
+%    \end{itemize}
+
+%\end{listofpub}
+
+%\begin{declaration}
+%\addchaptertocentry{\authorshipname} % Add the declaration to the table of contents
+%\noindent I, \authorname, declare that this thesis titled, \enquote{\ttitle} and the work presented in it are my own. I confirm that:
+%    \vspace{1cm}
+%\noindent Hiermit versichere ich an Eides statt, die vorliegende Dissertationsschrift selbst verfasst und 
+%keine anderen als die angegebenen Hilfsmittel und Quellen benutzt zu haben.\newline~\newline
+%\noindent Die  eingereichte  schriftliche  Fassung  entspricht  der  auf  dem  elektronischen  Speichermedium.\newline~\newline
+%\noindent Die  Dissertation  wurde  in  der  vorgelegten oder  einer  ähnlichen Form nicht  schon  einmal  in
+%einem früheren Promotionsverfahren angenommen oder als ungenügend beurteilt.
+
+
+\begin{listofpub}
+\addchaptertocentry{\listofpubname} % Add the declaration to the table of contents
+%    \setmaxnames{99}
+
+\textbf{Refereed publications:}
+    \begin{enumerate}
+        \item\fullcite{PhysRevB.96.184418}
+    \end{enumerate}
+
+\textbf{Publications in preparation:}
+    \begin{enumerate}
+        \item V. Valmispild, M. Eckstein, A. Lichtenstein, H. Aoki, M. Katsnelson, M. Ivanov, O. Smirnova, E. Gorelov. "Strongly correlated Kramers-Henneberger solid". (submitted to Nature Physics).
+        \item V. Valmispild, E. Gorelov, M. Eckstein, H. Aoki, M. Katsnelson, A. Lichtenstein. "Nonequilibrium-induced Lifshitz transition". (prepared for submission to Physical Review B).
+         \item V. Valmispild, M. Eckstein, A. Lichtenstein, E. Stepanov. "Light-induced attraction of doublons". (prepared for submission to Physical Review B).     
+              
+    \end{enumerate}
+
+
+\textbf{Conference contributions}
+    \begin{enumerate}
+    \item V.N. Valmispild, M. Eckstein, A. Lichtenstein, H. Aoki, M. Katsnelson, O. Smirnova, M. Ivanov, E. Gorelov, "Engineering properties of correlated materials under ultrashort laser pulse",  International Workshop on Strong Correlations and Angle-Resolved Photoemission Spectroscopy, Oxford, United Kingdom, July 15-19 (2019).
+    \item V.N. Valmispild, E. Gorelov, M. Eckstein, A. Lichtenstein, "Influence of $t'$ hopping in real-time dynamics of electrons in Hubbard model", conference on "Strongly Correlated Materials: Experiments and
+Computation", Tel Aviv, Israel, April 9-12 (2018).
+%    \item Conference: New trends in theory for experiments at advanced light sources, European XFEL GmbH, Schenefeld, Germany. November 2017
+    \item V. Valmispild, E. Gorelov, M. Eckstein, V. Antropov, A. Lichtenstein, "Time-dependent calculation methods for studying the electronic dynamics of correlated systems", International conference Strongly Coupled Coulomb Systems, Kiel, Germany, July 31 - August 4 (2017).
+     \item V.N. Valmispild, E. Gorelov, M. Eckstein, V. Antropov, A. Joura, A. Lichtenstein, "Dynamics of correlated materials", International Workshop on Strong Sorrelations and Angle-Resolved Photoemission Spectroscopy, Hiroshima, Japan, July 2-7 (2017).
+     \item V.N. Valmispild, V. Antropov, E. Gorelov, A. Joura, M. Eckstein, A. Lichtenstein, "Electron dynamics of correlated materials", Spring Meeting of the German Physical Society, Dresden, Germany, March 19-24 (2017).
+    \item V.N. Valmispild, V. Antropov, E. Gorelov, A. Joura, M. Eckstein, A. Lichtenstein, "Electron dynamics of correlated materials", Winter school 2017 of Centre for Ultrafast Imaging, Rügen, Germany, February 20-24 (2017). 
+     \item V.N. Valmispild, V. Antropov, E. Gorelov, A. Joura, M. Eckstein, A. Lichtenstein, "Electron dynamics of correlated materials", 1st Joint Czech-Israeli Workshop “Strong electron correlations in nano-materials for advanced energy applications”, Prague, Czech Republic, November 28 - December 1 (2016).
+%    \item School and Workshop “7th Time-Dependent Density-Functional Theory: Prospects and Applications”, Benasque, Spain. September 2016 
+    \item V.N. Valmispild, V. Antropov, E. Gorelov, A. Joura, M. Eckstein, A. Lichtenstein, "Dynamics of correlated materials", Hamburg Centre for Ultrafast Imaging Annual Meeting 2016, Hohwacht, Germany, October 5-7 (2016).  
+    \item V.N. Valmispild, V. Antropov, E. Gorelov, A. Joura, M. Eckstein, A. Lichtenstein, "Dynamics of correlated materials", VI Euro-Asian Symposium "Trends in Magnetism", Krasnoyarsk, Russia, August 15-19 (2016). 
+    \item V.N. Valmispild, A. Joura,  M. Eckstein, V. Antropov, E. Gorelov, A. Lichtenstein, "Non-equilibrium dynamics of correlated materials: perturbation theory approach", workshop on "XUV spectroscopies and time resolved dynamics", Basovizza, Italy, April 14 - 15 (2016).
+   % \item  2nd International Workshop on Dynamical Mean-Field Approach for Strongly Correlated Materials, Dresden, Germany. September 2015      
+    \end{enumerate}
+
+
+
+\end{listofpub}
+
+
+\begin{declaration}
+%\addchaptertocentry{\authorshipname} % Add the declaration to the table of contents
+%\noindent I, \authorname, declare that this thesis titled, \enquote{\ttitle} and the work presented in it are my own. I confirm that:
+\vspace{1cm}
+\noindent Hiermit versichere ich an Eides statt, die vorliegende Dissertationsschrift selbst verfasst und 
+keine anderen als die angegebenen Hilfsmittel und Quellen benutzt zu haben.\newline~\newline                                                                                                                                                                                                                                                                                                  
+\noindent Die  eingereichte  schriftliche  Fassung  entspricht  der  auf  dem  elektronischen  Speichermedium.\newline~\newline
+\noindent Die  Dissertation  wurde  in  der  vorgelegten oder  einer  ähnlichen Form nicht  schon  einmal  in
+einem früheren Promotionsverfahren angenommen oder als ungenügend beurteilt.
+
+\vspace{1cm}
+
+\noindent Unterschrift:\\
+\rule[0.5em]{25em}{0.5pt} % This prints a line for the signature
+ 
+\noindent Datum:\\
+\rule[0.5em]{25em}{0.5pt} % This prints a line to write the date
+\end{declaration}
+
+
+
+
+
+
+
+\begin{acknowledgments}
+\addchaptertocentry{\acknowledgmentname} % Add the acknowledgements to the table of contents
+%\textbf{Acknowledgments}
+    \vspace{1cm}
+%I like to thank my supervisor Alexander Lichtenstein %...
+First, I would like to thank Prof.~Alexander Lichtenstein, for giving me the opportunity to perform research in his group, for his patient supervision and continuous encouragement during the study.
+
+I am greatly indebted to Prof.~Martin Eckstein, Prof.~Hideo Aoki, Dr.~Alexander Joura and Dr.~Nagamalleswararao Dasari for collaboration and motivating me to study nonequilibrium phenomena. I am greatly thankful to Dr.~Vladimir Antropov for
+fruitful collaboration in investigation of magnetic excitations in complex itinerant magnets. 
+
+I would like to express my appreciation to Prof.~Olga Smirnova and Prof.~Mikhail Ivanov for warm welcome and fruitful discussions on "Kramers-Henneberger solid" during my visit to Max Born Institute in Berlin.
+
+I have really enjoyed and benefited from a number of illuminating discussions with Prof.~Massimo Altarelli, Prof.~Mikhail Katsnelson, Prof.~Michael Potthoff, Dr.~Naoto Tsuji, Dr.~Roman Rausch, Dr.~Sangeeta Sharma, and Dr.~Rui Silva.
+
+I acknowledge Michael Vedmedenko, Bodo Krause-Kyora and Martin Stieben for kind help with all the computer questions and support on the PHYSnet.
+I am also very thankful to the secretaries namely Sigrid Schmidtke and Gunda Sen for their assistance. 
+
+I would like to thank members of the Hamburg Centre for Ultrafast Imaging, especially Dr.~Hans Behringer and  Kathryn Leve. And I give special thanks to Jutta Voigtmann for productive, professional and quick support in breaking through the bureaucracy questions.
+
+I am very grateful to all members of our group:
+Friedrich Krien, Aleksandr Propst, Arthur Huber, Oleg Kristanovski, Igor Krivenko, Malte Harland, Daniel Hirschmeier, Maria Bandelmann, Roberto Mozara, Yusuf Mohammed, Patryk Kubiczek, Sergey Brener, Viktor Harkov, Andreij Lehmann, Misha Danilov, Evgeny Stepanov, and Matteo Vandelli. All have been readily available for advice and discussions about informal and work-related things.
+
+I would like to express my appreciation to Dr.~Elena Shneyder who motivated and contributed to my education in many-body physics.
+
+Without my family this thesis would have never been possible. I wish to thank my family for their continued support and for backing me throughout my life. Specially thanks for my grandmother Valentina Vasilievna Kirbizhekova for warm encouragement and moral support.
+
+Many thanks to my friends and people who were around during my study:
+Anastasia Belozerova, Oksana Draganyuk, Sergey Pugachev, Valentina Vilyanen, Roma Lipatov, Dima Racheev, Anastasia Karpulevich, Iroda Abdirazakova, Ingrid Hildebrandt, 
+Laura Toledo and Ilias Oikonomou.
+
+Finally, I want to thank my colleague Dr.~Evgeny Gorelov. Throughout my studies, Evgeny was involved in every project where he gave valuable advice about everything where questions arose, be it questions from theoretical physics or a physical experiment or programming or working with a cluster or any other organizational issues.
+
+    \vspace{.5cm}
+
+    Viktor Valmispild,
+Hamburg 2019
+\end{acknowledgments}
+
+\end{document}
+
+
+

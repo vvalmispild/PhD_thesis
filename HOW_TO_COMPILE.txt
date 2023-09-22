@@ -1,0 +1,13 @@
+compile with (do it two or three times in order to get all references correctly):
+
+'pdflatex main.tex'
+
+then compile the bibliography:
+
+'biber main'
+
+then compile the document again:
+
+'pdflatex main.tex'
+
+

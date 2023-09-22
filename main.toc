@@ -1,0 +1,64 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\babel@toc {english}{}
+\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.2}% 
+\contentsline {chapter}{\numberline {2}Nonequilibrium many-body theory}{3}{chapter.3}% 
+\contentsline {section}{\numberline {A}Nonequilibrum Green's function approach}{3}{section.4}% 
+\contentsline {subsection}{\numberline {A.1}Contour idea}{3}{subsection.5}% 
+\contentsline {subsection}{\numberline {A.2}Contur-ordered Green's functions and self energy}{5}{subsection.13}% 
+\contentsline {section}{\numberline {B}Hubbard model}{7}{section.38}% 
+\contentsline {section}{\numberline {C}Nonequilibrium dynamical mean-field theory}{9}{section.49}% 
+\contentsline {subsection}{\numberline {C.1}Self-consistency loop}{9}{subsection.50}% 
+\contentsline {subsection}{\numberline {C.2}Equal-time observables}{10}{subsection.55}% 
+\contentsline {subsection}{\numberline {C.3}Spectral function and photoemission spectrum}{11}{subsection.65}% 
+\contentsline {subsection}{\numberline {C.4}Impurity solvers}{12}{subsection.71}% 
+\contentsline {section}{\numberline {D}Appendix: Pump-probe spectroscopy}{16}{section.91}% 
+\contentsline {chapter}{\numberline {3}Dynamical repulsive-to-attractive conversion of interactions}{19}{chapter.93}% 
+\contentsline {section}{\numberline {A}Introduction}{19}{section.94}% 
+\contentsline {section}{\numberline {B}Population invertion induced by a linear polarized pulse}{20}{section.95}% 
+\contentsline {section}{\numberline {C}Population invertion induced by a circularly polarized pulse}{31}{section.107}% 
+\contentsline {subsection}{\numberline {C.1}Monocycle pulse condition}{31}{subsection.108}% 
+\contentsline {subsection}{\numberline {C.2}Beyond of monocycle condition}{37}{subsection.119}% 
+\contentsline {subsection}{\numberline {C.3}Multicycle pulse}{39}{subsection.123}% 
+\contentsline {section}{\numberline {D}Summary}{42}{section.127}% 
+\contentsline {chapter}{\numberline {4}Strongly correlated Kramers-Henneberger solid}{43}{chapter.128}% 
+\contentsline {section}{\numberline {A}Introduction}{43}{section.129}% 
+\contentsline {section}{\numberline {B}Kramers-Henneberger solid}{47}{section.132}% 
+\contentsline {section}{\numberline {C}Summary}{52}{section.138}% 
+\contentsline {section}{\numberline {D}Appendix: Beyond-Floquet parametrization.}{53}{section.139}% 
+\contentsline {section}{\numberline {E}Appendix: Benchmark of IPT results and exact diagonalization}{54}{section.142}% 
+\contentsline {chapter}{\numberline {5}Nonequilibrium-induced Lifshitz transitions}{57}{chapter.145}% 
+\contentsline {section}{\numberline {A}Introduction}{57}{section.146}% 
+\contentsline {section}{\numberline {B}Case of the NN-hopping}{59}{section.151}% 
+\contentsline {subsection}{\numberline {B.1}FS parameters selection}{59}{subsection.152}% 
+\contentsline {subsection}{\numberline {B.2}Lifshitz transitions (NN - hopping)}{68}{subsection.166}% 
+\contentsline {section}{\numberline {C}Case of the NNN-hopping}{70}{section.170}% 
+\contentsline {subsection}{\numberline {C.1}FS parameters selection}{70}{subsection.171}% 
+\contentsline {subsection}{\numberline {C.2}Lifshitz transitions (NNN - hopping)}{75}{subsection.177}% 
+\contentsline {section}{\numberline {D}Summary}{77}{section.182}% 
+\contentsline {section}{\numberline {E}Appendix: Energy absorption}{77}{section.183}% 
+\contentsline {chapter}{\numberline {6}Multi-orbital extension of FLEX self-energy}{81}{chapter.189}% 
+\contentsline {section}{\numberline {A}Introduction}{81}{section.190}% 
+\contentsline {section}{\numberline {B}FLEX self-energy}{82}{section.193}% 
+\contentsline {section}{\numberline {C}Equilibrium multi-orbital Hubbard model}{84}{section.209}% 
+\contentsline {section}{\numberline {D}Multi-orbital Hubbard model with full rotationally invariant Hamiltonian}{89}{section.221}% 
+\contentsline {section}{\numberline {E}Summary}{94}{section.255}% 
+\contentsline {chapter}{\numberline {7}Spin-density fluctuations in 3\emph {d} ferromagnetic metals}{95}{chapter.256}% 
+\contentsline {section}{\numberline {A}Introduction}{95}{section.257}% 
+\contentsline {section}{\numberline {B}Time-dependent density functional theory}{97}{section.258}% 
+\contentsline {subsection}{\numberline {B.1}The Many-Body Problem}{97}{subsection.259}% 
+\contentsline {subsection}{\numberline {B.2}The basic of DFT}{98}{subsection.267}% 
+\contentsline {subsection}{\numberline {B.3}Full-potential linearized augmented plane wave method}{102}{subsection.290}% 
+\contentsline {subsection}{\numberline {B.4}Time-dependent extension of DFT}{104}{subsection.299}% 
+\contentsline {subsection}{\numberline {B.5}SDF formalism}{105}{subsection.306}% 
+\contentsline {subsection}{\numberline {B.6}Linear response TDDFT and dynamic susceptibility calculations}{108}{subsection.320}% 
+\contentsline {subsection}{\numberline {B.7}Computational Details}{110}{subsection.326}% 
+\contentsline {section}{\numberline {C}Spin-density fluctuations}{111}{section.327}% 
+\contentsline {subsection}{\numberline {C.1}Small wavevector SDF}{111}{subsection.328}% 
+\contentsline {subsection}{\numberline {C.2}Density of SDF}{113}{subsection.331}% 
+\contentsline {subsection}{\numberline {C.3}Local moment sum rule}{115}{subsection.334}% 
+\contentsline {subsection}{\numberline {C.4}Number of SDF}{117}{subsection.337}% 
+\contentsline {subsection}{\numberline {C.5}Fluctuation-dissipation theorem}{118}{subsection.339}% 
+\contentsline {section}{\numberline {D}Summary}{122}{section.344}% 
+\contentsline {chapter}{\numberline {8}Summary and outlook}{125}{chapter.345}% 
+\contentsline {chapter}{List of Publications}{127}{section*.346}% 
+\contentsline {chapter}{Acknowledgments}{131}{section*.362}% 
