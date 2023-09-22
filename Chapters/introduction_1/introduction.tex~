@@ -1,0 +1,116 @@
+\chapter{Introduction}
+
+\section{Interests in nonequilibrium fermion systems}
+\section{Experiments}
+
+
+Manyprocesses in the natural world occur on very fast time scales including atomic motion during chemical reactions, molecular vibrations, photon absorption and emission, and many scatteringphenomena. Some of these processes even occur on time scales as short asa few picoseconds(10-12s) orfemtoseconds (10-15s).Observation of thesefast processes is essential to fully understanding the dynamics of various excitations in matter, which has provided motivation for great advancements in the accuracy of time-resolved measurements in the past several decades.
+
+
+While this work focuses on AES, there are several other spectroscopic setups that are very similarand can be treated within the same formalism. In this chapter, an overview and a classificationis presented.
+
+
+
+
+I) PP
+%1) Как это сейчас важно
+
+
+This is by far the most well-known and widely implemented spectroscopy.
+An electron is emitted from the solid (this can be the valence band or a core level) due to the photo-
+electric effect and its kinetic energy distribution is measured [ Schaich and Ashcroft 1970; Almbladh
+1985]. The light sources used in the experiment are weak enough as to justify first-order perturba-
+tion theory (Fermi’s golden rule). Without interaction, this probes the density of occupied states in
+the valence band.
+
+Many processes in the natural world occur on very fast time scales including atomic
+motion during chemical reactions, molecular vibrations, photon absorption and emission, and
+many scattering phenomena. Some of these processes even occur on time scales as short as a few
+picoseconds (10 -12 s) or femtoseconds (10 -15 s). Observation of these fast processes is essential to
+fully understanding the dynamics of various excitations in matter, which has provided motivation
+for great advancements in the accuracy of time-resolved measurements in the past several
+decades.
+
+
+
+
+
+
+%2) Схема эксперимента
+
+\begin{figure}[h!]
+\center{\includegraphics[width=0.6\linewidth]{Chapters/introduction_1/figure/PP_scheme.png}} \\
+\caption{PES scheme.}
+\label{fig:PES_scheme}
+\end{figure}
+
+
+The first step in performing pump-probe measurements is to use a beam splitter to split a
+laser pulse into a ‘pump’ pulse and a ‘probe’ pulse (Fig. 1). Each of the two pulses approach the
+sample on different paths determined by the experimenter through placement of mirrors.
+
+As pump-probe spectroscopy is a tool to study dynamical processes, the physical system
+must be perturbed from an equilibrium state. This is accomplished through the pump pulse, which must travel along a shorter path in order to reach the sample first. The pump pulse
+interacts with the sample and can be manipulated in many ways including energy, intensity,
+polarization and duration in order to excite the sample in the desired way. As an example of this
+process, consider electron energy levels in an atom. If the pump pulse energy is equal to the
+energy difference between two levels, the atoms in the sample will absorb photons in the pump
+pulse causing an increase in the population of electrons in the higher energy level.
+
+The probe pulse is measured with a detector after it has interacted with the sample (Fig. 1).
+Observing the modulation of the probe pulse after it has interacted with the sample is key to
+deducing the physical state of the sample as it decays back to an equilibrium state after the
+perturbation from the pump pulse. In the example of excited electrons in the atom, if many
+electrons are still in the excited state by the time the probe pulse arrives, most of the probe pulse
+will be transmitted rather than absorbed. However, if many of the electrons that were previously
+excited by the pump pulse have already decayed by the time the probe pulse arrives, most of the
+probe pulse will be absorbed since many electrons reside again in the lower energy state. Thus,
+measuring the intensity modulation of the probe pulse as a function of delay will describe the
+population dynamics of the electron energy levels.
+
+-----------------------------------------------------
+A principle figure of the pump-probe spectroscopy is shown in
+Figure 1. The pulse train coming out a laser is split into two
+pulse trains. One is used as the pump beam, by which the sample
+is exited. The pump leaves some time evolving change in the
+sample. Another beam is used to probe the change. There is a
+time delay between the pump pulse train and the probe pulse
+train. With the change of the delay between the two pulsed train,
+we can get a spectrum of reflectivity, absorption, luminescence,
+or Raman scattering of the probe after the sample. In this way,
+the change caused by the pump is studied.
+The time resolution of the pump probe spectroscopy has a direct relationship with the pulse duration
+used in the experiment. Femtosecond laser pulse can make the time resolution of this technique goes to
+femtosecond scale. This enables researchers to know many quite fast dynamic processes happened
+when the pump pulse passes through the sample. 
+
+
+
+
+
+
+%3) Физика процесса
+
+In photoemission spectroscopy (PES), an
+incident photon leads to the emission of an electron from the valence band.
+
+
+%4) Эксперименты с коррелированными системами
+
+
+
+
+
+Photoemission spectroscopy (PES). This is by far the most well-known and widely implemented spectroscopy.An electron is emitted from the solid (this can be the valence band or a core level) due to the photo-electric effect and its kinetic energy distribution is measured [Schaich and Ashcroft 1970;Almbladh1985]. The light sources used in the experiment are weak enough as to justify first-order perturba-tion theory (Fermi’s golden rule). Without interaction, this probes the density of occupied states inthe valence band.
+
+
+
+The first step in performing pump-probe measurements is to use a beam splitter to split a laser pulse into a ‘pump’ pulse and a ‘probe’ pulse (Fig. 1). Each of the two pulses approach the sample on different paths determined by the experimenter through placement of mirrors.
+Aspump-probe spectroscopy is a tool to study dynamical processes,the physical systemmust be perturbed from anequilibriumstate. This is accomplished through the pump pulse,which must travel along a shorter path in order to reach the sample first.The pump pulse interacts with the sample and can be manipulated in many ways including energy, intensity, polarization and duration in order to excite the sample in the desired way. As an example of this process, consider electron energy levels in an atom. If the pump pulse energy is equal to the energy difference between two levels, the atoms in the sample will absorb photons in the pump pulse causing an increase in the population of electrons in the higher energy level.
+
+
+
+III) Neutron scattering
+
+\section{Organization of the thesis}
+\FloatBarrier
