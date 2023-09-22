@@ -1,0 +1,17 @@
+\BOOKMARK [1][-]{section.1}{TDDFT}{}% 1
+\BOOKMARK [1][-]{section.2}{The Many-Body Problem}{}% 2
+\BOOKMARK [1][-]{section.3}{The basic idea behind DFT}{}% 3
+\BOOKMARK [2][-]{subsection.3.1}{Kohn-Sham equations and exchange-correlation functional}{section.3}% 4
+\BOOKMARK [2][-]{subsection.3.2}{Full-potential linearized augmented plane wave method}{section.3}% 5
+\BOOKMARK [1][-]{section.4}{Time-dependent density-functional theory}{}% 6
+\BOOKMARK [1][-]{section.5}{LR-TDDFT}{}% 7
+\BOOKMARK [2][-]{subsection.5.1}{SDF formalism}{section.5}% 8
+\BOOKMARK [2][-]{subsection.5.2}{Dynamic susceptibility calculations}{section.5}% 9
+\BOOKMARK [2][-]{subsection.5.3}{Computational Details}{section.5}% 10
+\BOOKMARK [1][-]{section.6}{Results and Discussion}{}% 11
+\BOOKMARK [2][-]{subsection.6.1}{Small wavevector SDF}{section.6}% 12
+\BOOKMARK [2][-]{subsection.6.2}{Density of SDF}{section.6}% 13
+\BOOKMARK [2][-]{subsection.6.3}{Local moment sum rule}{section.6}% 14
+\BOOKMARK [2][-]{subsection.6.4}{Number of SDF}{section.6}% 15
+\BOOKMARK [2][-]{subsection.6.5}{FDT}{section.6}% 16
+\BOOKMARK [1][-]{section.7}{Conclusions}{}% 17

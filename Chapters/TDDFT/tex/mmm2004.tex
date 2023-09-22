@@ -1,0 +1,403 @@
+\documentclass[aps,preprint,twocolumn,10pt]{revtex4}%
+\usepackage{amsfonts}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{graphicx}%
+\setcounter{MaxMatrixCols}{30}
+%TCIDATA{OutputFilter=latex2.dll}
+%TCIDATA{Version=5.00.0.2552}
+%TCIDATA{CSTFile=revtex4.cst}
+%TCIDATA{Created=Sunday, August 29, 2004 11:34:01}
+%TCIDATA{LastRevised=Saturday, November 06, 2004 15:39:07}
+%TCIDATA{<META NAME="GraphicsSave" CONTENT="32">}
+%TCIDATA{<META NAME="SaveForMode" CONTENT="1">}
+%TCIDATA{<META NAME="DocumentShell" CONTENT="Articles\SW\REVTeX 4">}
+%TCIDATA{Language=American English}
+\newtheorem{theorem}{Theorem}
+\newtheorem{acknowledgement}[theorem]{Acknowledgement}
+\newtheorem{algorithm}[theorem]{Algorithm}
+\newtheorem{axiom}[theorem]{Axiom}
+\newtheorem{claim}[theorem]{Claim}
+\newtheorem{conclusion}[theorem]{Conclusion}
+\newtheorem{condition}[theorem]{Condition}
+\newtheorem{conjecture}[theorem]{Conjecture}
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{criterion}[theorem]{Criterion}
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{example}[theorem]{Example}
+\newtheorem{exercise}[theorem]{Exercise}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{notation}[theorem]{Notation}
+\newtheorem{problem}[theorem]{Problem}
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{remark}[theorem]{Remark}
+\newtheorem{solution}[theorem]{Solution}
+\newtheorem{summary}[theorem]{Summary}
+\newenvironment{proof}[1][Proof]{\noindent\textbf{#1.} }{\ \rule{0.5em}{0.5em}}
+\begin{document}
+\preprint{HEP/123-qed}
+\title{Time dependent density functional spin dynamics and its application for Fe and Ni}
+\author{Vladimir Antropov}
+\affiliation{Condensed Matter Physics, Ames Laboratory, Ames, IA, 50011}
+\keywords{spin dynamics, band theory}
+\pacs{PACS number}
+
+\begin{abstract}
+The main equations of time dependent density functional spin dynamics are
+analyzed. Their relation with phenomenological spin dynamics is discussed. The
+finite temperature calculations in local density approximation are performed
+for ferromagnetic Fe and Ni. The strong magnetic short range order has been
+found in Ni. The influence of this dynamical order on observed physical
+properties of magnets is shortly discussed.
+
+\end{abstract}
+\maketitle
+
+
+\textit{Ab-initio} spin dynamics\cite{SD,REV,SAGA} recently attracted a lot of
+attention due to a possibility to describe magnetic properties of real
+materials at finite temperatures without adjustable parameters. In this short
+communication we describe the main equations of spin dynamics and analyze
+their meaning with emphasis on recently discussed in literature issues. We
+also present the results of the application of this dynamics for the studies
+of finite temperature properties of 3d ferromagnets.
+
+The evolution of the many-electron system in the presence of the external
+field is defined in a unique way by the time-dependent one-particle density
+matrix $\rho_{\alpha\beta}\left(  \mathbf{r,r,}t\right)  $, where $\alpha
+$,$\beta$ are spin indices. Equivalently, one can introduce the charge
+$n\left(  \mathbf{r,}t\right)  =Tr\rho\left(  \mathbf{r,r},t\right)
+=\sum_{\nu}f\left(  \varepsilon_{\nu}\right)  n_{\nu}\left(  \mathbf{r}%
+,t\right)  $ and magnetization $\mathbf{m}$ $\left(  \mathbf{r,}t\right)
+=Tr\rho\left(  \mathbf{r,r},t\right)  \mathbf{\sigma=}$ $\sum_{\nu}f\left(
+\varepsilon_{\nu}\right)  \mathbf{m}_{\nu}\left(  \mathbf{r},t\right)  $
+densities, where $\mathbf{\sigma}$ are Pauli matrices, $f\left(
+\varepsilon\right)  $ is the Fermi function and $\nu$ is a one electron state.
+Below we will assume a sum over repeated indices. Starting from the
+Schroedinger equation for the many-electron system one can formally obtain the
+exact set of the equations for these quantities:
+\begin{equation}
+\overset{\bullet}{\mathbf{m}}(\mathbf{r,}t)=\gamma\mathbf{m}(\mathbf{r,}%
+t)\times\mathbf{B}_{ext}(\mathbf{r,}t)+\frac{i}{2}\mathbf{\nabla}_{\mathbf{r}%
+}\mathbf{\nabla}_{\mathbf{r}^{\prime}}(\rho_{\alpha\beta}\left(
+\mathbf{r,r}^{\prime}\mathbf{,}t\right)  \mathbf{\sigma}_{\beta\alpha
+}-c.c.)_{\mathbf{r}^{\prime}=\mathbf{r}},\label{mexac}%
+\end{equation}%
+\begin{equation}
+\overset{\bullet}{n}(\mathbf{r,}t)=\frac{i}{2}\mathbf{\nabla}_{\mathbf{r}%
+}\mathbf{\nabla}_{\mathbf{r}^{\prime}}(\rho_{\alpha\alpha}\left(
+\mathbf{r,r}^{\prime}\mathbf{,}t\right)  -c.c.)_{\mathbf{r}^{\prime
+}=\mathbf{r}}\label{nexac}%
+\end{equation}
+where $\mathbf{B}_{ext}(\mathbf{r,}t)$ is the external magnetic field. These
+equations are not closed since, generally speaking, the quantity
+$\mathbf{\nabla}_{\mathbf{r}^{\prime}}\rho_{\alpha\beta}\left(  \mathbf{r,r}%
+^{\prime}\mathbf{,}t\right)  _{\mathbf{r}^{\prime}=\mathbf{r}}$ cannot \ be
+described directly in terms of $\rho_{\alpha\beta}\left(  \mathbf{r,r,}%
+t\right)  $. Introducing the wave functions of Kohn-Sham quasiparticles
+$\varphi_{\nu\alpha}$ as the solution of one-particle perturbed Schroedinger
+equation we can obtain a set of equations describing charge and spin dynamics
+(see Ref.\cite{SD,REV,SAGA} and references therein):
+\begin{align}
+\overset{\bullet}{\mathbf{m}}(\mathbf{r,}t) &  =\gamma\mathbf{m}%
+(\mathbf{r,}t)\times\mathbf{B}_{tot}(\mathbf{r,}t)+\label{mDF}\\
+&  \frac{i}{2}\mathbf{\nabla}_{\mathbf{r}}(\varphi_{\nu\alpha}^{\ast}\left(
+\mathbf{r,}t\right)  \mathbf{\nabla}_{\mathbf{r}}\varphi_{\nu\beta}\left(
+\mathbf{r,}t\right)  \cdot\mathbf{\sigma}_{\beta\alpha}-c.c.),\nonumber
+\end{align}%
+\begin{equation}
+\overset{\bullet}{n}(\mathbf{r,}t)=\frac{i}{2}\mathbf{\nabla}_{\mathbf{r}%
+}(\varphi_{\nu\alpha}^{\ast}\left(  \mathbf{r,}t\right)  \mathbf{\nabla
+}_{\mathbf{r}}\varphi_{\nu\alpha}\left(  \mathbf{r,}t\right)
+-c.c.),\label{nDF}%
+\end{equation}
+To make the system complete we have to add the equation for the velocity
+function%
+\begin{equation}
+\mathbf{v}\left(  \mathbf{r},t\right)  =\frac{\hbar^{2}}{2mi}\left(
+\frac{\varphi_{\nu\alpha}^{\ast}\left(  \mathbf{r},t\right)  \mathbf{\nabla
+}\varphi_{\nu\alpha}\left(  \mathbf{r},t\right)  }{n_{\nu}\left(
+\mathbf{r},t\right)  }-c.c.\right)  .\label{velocity}%
+\end{equation}
+Then the closed system of non linear \textit{one electron} equations for the
+local functions $n_{\nu}\left(  \mathbf{r},t\right)  $, $\mathbf{m}_{\nu
+}\left(  \mathbf{r},t\right)  $ and $\mathbf{v}_{\nu}\left(  \mathbf{r}%
+,t\right)  $ can be presented as (indices of initial and one-electron states
+are omitted)%
+\begin{equation}
+\frac{\partial n}{\partial t}+\partial_{k}\left(  v_{k}n\right)
+=0\label{denseq}%
+\end{equation}%
+\begin{equation}
+\frac{\partial v_{i}}{\partial t}+v_{k}\partial_{k}v_{i}=-\frac{1}{m}%
+\partial_{i}\left(  V_{Coul}+V_{q}\right)  +\frac{1}{m}\frac{\mathbf{m}}%
+{n}\cdot\partial_{i}\mathbf{B}_{tot}-\frac{1}{mn}\partial_{k}T_{ki}%
+\label{veloceq}%
+\end{equation}%
+\begin{equation}
+\frac{\partial\mathbf{m}}{\partial t}+\partial_{k}\left(  v_{k}\mathbf{m}%
+\right)  =\frac{1}{\hbar}\left(  \mathbf{m\times B}_{tot}\right)  +\frac
+{\hbar}{2m}\partial_{k}\frac{1}{n}\left(  \mathbf{m}\times\partial
+_{k}\mathbf{m}\right)  \label{momeq}%
+\end{equation}
+where%
+\begin{equation}
+V_{q}=\frac{\hbar^{2}}{4m}\left(  \frac{1}{2}\left\vert \frac{\mathbf{\nabla
+}n}{n}\right\vert ^{2}-\frac{\triangle n}{n}\right)  +V_{exc}%
+\label{qpotential}%
+\end{equation}
+is the potential energy,
+\begin{equation}
+T_{ki}=T_{ik}=\frac{\hbar^{2}}{4m}n\partial_{i}\left(  \frac{\mathbf{m}}%
+{n}\right)  \cdot\partial_{k}\left(  \frac{\mathbf{m}}{n}\right)
+\label{stensor}%
+\end{equation}
+is the `magnetic' stress tensor and $\partial_{k}$ is $\nabla_{k=x,y,z}$.
+$V_{exc}$ is the non-magnetic part of the exchange correlation potential.
+These equations are not all independent. We have two constraints (in
+insulating case) imposed on those variables%
+\begin{align}
+n^{2} &  =\mathbf{m}\cdot\mathbf{m}\label{constr1}\\
+\mathbf{\nabla}\times\mathbf{v} &  \mathbf{=}\frac{\hbar}{2m}\mathbf{\nabla
+}\left(  \frac{m_{z}}{n}\right)  \times\frac{m_{y}\mathbf{\nabla}m_{x}%
+-m_{x}\mathbf{\nabla}m_{y}}{m_{x}^{2}+m_{y}^{2}}\label{constr2}%
+\end{align}
+In addition we have the Poisson equation%
+\begin{equation}
+\triangle V_{Coul}=-4\pi\left\langle n\right\rangle \label{Poisson}%
+\end{equation}
+and exchange correlation field which in the local spin density approximation
+(LSDA) is presented as%
+\begin{equation}
+\mathbf{B}_{exc}=B_{exc}\frac{\left\langle \mathbf{m}\right\rangle
+}{\left\vert \left\langle \mathbf{m}\right\rangle \right\vert }.\label{Stoner}%
+\end{equation}
+In the equilibrium%
+\begin{align}
+\mathbf{m}_{\nu} &  =\left(  0,0,\sigma n_{\nu}^{0}\right)  ,\;T_{ik}%
+=0,\label{equistatemT}\\
+\mathbf{\nabla}\times\mathbf{v}_{\nu} &  =0,\;\mathbf{B}_{tot}=\left(
+0,0,B_{ext}^{0}+B_{exc}^{0}\right)  .\label{equistatevB}%
+\end{align}
+
+
+To demonstrate a connection with phenomenological approaches in the magnetism
+theory one can transform second term in the right part of Eq.\ref{momeq} which
+represent the kinetic energy contribution to the spin dynamics. It is evident
+that a part of this contribution has term proportional to $\mathbf{m}_{\nu
+}\times\Delta\mathbf{m}_{\nu}$ which is similar to the generic structure of
+the torque term in the phenomenological spin dynamics equation for the total
+magnetization\cite{SW}%
+\begin{equation}
+\overset{\bullet}{\mathbf{m}}\sim\mathbf{m}\times\Delta\mathbf{m=}\left(
+\sum_{\nu}f\left(  \varepsilon_{\nu}\right)  \mathbf{m}_{\nu}\left(
+\mathbf{r},t\right)  \right)  \times\Delta\left(  \sum_{\mu}f\left(
+\varepsilon_{\mu}\right)  \mathbf{m}_{\mu}\left(  \mathbf{r},t\right)
+\right)  . \label{qqq}%
+\end{equation}
+However, in our case
+\begin{equation}
+\overset{\bullet}{\mathbf{m}}\sim\sum_{\nu}f\left(  \varepsilon_{\nu}\right)
+\mathbf{m}_{\nu}\left(  \mathbf{r},t\right)  \times\Delta\mathbf{m}_{\nu
+}\left(  \mathbf{r},t\right)  . \label{qq}%
+\end{equation}
+Evidently the phenomenological Eq.\ref{qqq} is written in rigid spin
+approximation and includes many off-diagonal terms of $\mathbf{m}_{\nu}%
+\times\Delta\mathbf{m}_{\mu}$ type which are absent in the quantum mechanical
+Eq.\ref{qq}.
+
+A connection with the relaxation term in the macroscopical equation of motion
+is more complicated. A first type of non-adiabatic processes comes from the
+fact that the local magnetization is not an independent dynamic variable. In
+general, the dynamics of the local electronic velocity and charge densities is
+expected to influence pure spin dynamics in the itinerant magnets. Another
+source of non-adiabaticity is related to the summation in Eq(\ref{qq}). This
+summation over different states (which might have different time dependences)
+leads to such effects as decoherence, the appearance of the optical modes in
+systems with one atom per cell and so on. While most of the terms in
+Eq.\ref{momeq} have one-electron nature, the exchange-correlation term
+($V_{exc}$) can not be presented as such and, in general, takes into account
+influence of other electrons in the density functional approach. In LSDA\ the
+influence of $\mathbf{B}_{exc}$ on the dynamics of the total magnetization is
+absent \cite{REV}, however this term must be included when the dynamics of
+one-electron magnetization is studied.
+
+In the non-local case $\mathbf{B}_{exc}$ contributes to the total
+magnetization dynamics. Under condition of a weak non-locality one can use a
+gradient expansion%
+\begin{equation}
+\mathbf{B}_{exc}\left(  \mathbf{r},\mathbf{r}^{\prime}\right)  =\mathbf{B}%
+_{exc}\left(  \mathbf{r},\mathbf{r}\right)  +A\Delta\mathbf{m}\left(
+\mathbf{r}\right)  . \label{e1}%
+\end{equation}
+
+
+These non-local corrections ultimately lead to the familiar torque of
+$\mathbf{m}\times\Delta\mathbf{m}$ type (similar to Eq.\ref{qqq}).This term
+has functional dependence similar to the kinetic energy term but has a
+material coefficient and is obtained in the perturbative way. In general, one
+can expect its smallness in the case of well defined local moment systems. The
+influence of such gradient terms (non-locality of $\mathbf{B}_{exc}$) on
+acoustical branches of spin-wave spectra of 3d ferromagnets was recently
+studied\cite{SAGA}. It appears that in the adiabatic regime the addition of
+spin angular gradient corrections practically does not change the results
+obtained in LSDA. These results justify the usage of weakly correlated LSDA in
+cases when magnons are well defined. Also, it indicates that the kinetic
+energy term (second in right part of Eq.\ref{momeq}) is a \textit{main} source
+of spin dynamics, while the exchange correlation field practically
+\textit{static} on this scale of frequencies.
+
+The next source of non-adiabaticity is a time dependence of $\mathbf{B}_{exc}%
+$. In the first order%
+\begin{equation}
+\mathbf{B}_{exc}\left(  t\right)  \simeq\mathbf{B}_{exc}\left(  0\right)
++t\frac{\partial}{\partial t}\mathbf{B}_{exc}=B_{exc}\frac{\mathbf{m}%
+}{\left\vert \mathbf{m}\right\vert }+C(t)\overset{\bullet}{\mathbf{m}}
+\label{e2}%
+\end{equation}
+and such an expansion naturally leads to the appearance of the famous
+relaxation term of Landau-Lifshitz equation%
+\begin{equation}
+\mathbf{m}\times\mathbf{B}\times\mathbf{m\sim}\overset{\bullet}{\mathbf{m}%
+}\times\mathbf{m} \label{e3}%
+\end{equation}
+This term is not expected to influence the spin wave spectra but will
+contribute to the spin wave decay. It can be easily taken into account in
+frame of \textit{ab-initio} spin dynamics described above.
+
+The structure (\ref{e3}) is written in non-relativistic case when the total
+magnetic moment of the system is conserved. The account of relativistic
+effects will ultimately lead to the appearance of the additional terms in
+Eq.(\ref{e3}).
+
+Recently Eq.\ref{mDF} was also discussed in Ref.\cite{GY} and different
+reasons have been used to eliminate kinetic energy from spin dynamics
+equations. It was stated also that spin dynamics in real materials exists only
+due to correlations effects. Consequently, it was concluded that spin dynamics
+in LSDA is not correct. However, all these conclusions have been obtained
+without any physical or mathematical analysis of Eq.\ref{mDF} and should be
+ignored. We demonstrated above that the main contribution to the spin dynamics
+comes from the kinetic energy which was completely overlooked in Ref.\cite{GY}.
+
+We applied the technique described above for the temperature dependent spin
+dynamical simulations of ferromagnetic Fe and Ni in frame of LSDA using linear
+muffin tin orbital method. 20-30 \textbf{k}-points in the irreducible part of
+the Brillouine zone in typical calculations with 100-120 atoms per cell have
+been used. The correct description of possible long range magnetic order
+especially at low temperatures requires the usage of many atoms in simulation
+cell. To avoid this numerical difficulty we added spin spiral temperature
+dependent boundary conditions\cite{SS}. Effectively such combined
+real/reciprocal space spin dynamics allows us to reduce the number of real
+atoms per cell in simulations (by factor of 30-35 at $T_{c}$/2 in Ni) and make
+statistical calculations possible. From a physical point of view the
+simultaneous inclusion of the real space short range modes (inside supercell)
+and the long wavelength modes (between supercells) allows us to describe the
+magnetic excitations developing on different length scales and their
+interactions on equal footing.
+
+The obtained values of $T_{c}$ are very reasonable from a point of view of
+experiment and theory. While in Fe we obtained a nearly perfect agreement with
+the experiment 1070K (1023K), in Ni the obtained number is about 25\% smaller
+than the experimental value (470 K versus 623 K). We believe that our number
+in Ni is in compliance with LSDA limitations.
+
+The main result of our calculations is a discovery of a very unusual picture
+of magnetic short range order (MSRO) at high temperatures in these
+ferromagnets. The degree of MSRO was analyzed by calculating the spin-spin
+correlation function $S(\mathbf{r},\mathbf{r}^{\prime},T)=\left\langle
+\left\langle \mathbf{m}\left(  \mathbf{r}\right)  \mathbf{m}\left(
+\mathbf{r}^{\prime}\right)  \right\rangle \right\rangle .$
+
+It was obtained that the average angle between nearest neighbors moments near
+$T_{c}$ is 72$^{0}$ in bcc Fe, while the corresponding angle in fcc Ni appears
+to be just 24$^{0}$. Such values indicate that in Fe MSRO is relatively small,
+while in Ni it is enormous. Further study indicated that in Ni at high
+temperature the dynamical ordering of the distorted spin spiral or domain wall
+type is realized with a period of about 6 lattice constants. In Fe, however,
+nearest neighbor spin fluctuations are more relevant (soft modes) at $T_{c}$
+and relatively weak MSRO of superparamagnetism type arises.
+
+The presence of such MSRO at $T_{c}$ indicates that nearest neighbors
+interactions in these materials are larger then $T_{c}$. However, the exchange
+parameters in these materials are well known (see, for instance,
+Ref.\cite{REV}) and the corresponding numbers are somewhat lower then $T_{c}$.
+This contradiction can be eliminated using our recent analysis\cite{JMMM}. It
+has been shown that the usage of the exact adiabatic definition of $J_{ij}$
+$\sim\left(  \chi\right)  _{ij}^{-1}$(instead of commonly accepted long
+wavelength approximation(LWA)) leads to a very different result. First of all,
+the traditional LWA is suitable for such a 'localized' system as Fe, and the
+corresponding modification of the nearest neighbor $J_{01}$ is relatively
+small ($\sim$15\%). Ferromagnetic Ni represents a rather itinerant system and
+any local approach (LWA in particular) might produce a large error. In our
+case, a large increase in $J_{01}$ for Ni ($\sim$350\% of LWA $J_{01}$) also
+support strong MSRO and makes the traditional mean field approach meaningless
+($T_{c}\sim$1000K). Correspondingly, LWA can not be used in the itinerant or
+any other systems with strong MSRO.
+
+The magnetic itineracy strongly affects the short-ranged part of
+$S(\mathbf{r}-\mathbf{r}^{\prime},T)$, which, in turn, influences the
+effective range a fixed amount of itinerant electrons with quantum number $l$
+and spin $\sigma$ propagates at distance $L$ from a point $\mathbf{r}$ during
+thermal fluctuation time $\tau\sim1/T_{c}$%
+\begin{equation}
+L_{l}^{\sigma}\left(  \mathbf{r}\right)  \sim v_{l}^{\sigma}\left(
+\mathbf{r}\right)  \tau S\left(  L_{l}^{\sigma},T_{c}\right)  , \label{a33}%
+\end{equation}
+where $v_{l}^{\sigma}\left(  \mathbf{r}\right)  $ is the electronic velocity
+for given state. The quantity $L_{l}^{\sigma}$ characterizes the degree of
+itineracy of the different electrons in magnets.
+
+The discovered MSRO also lead to a new interpretation of the results for the
+high temperature susceptibility. The MSRO increase of the effective magnetic
+moment in Curie Weiss law is directly related to a clustering (like
+superparamagnetism type in Fe) when the effective moment of a cluster is
+several times larger then the original atomic moment. The effective moment in
+terms of atomic moments is much larger in Ni then in Fe in compliance with
+more extended MSRO and experimental data.
+
+Such strong MSRO also allow us to resolve a very old issue of the importance
+of quantum corrections for $T_{c}$ and high-temperature susceptibility
+calculations. These corrections are traditionally small in the localized
+systems (4f magnets), but always considered to be significant in the itinerant
+systems. Discovered in Ni MSRO also strongly suppress quantum corrections in
+the case of itinerant magnets by increasing the effective moment. We will
+describe all these effects in details in our extended publications.
+
+This work was carried out at the Ames Laboratory, which is operated for the
+U.S.Department of Energy by Iowa State University under Contract No.
+W-7405-82. This work was supported by the Director for Energy Research, Office
+of Basic Energy Sciences of the U.S.Department of Energy.
+
+\begin{thebibliography}{9}                                                                                                %
+
+
+\bibitem {SD}V. P. Antropov, M. I. Katsnelson, M. van Schilfgaarde and B. N.
+Harmon, Phys. Rev. Lett. \textbf{75}, 729 (1995); V. P. Antropov. J. Appl.
+Phys. \textbf{79}, 5409 (1996); V. P. Antropov, M. I. Katsnelson, M. van
+Schilfgaarde, B. N. Harmon, and D. Kusnezov, Phys. Rev. B \textbf{54}, 1019
+(1996); V. P. Antropov. in Computer Simulation Studies in Condensed-Matter
+Physics XIII. ed. by D. P. Landau. v.\textbf{86}. (Berlin,
+Heidenberg,Springer-Verlag, 2001) p.7
+
+\bibitem {REV}V. P. Antropov, B. N. Harmon and A. V. Smirnov. J. Magn. Magn.
+Mater. \textbf{200}, 148 (1999).
+
+\bibitem {SAGA}M. I. Katsnelson and V. P. Antropov. Phys. Rev. \textbf{67},
+140406 (2003).
+
+\bibitem {GY}J. Kubler. $Theory$ $of$ $Itinerant$ $Electron$ $Magnetism$.
+Oxford University Press, Oxford, (2000); K. Capelle and B. L. Gyorffy. Phys.
+Rev. Lett. \textbf{87}, 206403 (2001); K. Capelle and B. L. Gyorffy. Europhys.
+Lett. \textbf{61}, 354 (2003).
+
+\bibitem {SW}A. I. Akhiezer, V. G. Bar'yakhtar, S. V. Peletminskii. $Spin$
+$Waves$ (North-Holland Series in Low Temperature Physics, Vol. 1). 372 pp. (1968).
+
+\bibitem {SS}L. M. Sandratskii, P. G. Guletskii, J. Phys.F \textbf{16}, L43
+(1986); V. P. Antropov and M. I. Katsnelson (unpublished).
+
+\bibitem {JMMM}V. P. Antropov. J. Magn. Magn. Mater. \textbf{262}, L192 (2003).
+\end{thebibliography}
+
+
+\end{document}

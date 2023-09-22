@@ -1,0 +1,78 @@
+This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: log.aux
+The style file: apsrev.bst
+Illegal, another \bibstyle command---line 155 of file log.aux
+ : \bibstyle
+ :          {abbrvnat}
+I'm skipping whatever remains of this command
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Database file #1: references.bib
+Warning--entry type for "elk" isn't style-file defined
+--line 735 of file references.bib
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Too many commas in name 1 of "Ibañez-Azpiroz, J. dos Santos Dias, M. Blügel, S. Lounis, S." for entry Lounis2
+while executing---line 2283 of file apsrev.bst
+Too many commas in name 1 of "Ibañez-Azpiroz, J. dos Santos Dias, M. Blügel, S. Lounis, S." for entry Lounis2
+while executing---line 2283 of file apsrev.bst
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Warning--missing school in Gorni_Tommaso_PhD
+Warning--empty booktitle in SLATER196435
+Too many commas in name 1 of "Ibañez-Azpiroz, J. dos Santos Dias, M. Blügel, S. Lounis, S." for entry Lounis2
+while executing---line 2372 of file apsrev.bst
+Too many commas in name 1 of "Ibañez-Azpiroz, J. dos Santos Dias, M. Blügel, S. Lounis, S." for entry Lounis2
+while executing---line 2372 of file apsrev.bst
+Too many commas in name 1 of "Ibañez-Azpiroz, J. dos Santos Dias, M. Blügel, S. Lounis, S." for entry Lounis2
+while executing---line 2372 of file apsrev.bst
+Too many commas in name 1 of "Ibañez-Azpiroz, J. dos Santos Dias, M. Blügel, S. Lounis, S." for entry Lounis2
+while executing---line 2372 of file apsrev.bst
+Too many commas in name 1 of "Ibañez-Azpiroz, J. dos Santos Dias, M. Blügel, S. Lounis, S." for entry Lounis2
+while executing---line 2372 of file apsrev.bst
+Too many commas in name 1 of "Ibañez-Azpiroz, J. dos Santos Dias, M. Blügel, S. Lounis, S." for entry Lounis2
+while executing---line 2372 of file apsrev.bst
+Too many commas in name 1 of "Ibañez-Azpiroz, J. dos Santos Dias, M. Blügel, S. Lounis, S." for entry Lounis2
+while executing---line 2372 of file apsrev.bst
+Too many commas in name 1 of "Ibañez-Azpiroz, J. dos Santos Dias, M. Blügel, S. Lounis, S." for entry Lounis2
+while executing---line 2372 of file apsrev.bst
+You've used 42 entries,
+            3411 wiz_defined-function locations,
+            1492 strings with 19261 characters,
+and the built_in function-call counts, 26463 in all, are:
+= -- 1609
+> -- 733
+< -- 121
++ -- 564
+- -- 180
+* -- 3559
+:= -- 2971
+add.period$ -- 42
+call.type$ -- 42
+change.case$ -- 175
+chr.to.int$ -- 42
+cite$ -- 46
+duplicate$ -- 2395
+empty$ -- 2278
+format.name$ -- 485
+if$ -- 5038
+int.to.chr$ -- 1
+int.to.str$ -- 43
+missing$ -- 374
+newline$ -- 141
+num.names$ -- 123
+pop$ -- 613
+preamble$ -- 1
+purify$ -- 168
+quote$ -- 0
+skip$ -- 982
+stack$ -- 0
+substring$ -- 957
+swap$ -- 1848
+text.length$ -- 92
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 248
+warning$ -- 2
+while$ -- 117
+width$ -- 0
+write$ -- 473
+(There were 11 error messages)

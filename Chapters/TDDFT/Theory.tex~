@@ -1,0 +1,928 @@
+\tableofcontents
+
+
+
+\section{TDDFT}
+
+\subsection{DFT}
+
+
+
+There are several severe difficulties in calculating physical properties of any real electron system in solid
+state theory.
+The most fundamental goes back to the very presence of interactions. At absolute zero the Fermionic
+non-interacting many body wave functions (in the first quantized form) are Slater determinants built from
+occupied single particle orbitals, while real many body wave functions of an interacting system are in
+general a superposition of Slater determinants based on many different sets of single particle orbitals. In
+the interacting case the single particle picture must be necessarily abandoned, electrons become corre-
+lated. One of the systematic ways of including correlations is the Feynman’s diagrammatic technique.
+Unfortunately, the Coulomb interaction is strong and long ranged and can hardly be treated as a small
+perturbation. To obtain any meaningful results one must often sum infinite subsets of specially chosen
+diagrams and there exists no unequivocal choice of these series. The third problem is related to the fact
+that solids are usually of rather complicated structure and any method must be rather simple in order to
+be practically applicable to them.
+To overcome the problem of the strength of Coulomb interaction one could use the Hedin’s GW
+technique [34, 35]. In many systems, most notably in metals, electrons effectively do not interact via
+bare Coulomb potential, but the force is screened, much weaker. In this case one could build expansion
+not in bare Coulomb interaction but rather in W , the screened interaction. There are several problems,
+though. First of all in any practical applications one is restricted to – at best – the first few terms in the
+expansion. Second, the GW requires a self-consistency cycle, which is computationally too expensive,
+even for modern computers. At present GW is mainly used to improve – in a one-shot calculation – the
+existing approximate solutions, which should be reasonably close to real ones.
+Dynamical mean field theory (DMFT) [36, 37] provides a way to treat exactly interacting particles in
+an idealized Hubbard model in the limit of the inifinite dimensions. There the Coulomb interaction is
+substituted by a matrix of adjustable parameters U . While DMFT allows for in depth understanding of
+strongly correlated systems it is still an oversimplified picture of real materials. It is also computationally demanding.
+
+One can make a step towards a parameter free description of weakly correlated solids by reinstanti-
+ating the single particle picture, i.e. by assuming that particles do not interact and move in an effective
+potential which includes an averaged inter-particle interaction. The Hartree-Fock approximation (HFA)
+[38] is an example proceeding along this line. One constructs a trial many-body wave-function being a
+single Slater determinant and chooses the set of single particle orbitals which minimize the total energy of the system, relying on Rayleigh-Ritz variational principle. HFA correctly accounts for Pauli exclusion
+principle and in the case of insulating materials and atoms the method gives qualitatively good results. In
+the metals however the description fails predicting for example vanishing density of states at the Fermi
+level; the main neglected effect here is the presence of the metallic screening partially accounted for in
+GWA. HFA is very complicated for solids, the reason being non-locality of the Hartree-Fock effective sin-
+gle particle potential. The effective inter-electron interaction in HFA approximation is called “exchange”
+and the effects beyond it are customarily named “correlations”. Let us note that the term “correlations” is
+sometimes used more generically to describe all the effects arising due to the presence of interaction.
+The first relatively easy and versatile scheme for calculating electronic properties of real materials
+came along the lines of density functional theory (DFT).
+
+
+\subsubsection{Hohenberg-Kohn theorem}
+
+In their seminal paper of 1964 Hohenberg and Kohn [39] managed to reformulate the many body problem
+to the determination of the ground state electronic density alone and thus they opened a possibility of
+constructing an easy calculational scheme; the density is obviously a much simpler object than a many
+body wave function.
+One considers a system of N interacting electrons in a non-degenerate ground state in an external
+potential $V (x)$. Hohenberg-Kohn (HK) theorem states that the ground state density, $n(x)$, uniquely de-
+termines the potential $V (x)$ to within an additive constant. Since together with V (x) the full Hamiltonian
+is known, the density determines all the physical properties of the system.
+Furthermore, they proved that there exists a functional of the density, $F [n'(x)]$, defined for all non-
+degenerate ground state densities such that, for given $V (x)$, the quantity (the total energy of the system)
+
+\begin{eqnarray}
+equation \: 2.4.1\: (Buczek)
+\label{_22}
+\end{eqnarray}
+
+has its unique minimum for the correct ground state density, $n' = n$. If the functional $F$ is known one
+can find the correct ground state density by minimizing it. The HK theory can be readily generalized to
+describe degenerate ground states [40].
+For finite temperatures the ground state energy is replaced by the grand canonical potential $\Omega$.
+
+\begin{eqnarray}
+equation \: 2.4.2\: (Buczek)
+\label{_22}
+\end{eqnarray}
+
+which ought to be minimum.
+
+A generalization important from the point of view of this work is the possibility of formulating DFT
+in terms of spin densities. This makes the description of magnetic systems easier.
+
+
+
+
+\subsubsection{Kohn-Sham equations}
+
+In 1965 Kohn and Sham [41] suggested a method to obtain an exact, single-particle like, description of a
+many body problem. The free energy functional
+
+\begin{eqnarray}
+equation \: 2.4.3\: (Buczek)
+\label{_22}
+\end{eqnarray}
+
+is separated into the part corresponding to a non-interacting system with density n, which includes the
+kinetic energy $T_s$ and energy due to the external and chemical potential, in addition to the Hartree contribution
+
+\begin{eqnarray}
+equation \: 2.4.4\: (Buczek)
+\label{_22}
+\end{eqnarray}
+
+and so called exchange-correlation functional $\Omega xc [n]$. Equation 2.4.3 can be understood as a definition of the latter; $\Omega xc [n]$ includes all the differences the interaction introduces to the energy and entropy of the system.
+
+By extremizing the functional $\Omega$ Kohn and Sham recast the problem in the form of exact single particle self-consistent equations
+
+\begin{eqnarray}
+equation \: 2.4.5\: (Buczek)
+\label{_22}
+\end{eqnarray}
+
+which are called Kohn-Sham equations. The effective single-particle potential is a sum of an external, the
+Hartree and the so called exchange-correlation potential
+
+\begin{eqnarray}
+equation \: 2.4.6\: (Buczek)
+\label{_22}
+\end{eqnarray}
+
+
+the latter being defined as a functional derivative of $\Omega xc$ with respect to the density
+
+\begin{eqnarray}
+equation \: 2.4.7\: (Buczek)
+\label{_22}
+\end{eqnarray}
+
+It is important to note that the Kohn-Sham eigenfunctions and eigenenergies do not have any direct
+physical meaning, in particular the $e’s$ cannot be interpreted as quasiparticle energies (even as their real parts). They are mathematical tools which are meant to yield the correct ground-state density
+
+\begin{eqnarray}
+equation \: 2.4.8\: (Buczek)
+\label{_22}
+\end{eqnarray}
+
+The free energy can be computed using the Kohn-Sham energies as
+
+\begin{eqnarray}
+equation \: 2.4.9\: (Buczek)
+\label{_22}
+\end{eqnarray}
+
+$\Omega xc$ at absolute zero will be denoted by $E xc$.
+
+For small temperatures one might be tempted to assume that $\Omega xc \approx E xc$ , that is the temperature effects enter only through the smearing of the Fermi level introduced by $f_T$ . A general discussion of
+this approximation goes beyond the scope of this thesis, but let us remark briefly that it fails badly for
+ferromagnets with large exchange splitting. The ferro-para transition in this so called Stoner picture is
+caused by exciting single spin-flips (Stoner states) decreasing gradually band splitting. The deviation of
+magnetization’s direction (i.e. low energetic spin-waves) is neglected. In the Stoner picture the Curie
+temperature might be overestimated by an order of magnitude.
+
+The KS equations are relatively easy to solve, since they have formally the form of a Schrödinger equa-
+tion. Of course, they still retain all the complexity of many body problems buried in the specification of
+exchange-correlation functional. The enormous success of KS scheme lies in the existence of a simple and
+very practical approximation to $E xc$ based on uniform electron gas, i.e. local spin density approximation
+(LSDA).
+
+The success is unexpected, since in real materials the density cannot be even approximately regarded
+as slow varying, and many authors argue that its predicting power comes from a certain subtle cancellation
+of errors. It is known that L(S)DA fullfils a series of exact sum rules. There are functionals which try to
+go beyond LSDA, e.g. the generalized gradient approximation (GGA) or hybrid functionals like Becke-
+Lee-Yang-Parr (BLYP). GGA is not clearly superior to LSDA in contrary to hybrid functionals, which are however computationally too expensive to be used in electronic band calculations. In the materials
+featuring strong correlations LDA+U can be of some use, its disadvantage being introduction of tunable
+Coulomb repulsion U . Self-interaction correction (SIC) [43, 44] allows a parameter free description of
+correlated systems.
+
+\textcolor{Sepia}{As already noted, DFT guarantees the correctness of the ground state total energy, charge and magnetisation densities. At the same time, this theory does not guarantee the correctness of the other most frequently considered physical quantities. A good example of this is the band structure which is not strictly speaking a guaranteed observable, but numerous calculations and comparisons give satisfactory results with experiment in uncorrelated materials. Nevertheless, it should be noted that DFT works poorly in strongly correlated materials.
+It should be noted TDDFT has exact equations but there are a number of limitations to this theory:
+1) It has been experimentally discovered that the correctness of a laser pulse simulation does not guarantee correctness after 250 femtoseconds. 2) In theory, a temperature of zero is used while in an experiment the temperature is always greater than zero. 3) The theory does not take into account the dissipative outflow of energy by means of the electron-phonon interaction.}
+
+\subsubsection{Local spin density approximation}
+The simplest formulation of spin density functional theory introduces spin up, $n \uparrow $, and spin down, $n \downarrow$, electronic densities. In the local approximation, at 0 K, exchange correlation functional is given by
+
+\begin{eqnarray}
+equation \: 2.4.11\: (Buczek)
+\label{_22}
+\end{eqnarray}
+
+where n stands for the sum of the both components and  xc is the exchange-correlation energy per particle
+of a homogeneous, spin-polarized Fermi gas. $m = n \uparrow  - n \downarrow$ will denote the value of local magnetization;its direction may generally vary in space. $n \uparrow,\downarrow$ pertain to a local quantization axis.
+
+The exchange correlation part of the effective KS potential is now a matrix in spin space and consists
+of two terms
+
+\begin{eqnarray}
+equation \: 2.4.12\: (Buczek)
+\label{_22}
+\end{eqnarray}
+
+The diagonal part of the xc potential is
+
+\begin{eqnarray}
+equation \: 2.4.13\: (Buczek)
+\label{_22}
+\end{eqnarray}
+
+and the exchange-correlation magnetic field reads
+
+\begin{eqnarray}
+equation \: 2.4.14\: (Buczek)
+\label{_22}
+\end{eqnarray}
+
+\textcolor{magenta}{[from Buczek thesis]}
+
+\subsubsection{FLAPW}
+
+
+
+
+
+\textcolor{Sepia}{Stationary DFT gives results that have a good interpretation of the experimental data and apparently well describes the energy levels. It becomes interesting to consider electronic transitions between zones in dynamics under the action of a certain perturbation. For this purpose, the extension of stationary DFT to time-dependent is introduced in next chapter.}
+
+
+\subsection{TD-CCM-DFT equations}
+
+The analogous statement to that of Hohenberg and Kohn is the Runge-Gross theorem. Its proof is more elaborate, since no minimization principle can be applied on the quantum-mechanical action, but only a condition of extremalization. The theorem states a one-to-one correspondence – up to a time-dependent function c(t) – between the external potential V (r, t) and the density n(r, t) now both being time-dependent:
+\begin{eqnarray}
+equation \: 2.48\: (Manfred \: Niesert)
+\label{_21}
+\end{eqnarray}
+Analogously to (2.17) this means that also in the time-dependent setting the external potential as well as the Hamiltonian, the many-body states or any observable can be considered as a functional of the density n. It is important to realize that in this time-dependent framework this means that these quantities are functionals of the density in the whole space and the current time as well as all past times. This is important since one can construct two systems which have identical densities and external potentials  in the whole space and for a given time t, but propagate differently for future times. Therefore identical densities and external potentials for one given time are not sufficient; instead identical densities and potentials have to be ensured for all past times as well.
+
+Consequently, one-particle orbitals can be constructed in the spirit of Kohn and Sham, which in the collinear case are related to the density by
+\begin{eqnarray}
+equation \: 2.49\: (Manfred \: Niesert)
+\label{_22}
+\end{eqnarray}
+and are determined by the time-dependent Kohn-Sham equations:
+\begin{eqnarray}
+equation \: 2.50\: (Manfred \: Niesert)
+\label{_23}
+\end{eqnarray}
+The external contribution to the now time-dependent effective potential
+\begin{eqnarray}
+equation \: 2.51\: (Manfred \: Niesert)
+\label{_24}
+\end{eqnarray}
+takes up the external field newly added in TDDFT, as does the external contribution to the effective magnetic field
+\begin{eqnarray}
+equation \: 2.52\: (Manfred \: Niesert)
+\label{_24}
+\end{eqnarray}
+The exchange-correlation functional now depends on the density and magnetization in the whole space at all past times. The potential and magnetic field could naively be defined in analogy to conventional DFT as functional derivatives of the quantum-mechanical action with respect to the density and magnetization. However, the exchange-correlation potential now memorizes the development of the system in time, provoking a problem related to causality. This theoretical issue was resolved by van Leeuwen [van98] using the Keldysh formalism, leading to an alternative action functional Ã[n, m] that the derivatives are applied on.
+
+While this general statement about E xc completes the theoretical framework of TDDFT, the exchange-correlation potentials are still unknown but nevertheless as crucial for practical applications as they are in conventional DFT. The easiest and most apparent approximation is the use of $adiabatic$ functionals, i.e., the functionals from common DFT are evaluated with the time-dependent density:
+\begin{eqnarray}
+equation \: 2.53\: (Manfred \: Niesert)
+\label{_24}
+\end{eqnarray}
+This makes the functional local in time, which is a quite drastic approximation, but also avoids the causality problem mentioned above. Since $V_{xc}^{DFT}$ is derived as a ground-state property, we can expect this to work only in cases where the temporal dependence is small and the time-dependent system is locally close to equilibrium. The particular use of the LDA functional in the TDDFT framework is commonly denoted as TDLDA or adiabatic LDA (ALDA).
+
+The time-dependent DFT excels in particular in the computation of finite systems, however, also applications to solids are very promising. Due to its efficiency compared to the formalism of many-body perturbation theory, it is one of the premier tools to employ.
+
+\textcolor{magenta}{[from  thesis Manfred Niesert]}
+
+
+\textcolor{Sepia}{ There is an alternative way to describe non linear spin dynamics, which we will discuss in the next chapter. To do this, we rewrite the equations TD-DFT as seven equations with three variables. These variables are charge, current, and magnetization.}
+
+
+\subsection{Equations for n,j,m}
+
+Let a time dependent perturbation $\mathcal{V}\left( t\right) $ superimposes
+the LSDF theory hamiltonian $\mathcal{H}$. Let us present fermion field
+operators in the form
+\begin{equation}
+\psi _{\alpha }\left( \mathbf{r}\right) =\sum_{\nu }a_{v\alpha }\psi
+_{v\alpha }\left( \mathbf{r}\right)  \label{Psi}
+\end{equation}
+where $\psi _{v\alpha }\left( \mathbf{r}\right) $ are Kohn-Sham
+eigenfunctions, considered above, and $a_{v\alpha }$ is the fermion
+annihilation operator. Then using well-known relation
+\begin{equation*}
+\left\langle A\right\rangle ^{t}=\text{Tr}\left[ \rho \left( t\right) A
+\right] =\text{Tr}\left[ \rho \left( 0\right) A\left( t\right) \right]
+\end{equation*}
+where $\rho \left( t\right) $ is the nonequilibrium statistical operator and
+\begin{equation}
+\frac{dA\left( t\right) }{dt}=\frac{i}{\hbar }\left[ \mathcal{H}+\mathcal{V}
+\left( t\right) ,A\left( t\right) \right] ,\;A\left( 0\right) =0.
+\label{HeisEoM}
+\end{equation}
+Assuming that at $t\leq 0$ the system is at equilibrium, that is $\mathcal{V}
+\left( t\right) =0$ and
+\begin{equation*}
+\rho \left( 0\right) =f\left( \mathcal{H}\right)
+\end{equation*}
+where $f\left( \varepsilon \right) $ is the Fermi function, we obtain
+\begin{equation*}
+n\left( \mathbf{r},t\right) =\sum_{\nu \alpha }f\left( \varepsilon _{\nu
+\alpha }\right) n_{\nu \alpha }\left( \mathbf{r},t\right) ,\;\mathbf{m}
+\left( \mathbf{r},t\right) =\sum_{\nu \alpha }f\left( \varepsilon _{\nu
+\alpha }\right) \mathbf{m}_{\nu \alpha }\left( \mathbf{r},t\right)
+\end{equation*}
+where
+\begin{eqnarray}
+n_{\nu \alpha }\left( \mathbf{r},t\right) &=&\psi _{\underline{\beta }
+;v\alpha }^{\ast }\left( \mathbf{r},t\right) \psi _{\underline{\beta }
+;v\alpha }\left( \mathbf{r},t\right)  \label{pdensity1} \\
+\mathbf{m}_{\nu \alpha }\left( \mathbf{r},t\right) &=&\psi _{\underline{
+\beta };v\alpha }^{\ast }\left( \mathbf{r},t\right) \mathbf{\sigma }_{
+\underline{\beta }\underline{\gamma }}\psi _{\underline{\gamma };v\alpha
+}\left( \mathbf{r},t\right)  \label{sdensity1}
+\end{eqnarray}
+and $\psi _{\underline{\beta };v\alpha }\left( \mathbf{r},t\right) $ is the
+solution to one-particle perturbed Schroedinger equation with the initial
+condition
+\begin{equation*}
+\psi _{\underline{\beta };v\alpha }\left( \mathbf{r},0\right) =\psi
+_{v\alpha }\left( \mathbf{r}\right) .
+\end{equation*}
+So Eqs.(\ref{pdensity1}) and (\ref{sdensity1}) are quasicalssical analogs of
+Eqs.(\ref{pdensity}) and (\ref{sdensity}) respectively. Introducing also the
+velocity vector function
+\begin{equation}
+\mathbf{v}_{\nu a}\left( \mathbf{r},t\right) =\frac{\hbar ^{2}}{2mi}\left( 
+\frac{\psi _{\underline{\beta };v\alpha }^{\ast }\left( \mathbf{r},t\right) 
+\mathbf{\nabla }\psi _{\underline{\beta };v\alpha }\left( \mathbf{r}
+,t\right) }{n_{\nu \alpha }\left( \mathbf{r},t\right) }-\text{c.c.}\right)
+\label{velocity}
+\end{equation}
+we are able to obtain closed system of non linear equations for the
+functions $n_{\nu \alpha }\left( \mathbf{r},t\right) $, $\mathbf{m}_{\nu
+\alpha }\left( \mathbf{r},t\right) $ and $\mathbf{v}_{\nu a}\left( \mathbf{r}
+,t\right) $ derived by Takabayasi in 1955 (check see in papers). They have
+the form (index of initial state is temporarily omitted)
+\begin{equation}
+\frac{\partial n}{\partial t}+\partial _{\underline{k}}\left( v_{\underline{k
+}}n\right) =0  \label{denseq}
+\end{equation}
+\begin{equation}
+\frac{\partial v_{i}}{\partial t}+v_{\underline{k}}\partial _{\underline{k}
+}v_{i}=-\frac{1}{m}\partial _{i}\left( e\varphi +V_{\text{q}}\right) +\frac{1
+}{m}\frac{\mathbf{m}}{n}\cdot \partial _{i}\mathbf{B}-\frac{1}{mn}\partial _{
+\underline{k}}T_{\underline{k}i}  \label{veloceq}
+\end{equation}
+\begin{equation}
+\frac{\partial \mathbf{m}}{\partial t}+\partial _{\underline{k}}\left( v_{
+\underline{k}}\mathbf{m}\right) =\frac{1}{\hbar }\left( \mathbf{m\times B}
+\right) +\frac{\hbar }{2m}\partial _{\underline{k}}\frac{1}{n}\left( \mathbf{
+m}\times \partial _{\underline{k}}\mathbf{m}\right)  \label{momeq}
+\end{equation}
+where
+\begin{equation}
+V_{\text{q}}=\frac{\hbar ^{2}}{4m}\left( \frac{1}{2}\left\vert \frac{\mathbf{
+\nabla }n}{n}\right\vert ^{2}-\frac{\triangle n}{n}\right)
+\label{qpotential}
+\end{equation}
+is the `quantum' potential energy and
+\begin{equation}
+T_{ki}=T_{ik}=\frac{\hbar ^{2}}{4m}n\partial _{i}\left( \frac{\mathbf{m}}{n}
+\right) \cdot \partial _{k}\left( \frac{\mathbf{m}}{n}\right)
+\label{stensor}
+\end{equation}
+is the `magnetic' stress tensor. These equations are not all indepenent. We
+have two constraints imposed on those variables
+\begin{eqnarray}
+n &=&\mathbf{m}\cdot \mathbf{m}  \label{constr1} \\
+\mathbf{\nabla }\times \mathbf{v} &\mathbf{=}&\frac{\hbar }{2m}\mathbf{
+\nabla }\left( \frac{m_{z}}{n}\right) \times \frac{m_{y}\mathbf{\nabla }
+m_{x}-m_{x}\mathbf{\nabla }m_{y}}{m_{x}^{2}+m_{y}^{2}}  \label{constr2}
+\end{eqnarray}
+Also we have Poisson equation
+\begin{equation}
+\triangle \varphi _{\text{Coul}}=-4\pi e\left\langle n-n^{0}\right\rangle
+\label{Poisson}
+\end{equation}
+and Stoner equation
+\begin{equation}
+\mathbf{B}_{\text{xc}}=B_{\text{xc}}\frac{\left\langle \mathbf{m}
+\right\rangle }{\left\vert \left\langle \mathbf{m}\right\rangle \right\vert }
+\label{Stoner}
+\end{equation}
+Let us recall that
+\begin{equation}
+\left\langle \mathbf{m}\right\rangle =\sum_{\nu \sigma }f\left( \varepsilon
+_{\nu \sigma }\right) \mathbf{m}_{\nu \sigma },\;\left\langle n\right\rangle
+=\sum_{\nu \sigma }f\left( \varepsilon _{\nu \sigma }\right) n_{\nu \sigma }
+\label{means}
+\end{equation}
+etc. In equilibrium
+\begin{eqnarray}
+\mathbf{m}_{\nu \sigma } &=&\left( 0,0,\sigma n_{\nu \sigma }^{0}\right)
+,\;T_{ik}=0,  \label{equistatemT} \\
+\mathbf{\nabla }\times \mathbf{v}_{\nu \sigma } &=&0,\;\mathbf{B}=\left(
+0,0,B_{\text{xt}}^{0}+B_{\text{xc}}^{0}\right)  \label{equistatevB}
+\end{eqnarray}
+
+\textcolor{magenta}{[from  Vladimir's nots]}
+
+
+
+
+
+
+
+\section{Spin dynamics}
+\subsection{One electron spin dynamics}
+We start from time dependent Pauli equation for a single electron:	
+
+\begin{eqnarray}
+equation \: 1\: (One electron spin dynamics notes)
+\label{_22}
+\end{eqnarray}
+
+Introduce following dynamic variables:
+
+\begin{eqnarray}
+equation \: 2\: (One electron spin dynamics notes)
+\label{_22}
+\end{eqnarray}
+
+p.s. this definition of current	is not complete	as normally in magnetic case
+
+\begin{eqnarray}
+equation \: 3\: (One electron spin dynamics notes)
+\label{_22}
+\end{eqnarray}
+
+should discuss it late.
+
+Now following equations	of motion for the electronic charge, velocity (current) and spin densities can be obtained (T.Takabayasi, Prog. Theor.Phys., 19, 283 (1955). A set of these equations would make a corresponding basis of time dependent current density functional theory (TDCDFT), while charge and spin densities equations will define time dependent density functional theory (TDDFT).
+
+\begin{eqnarray}
+equation \: 4\: (One electron spin dynamics notes)
+\label{_22}
+\end{eqnarray}
+
+Last equation means the equation of motion for the spin. In its right side, the first term is the classical torque exerted on the spin by the external magnetic field through the associated magnetic moment, while the second term implies that the spin is also subjected to the additional torque ("spin torque"), which is dependent on the gradient of the spin distribution itself, and tends to align neighborin spins parallel.
+
+\subsubsection{Quantum torque}
+
+Let us analyze this pure quantum torque.
+
+\begin{eqnarray}
+equation \: 5\: (One electron spin dynamics notes)
+\label{_22}
+\end{eqnarray}
+
+The occurrence of means the action inside our fluid which tends to align the distribution of spin directions. A noticeable fact is that torque, is of similar form which have been introduced by Landau, in his phenomenological approach to magnetic dynamics (spin waves) in ferromagnetic media. It can thus be seen for a simple example that, as a consequence of that spin torque, we may have such solutions in this hydrodynamical theory as to behave like a spin wave.
+
+However, there are several important differences. $equation$. We can present this torque in a form of standard Heisenberg pairwise interaction.
+
+\begin{eqnarray}
+equation \: 6\: (One electron spin dynamics notes)
+\label{_22}
+\end{eqnarray}
+
+This torque is written for a single electron, and this pure quantum interaction represents ‘self-interaction’ or intraelectron interaction of electron spin density and its gradients or spin densities of a single electron at different points. On this stage in such hydrodynamic description it does not contain any standard interelectron exchange coupling terms at all. Thus the usage of term ‘exchange’ here is not quite appropriate as this interaction is related to non uniformity of a single electron density distribution due to quantum “self	stress”. Also, the introduction of spin pairwise Heisenberg like interaction can be done only approximately, as Pauli equation contains only quadratic gradients.
+
+Thus in the dynamical EOM for a single electron
+
+\begin{eqnarray}
+equation \: 7\: (One electron spin dynamics notes)
+\label{_22}
+\end{eqnarray}
+
+the first term in the right part corresponds to simple precession in the magnetic field (external or internal) with a clear classical analogue, second term has pure spin nature and represent quantum torque due to non uniformity spin density, while the third term represents charge-spin mixed torque which should be always important for the description of interaction of charge and z-component of spin density.
+
+\subsubsection{Solution in some simple cases}
+Assuming change and current density are stationary (first adiabatic approximation) and uniform. Taking into account the main feature of dynamical equations above that the quantum terms (stress) appear only in divergences (so Ehrenfest’s theorem holds) we can integrate the equation over whole space. All non linear quantum terms disappear and we obtain
+
+\begin{eqnarray}
+equation \: 8\: (One electron spin dynamics notes)
+\label{_22}
+\end{eqnarray}
+
+which shows that the electron on the average moves like a classical particle and it can be described in this case using classical EOM without any operators. However, we should stress that this result holds for the integral over whole space. In solids, single electron density can be found beyond own atom WS cell and the corresponding integral over WS cell might not be sufficient for the Gauss theorem to hold.
+
+For the magnetic moment of a single particle spin dynamics in the external field B
+
+\begin{eqnarray}
+equation \: 9\: (One electron spin dynamics notes)
+\label{_22}
+\end{eqnarray}
+
+\begin{eqnarray}
+equation \: 10\: (One electron spin dynamics notes)
+\label{_22}
+\end{eqnarray}
+
+it follows from this EOM that the length of the vector M as it changes in time remains constant. This fact traditionally allowed to use this EOM to describe the behavior FM whose magnetization at a constant temperature is an integral of the motion.
+
+Assuming that the magnetic field acting on the spin system consist of large constant and weakly variable small part (FMR conditions) we represent
+
+\begin{eqnarray}
+equation \: 11\: (One electron spin dynamics notes)
+\label{_22}
+\end{eqnarray}
+
+where static $M_0$  is parallel to the field $B_0$ and both do not depend on coordinates. In the linear response we obtain
+
+\begin{eqnarray}
+equation \: 12\: (One electron spin dynamics notes)
+\label{_22}
+\end{eqnarray}
+
+with a well known solution
+
+\begin{eqnarray}
+equation \: 13\: (One electron spin dynamics notes)
+\label{_22}
+\end{eqnarray}
+
+\begin{eqnarray}
+equation \: 14\: (One electron spin dynamics notes)
+\label{_22}
+\end{eqnarray}
+
+All functions here are real as this EOM does not contain any sources of dissipation or relaxation, while describing FM resonance type of magnetic moment free precession.	
+
+In a general case when small dynamic field is polarized clockwise or anticlockwise, i.e.$equation$ we have for m
+
+\begin{eqnarray}
+equation \: 15\: (One electron spin dynamics notes)
+\label{_22}
+\end{eqnarray}
+
+Thus for the dynamic spin susceptibility of a single electron $equation$ which is well compared with one electron spin susceptibility in LDA.
+
+We also note a different frequency dependence of usual and circular components of susceptibility and correspondingly difference expansion at low frequencies.
+
+Let us now take into account the one electron quantum torque in EOM above.
+
+\begin{eqnarray}
+equation \: 16\: (One electron spin dynamics notes)
+\label{_22}
+\end{eqnarray}
+
+Now we assume that spin density is uniform inside WS cell while densities in different cells can be non collinear. Introducing Fourier components (a single electron in periodic crystal) $equation$ and similar for the dynamic field, we obtain
+
+\begin{eqnarray}
+equation \: 17\: (One electron spin dynamics notes)
+\label{_22}
+\end{eqnarray}
+
+\begin{eqnarray}
+equation \: 18\: (One electron spin dynamics notes)
+\label{_22}
+\end{eqnarray}
+
+again with a clear connection with a well known electronic susceptibility in LSDA. We did not include spin orbit coupling, dipole-dipole interaction or any spin-spin interaction so far. Also we did not consider a intraatomic dispersion in our magnetic solution.
+
+\subsubsection{Relaxation}
+
+Let us start with usual EOM
+
+\begin{eqnarray}
+equation \: 19\: (One electron spin dynamics notes)
+\label{_22}
+\end{eqnarray}
+
+$equation$
+
+Where external field is still a source of dynamics and exchange correlation field now is no longer local and can be presented in general way (see Brownian Motion of a classical spin, A.Kawabata, Prog.Theor.Phys.,48,6B, 2237 (1972))
+
+\begin{eqnarray}
+equation \: 20\: (One electron spin dynamics notes)
+\label{_22}
+\end{eqnarray}
+
+assuming slow variation in space and time we can instead present this field in gradients expansion
+
+\begin{eqnarray}
+equation \: 21\: (One electron spin dynamics notes)
+\label{_22}
+\end{eqnarray}
+
+with
+
+\begin{eqnarray}
+equation \: 22\: (One electron spin dynamics notes)
+\label{_22}
+\end{eqnarray}
+
+so the dynamic equation for one electron will take form
+
+\begin{eqnarray}
+equation \: 23\: (One electron spin dynamics notes)
+\label{_22}
+\end{eqnarray}
+
+this is already EOM similar to phenomenological LL form. A shape of relaxation term is not unique and several other forms can be found in literature. No spin orbit coupling included.
+
+The additional and very important term in relaxation comes from removal charge and current dynamics as magnetization is not an independent dynamic variable small memory from other electronic degrees of freedom is still present and should be taken into account.
+
+We also stress that this equation contains gradients of spin and charge density everywhere in space and many of these terms cannot be called as exchange interelectron coupling as was already mentioned above.
+
+
+\subsubsection{Introduction and discussion of currents.}
+
+Let us now consider only spin current
+
+\begin{eqnarray}
+equation \: 24\: (One electron spin dynamics notes)
+\label{_22}
+\end{eqnarray}
+
+So the EOM can be written as
+
+\begin{eqnarray}
+equation \: 25\: (One electron spin dynamics notes)
+\label{_22}
+\end{eqnarray}
+
+As we saw above there are two contributions to electronic spin current.
+
+\begin{eqnarray}
+equation \: 26\: (One electron spin dynamics notes)
+\label{_22}
+\end{eqnarray}
+
+there are two contributions to the spin current here. Both contributions related to non uniform	electronic spin density. First term in the right side cannot be presented in a torque form while the last term correspond to spin torque that tends to rotate the inhomogeneous spin density. All these terms do not relate to the exchange coupling torque determined by interelectron interaction as we consider one electron problem in local approximation.
+
+The importance of these terms is huge in spin transport studies where charge spin gradients (imbalance) are large (contacts including magnetic-nonmagnetic contacts, electric field, lasers).
+
+However, there is another contribution to the spin current, so called transport spin current, which is carried by an imbalance in the populations of the states near the Fermi level.
+
+
+\subsubsection{Addition of spin orbit coupling.}
+
+One of the most popular effect created by spin orbit coupling (there are several of them) is the addition of spin accumulation term as $equation$
+
+
+
+\begin{eqnarray}
+equation \: 27\: (One electron spin dynamics notes)
+\label{_22}
+\end{eqnarray}
+
+This term leads to relaxation of any deviation of the FM spin density from its equilibrium value. Tau is spin-flip relaxation time. Non equilibrium spin density also can be obtained in linear response method.
+
+
+
+\subsection{Spin dynamics in solids}
+\subsection{Spin dynamics in Linear-Response regime}
+
+Consider first average magnetization $\mathbf{m}\left( \mathbf{r},t\right) $
+in the linear response framework
+\begin{equation}
+\delta \mathbf{m}\left( \mathbf{r},t\right) \triangleq \mathbf{m}\left( 
+\mathbf{r},t\right) -m_{0}\left( \mathbf{r}\right) \mathbf{e}_{z}=\int 
+\widehat{\chi }\left( \mathbf{r,r}^{\prime };t-t^{\prime }\right) \mathbf{B}
+_{\text{xt}}\left( \mathbf{r}^{\prime },t^{\prime }\right) d\mathbf{r}
+^{\prime }dt^{\prime }  \label{linrespm}
+\end{equation}
+where alternating with time inhomogeneous magnetic field is imposed upon an
+equilibrium state with spontaneous magnetzation of value $m_{0}\left( 
+\mathbf{r}\right) $ directed along $z$ - axis, $\widehat{\chi }\left( 
+\mathbf{r,r}^{\prime };t-t^{\prime }\right) $ being the dynamic spin
+susceptibility tensor given by Kubo formula
+\begin{equation}
+{}\widehat{\chi }_{ik}\left( \mathbf{r,r}^{\prime };t-t^{\prime }\right) =
+\frac{i}{\hbar }\left\langle \left[ \mathfrak{m}_{i}\left( \mathbf{r}
+,t\right) ,\mathfrak{m}_{k}\left( \mathbf{r}^{\prime },t^{\prime }\right) 
+\right] \right\rangle .{}  \label{Kubokhi}
+\end{equation}
+In what follows we will use Fourier transform in time. Thus, the
+spin-dynamics equation in the linear-response regime reads
+\begin{equation}
+\int \widehat{\chi }^{-1}\left( \mathbf{r,r}^{\prime };\omega \right) \delta 
+\mathbf{m}\left( \mathbf{r}^{\prime },\omega \right) d\mathbf{r}^{\prime }=
+\mathbf{B}_{\text{xt}}\left( \mathbf{r},\omega \right) .  \label{linsdeq}
+\end{equation}
+
+It is impossible to exactly calculate $\widehat{\chi}\left( \mathbf{r,r}
+^{\prime};\omega\right) $ for many-electron system. We will use dynamical
+self-consistent field approximation [synonim: random-phase approximation
+(RPA)] that restores rotational invariance in spin space missed in static
+self-consistent field (LSDF) approximation.
+
+
+It is needless to recast the well-known derivation of RPA expression for $
+\widehat{\chi }\left( \mathbf{r,r}^{\prime };\omega \right) $. Note only
+that, for a collinear system, the longitudinal and transverse components of $
+\widehat{\chi }\left( \mathbf{r,r}^{\prime };\omega \right) $ decouple from
+each other. Since we are interested in the circular ($+-$) component, we
+will omit the component indexes. We have in RPA
+\begin{equation}
+\widehat{\chi }^{-1}\left( \mathbf{r,r}^{\prime };\omega \right) =\widehat{
+\chi }_{0}^{-1}\left( \mathbf{r,r}^{\prime };\omega \right) -2\frac{B_{\text{
+xc}}^{0}\left( \mathbf{r}\right) }{m_{0}\left( \mathbf{r}\right) }\delta
+\left( \mathbf{r}-\mathbf{r}^{\prime }\right)  \label{RPAkhi}
+\end{equation}
+where indexing by `0' means that respective quantity is calculated in LSDF
+approximation at equilibrium. For example,
+
+
+%=\sum \lim_{\mu ,\nu }\frac{f\left( \varepsilon _{\mu \uparrow }\right)-f\left( \varepsilon _{\nu \downarrow }\right)}{\varepsilon_{\nu\downarrow }-\varepsilon _{\mu \uparrow }+\hbar \omega +i0^{+}}m_{\mu \nu}^{+}\left( \mathbf{r}\right) m_{\nu \mu }^{-}\left( \mathbf{r}^{\prime}\right) ,
+
+\begin{align}
+\widehat{\chi }_{0}\left(\mathbf{r,r}^{\prime};\omega \right) & =\frac{i}{\hbar}\int_{0}^{\infty}\left\langle \left[ \mathfrak{m}^{+}\left( \mathbf{r},t\right) ,\mathfrak{m}^{-}\left( \mathbf{r}^{\prime }\right) \right]\right\rangle _{0}e^{-i\left( \omega -i0^{+}\right) t}dt  \notag \\
+& =\lim_{\mu ,\nu }\frac{f\left( \varepsilon _{\mu \uparrow }\right)-f\left( \varepsilon _{\nu \downarrow }\right)}{\varepsilon_{\nu\downarrow }-\varepsilon _{\mu \uparrow }+\hbar \omega +i0^{+}}m_{\mu \nu}^{+}\left( \mathbf{r}\right) m_{\nu \mu }^{-}\left( \mathbf{r}^{\prime}\right) ,
+\label{khi0}
+\end{align}
+where
+\begin{equation}
+m_{\mu \nu }^{\pm }=\psi _{\mu \uparrow ,\downarrow }^{\ast }\psi _{\nu
+\downarrow ,\uparrow }  \label{mmdens}
+\end{equation}
+is the density of circular magnetic moment $\pm $ component between the band
+states $\mu $ and $\nu $, $\psi _{\mu \sigma }\left( \mathbf{r}\right) $
+being LSDF spin-polarized band wave functions. Let us make use of a
+subsidiary identity following at $\mathbf{A}=0$ from Eq.(\ref{Schreq}).
+Introducing also the magnetic moment current density between band states $
+\mu $ and $\nu $ by
+\begin{equation}
+\mathbf{J}_{\mu \nu }^{\pm }=\frac{\hbar }{2mi}\left( \psi _{\mu \uparrow
+,\downarrow }^{\ast }\mathbf{\nabla }\psi _{\nu \downarrow ,\uparrow }-\psi
+_{\nu \downarrow ,\uparrow }\mathbf{\nabla }\psi _{\mu \uparrow ,\downarrow
+}^{\ast }\right) ,  \label{mmcdens}
+\end{equation}
+we get for any space point
+\begin{equation}
+2B_{\text{xc}}^{0}m_{\mu \nu }^{\pm }=\left( \varepsilon _{\nu \downarrow
+,\uparrow }-\varepsilon _{\mu \uparrow ,\downarrow }\right) m_{\mu \nu
+}^{\pm }+i\hbar \mathbf{\nabla \cdot J}_{\mu \nu }^{\pm }\,.
+\label{interim2}
+\end{equation}
+Thus we obtain after proper transformation
+
+\begin{align}
+2B_{\text{xc}}^{0}\left( \mathbf{r}\right) \widehat{\chi }_{0}\left( \mathbf{r,r}^{\prime };\omega \right) & =\sum\lim_{\mu ,\nu }\frac{f\left(\varepsilon _{\mu \uparrow }\right) -f\left( \varepsilon _{\nu \downarrow }\right) }{\varepsilon _{\nu \downarrow }-\varepsilon _{\mu \uparrow }+\hbar \omega +i0^{+}}\left( \varepsilon _{\nu \downarrow }-\varepsilon _{\mu \uparrow }\right) m_{\mu \nu }^{+}\left( \mathbf{r}\right) m_{\nu \mu }^{-}\left( \mathbf{r}^{\prime }\right)  \notag \\
++& i\hbar \sum\lim_{\mu ,\nu }\frac{f\left( \varepsilon _{\mu \uparrow}\right) -f\left( \varepsilon _{\nu \downarrow }\right) }{\varepsilon _{\nu \downarrow }-\varepsilon _{\mu \uparrow }+\hbar \omega +i0^{+}}\mathbf{\nabla \cdot J}_{\mu \nu }^{+}\left( \mathbf{r}\right) m_{\nu \mu }^{-}\left( \mathbf{r}^{\prime }\right) =  \notag \\
+& m_{0}\left( \mathbf{r}\right) \delta \left( \mathbf{r}-\mathbf{r}^{\prime}\right) -\hbar \omega \widehat{\chi }_{0}\left( \mathbf{r,r}^{\prime};\omega \right) -\hbar \widehat{\Lambda }\left( \mathbf{r,r}^{\prime};\omega \right),
+\label{interim1}
+\end{align}
+where
+\begin{equation}
+\widehat{\Lambda }\left( \mathbf{r,r}^{\prime };\omega \right) =\mathbf{
+\nabla }_{\mathbf{r}}\mathbf{\cdot }\widehat{\mathbf{L}}\left( \mathbf{r,r}
+^{\prime };\omega \right) ,\;\widehat{\mathbf{L}}\left( \mathbf{r,r}^{\prime
+};\omega \right) \triangleq -i\sum\lim_{\mu ,\nu }\frac{f\left(
+\varepsilon _{\mu \uparrow }\right) -f\left( \varepsilon _{\nu \downarrow
+}\right) }{\varepsilon _{\nu \downarrow }-\varepsilon _{\mu \uparrow }+\hbar
+\omega +i0^{+}}\mathbf{J}_{\mu \nu }^{+}\left( \mathbf{r}\right) m_{\nu \mu
+}^{-}\left( \mathbf{r}^{\prime }\right) .  \label{Lambda}
+\end{equation}
+The kernels $\widehat{\chi }_{0}\left( \omega \right) $ and $\widehat{
+\Lambda }\left( \omega \right) $ may be decomposed into a sum of real and
+imaginary parts
+\begin{equation*}
+\widehat{\chi }_{0}\left( \omega \right) =\widehat{\chi }_{0\text{r}}\left(
+\omega \right) +i\widehat{\chi }_{0\text{i}}\left( \omega \right) ,\,
+\widehat{\Lambda }\left( \omega \right) =\widehat{\Lambda }_{\text{r}}\left(
+\omega \right) +i\widehat{\Lambda }_{\text{i}}\left( \omega \right)
+\end{equation*}
+with 
+\begin{align}
+\widehat{\chi }_{0\text{r}}\left( \mathbf{r,r}^{\prime };\omega \right) &
+=\sum\lim_{\mu ,\nu }\frac{f\left( \varepsilon _{\mu \uparrow }\right)
+-f\left( \varepsilon _{\nu \downarrow }\right) }{\varepsilon _{\nu
+\downarrow }-\varepsilon _{\mu \uparrow }+\hbar \omega }m_{\mu \nu
+}^{+}\left( \mathbf{r}\right) m_{\nu \mu }^{-}\left( \mathbf{r}^{\prime
+}\right)  \label{khi0real} \\
+\widehat{\Lambda }_{\text{r}}\left( \mathbf{r,r}^{\prime };\omega \right) & =
+\mathbf{\nabla }_{\mathbf{r}}\mathbf{\cdot }\widehat{\mathbf{L}}_{\text{r}
+}\left( \mathbf{r,r}^{\prime };\omega \right) ,\;\widehat{\mathbf{L}}_{\text{
+r}}\left( \mathbf{r,r}^{\prime };\omega \right) =-i\sum\lim_{\mu ,\nu }
+\frac{f\left( \varepsilon _{\mu \uparrow }\right) -f\left( \varepsilon _{\nu
+\downarrow }\right) }{\varepsilon _{\nu \downarrow }-\varepsilon _{\mu
+\uparrow }+\hbar \omega }\mathbf{J}_{\mu \nu }^{+}\left( \mathbf{r}\right)
+m_{\nu \mu }^{-}\left( \mathbf{r}^{\prime }\right)  \label{reLambda}
+\end{align}
+and
+\begin{align}
+\widehat{\chi }_{0\text{i}}\left( \mathbf{r,r}^{\prime };\omega \right) &
+=\sum\lim_{\mu ,\nu }\pi \left[ f\left( \varepsilon _{\mu \uparrow
+}-\hbar \omega \right) -f\left( \varepsilon _{\mu \uparrow }\right) \right]
+\delta \left( \varepsilon _{\nu \downarrow }-\varepsilon _{\mu \uparrow
+}+\hbar \omega \right) m_{\mu \nu }^{+}\left( \mathbf{r}\right) m_{\nu \mu
+}^{-}\left( \mathbf{r}^{\prime }\right)  \label{khi0imag} \\
+\widehat{\Lambda }_{\text{i}}\left( \mathbf{r,r}^{\prime };\omega \right) & =
+\mathbf{\nabla }_{\mathbf{r}}\mathbf{\cdot }\widehat{\mathbf{L}}_{\text{i}%
+}\left( \mathbf{r,r}^{\prime };\omega \right) ,\;  \notag \\
+\widehat{\mathbf{L}}_{\text{i}}\left( \mathbf{r,r}^{\prime };\omega \right)
+& =-i\sum\lim_{\mu ,\nu }\pi \left[ f\left( \varepsilon _{\mu \uparrow
+}-\hbar \omega \right) -f\left( \varepsilon _{\mu \uparrow }\right) \right]
+\delta \left( \varepsilon _{\nu \downarrow }-\varepsilon _{\mu \uparrow
+}+\hbar \omega \right) \mathbf{J}_{\mu \nu }^{+}\left( \mathbf{r}\right)
+m_{\nu \mu }^{-}\left( \mathbf{r}^{\prime }\right) .  \label{imLambda}
+\end{align}
+In symbolic form, Eq.(\ref{RPAkhi}) may be transformed with the use of Eq.(
+\ref{interim1}) as follows
+\begin{equation}
+\widehat{\chi }\left( \omega \right) =\widehat{\chi }_{0}\left( \omega
+\right) \left[ I-2\widehat{B}_{\text{xc}}^{0}\widehat{m}_{0}^{-1}\widehat{
+\chi }_{0}\left( \omega \right) \right] ^{-1}=\hbar ^{-1}\left[ \omega +
+\widehat{\Lambda }\left( \omega \right) \widehat{\chi }_{0}^{-1}\left(
+\omega \right) \right] ^{-1}\widehat{m}_{0}.  \label{polRPAkhi}
+\end{equation}
+
+\textcolor{magenta}{[from  Vladimir's nots]}
+
+\textcolor{Sepia}{At the moment the theory of linear response of TDDFT is
+the only method that allows one to calculate the spin dynamics taking into account the
+electron-magnon interaction in the case of a small magnetic field.}
+
+\section{LR-TDDFT}
+\subsection{Dynamic susceptibility}
+
+SDF in solids are described by the imaginary part of the dynamic spin susceptibility tensor 
+
+\begin{eqnarray}
+\nonumber
+\chi^{\alpha\beta}(\mathbf{r},\mathbf{r}',\mathbf{q},\omega)= -\frac{i}{\hbar}\sum_{\mathbf{R}}e^{-i\mathbf{q}\cdot\mathbf{R}} \\
+\times\int_0^\infty dt\langle[\hat{s}_{\alpha}(\mathbf{r}+\mathbf{R},t),\hat{s}_{\beta}(\mathbf{r}')]\rangle e^{i(\omega+i\eta)t}.
+\label{chi}
+\end{eqnarray}
+
+Here, $\alpha,\beta=x,y,z,0$ denote components of the tensor, $\mathbf{r}$ and $\mathbf{r}'$ are position vectors inside the crystal unit cell, $\mathbf{q}$ is the wavevector in the Brillouin zone, $\omega$ is the frequency, $\mathbf{R}$ is the lattice vector, $\langle...\rangle$ denotes the thermal and quantum-mechanical expectation value, $\eta\rightarrow 0^+$, and $\hat{s}_\alpha(\mathbf{r},t)$ is the density operator when $\alpha=0$, otherwise it is the $\alpha$ component of the spin density operator. For collinear magnetic states and in the absence of spin-orbit coupling, many of the tensor elements are zero. In particular, if one chooses the $z$ axis along the magnetization direction (or sublattice magnetization in the case of antiferromagnets), the susceptibility tensor in the matrix notation becomes
+
+
+\begin{equation}
+    \check{\chi}=\left(\begin{array}{cccc}
+     \chi^{xx} & \chi^{xy} & 0         & 0         \\
+    -\chi^{xy} & \chi^{xx} & 0         & 0         \\
+      0        & 0         & \chi^{zz} & \chi^{0z} \\
+      0        & 0         & \chi^{0z} & \chi^{00} \\
+    \end{array}\right),
+\label{mchi}
+\end{equation}
+
+where the dependence on  $\mathbf{r}$, $\mathbf{r}'$, $\mathbf{q}$, and $\omega$ variables is not shown explicitly. It is convenient to express the transverse components ($\chi^{xx}$ and $\chi^{xy}$) in terms of the circular susceptibilities
+
+\begin{eqnarray}
+\chi^{+-}=2\left(\chi^{xx}-i\chi^{xy}\right) \\
+\chi^{-+}=2\left(\chi^{xx}+i\chi^{xy}\right).
+\label{chicirc}
+\end{eqnarray}
+
+
+Note that the transverse components are decoupled from the longitudinal susceptibility ($\chi^{zz}$). On the other hand, $\chi^{zz}$ is coupled to the density response ($\chi^{00}$) through the  spin-density susceptibility function $\chi^{0z}$. 
+
+\textcolor{magenta}{[from Alex article]}
+
+\subsection{Number of SDF}
+
+For SDF analysis, it is often not necessary to resolve intra-atomic fluctuations. Therefore, for each nonequivalent atom it is convenient to introduce the SDF spectral function 
+
+\begin{equation}
+A^{\alpha\beta}(\mathbf{q},\omega)= -\frac{\hbar}{\pi}\int d\mathbf{r}\int d\mathbf{r}^\prime\ \text{Im}\chi^{\alpha\beta}(\mathbf{r},\mathbf{r} ^{\prime},\mathbf{q},\omega),
+\label{ASDF}
+\end{equation} 
+
+where $\mathbf{r}$ and $\mathbf{r}'$ variables are integrated over the atomic sphere. Correspondingly, the density of on-site SDF can be defined by integrating $A^{\alpha\beta}(\mathbf{q},\omega)$ over the BZ.
+
+\begin{equation}
+N^{\alpha\beta}(\omega)=\frac{1}{\Omega_{\text{BZ}}}\int_{\Omega_{\text{BZ}}}d\mathbf{q} A^{\alpha\beta}(\mathbf{q},\omega). 
+\label{NSDF}
+\end{equation} 
+
+where $\Omega_{\text{BZ}}$ is the BZ volume. In order to better analyze the distribution of SDF in the BZ, one can also consider the partial-$\mathbf{q}$ density of on-site SDF defined as
+
+\begin{equation}
+N_{\Omega_{\mathbf{q}}}^{\alpha\beta}(\omega)=\frac{1}{\Omega_{\text{BZ}}}\int_{\Omega_{\mathbf{q}}}d\mathbf{q} A^{\alpha\beta}(\mathbf{q},\omega). 
+\label{NrSDF}
+\end{equation} 
+
+Here, the integration is over a $\Gamma$-point-centered sphere with the volume $\Omega_{\mathbf{q}}$ ($\Omega_{\mathbf{q}}<\Omega_{\text{BZ}}$). Further, we introduce the on-site number of transverse SDF $n^t(\omega)$ as well as longitudinal SDF $n^l(\omega)$,
+
+\begin{eqnarray}
+n^t(\omega) =\frac{1}{2}\int_{0}^{\omega }d\omega'\left[N^{+-}(\omega')+N^{-+}(\omega')\right] \\
+\label{ntSDF}
+n^l(\omega) =\int_{0}^{\omega }d\omega' N^{zz}(\omega').
+\label{nlSDF}
+\end{eqnarray}
+
+\textcolor{magenta}{[from Alex article]}
+
+\subsection{FDT. On-site spin correlator}
+
+
+FDT plays a crucial role in the physics of SDF since it allows to find a number of useful properties that characterize the SDF spectrum. In particular, it can be used to evaluate SC which is defined as an energy integral of the dynamic on-site connected spin correlation function and is an important measure of the strength of SDF in solids. According to FDT, the transverse and longitudinal contributions to the SC are given by
+
+\begin{eqnarray}
+\left\langle\mathbf{s}^{2}\right\rangle^t_\omega =\frac{1}{2}\int _{0}^{\omega }d\omega'\coth{(\beta\omega'/2)} \\
+\times\left[N^{+-}(\omega')+N^{-+}(\omega')\right],
+\label{SCt}
+\end{eqnarray}
+
+and
+
+\begin{eqnarray}
+\left\langle\mathbf{s}^{2}\right\rangle^l_\omega =\int _{0}^{\omega }d\omega'\coth{(\beta\omega'/2)}N^{zz}(\omega'),
+\label{SCl}
+\end{eqnarray}
+ 
+respectively. Note that since SC is defined as a connected correlation function, the longitudinal contribution doesn't contain the term proportional to the equilibrium local moment. At T=0, SDF originate purely from the spin zero-point motion and we have $\left\langle\mathbf{s}^{2}\right\rangle^{t,l}_\omega=n^{t,l}(\omega)$. Therefore, the spin zero-point motion contribution to the SC is given by $n^{t,l}(\omega)$. SC is related to the effective fluctuating moment that is given by
+
+\begin{equation}
+m_{\text{eff}}(\omega)=\sqrt{\left(m_{\text{eff}}^{t}(\omega)\right)^2+\left(m_{\text{eff}}^{l}(\omega)\right)^2}.
+\label{meff}
+\end{equation}
+ 
+Here, transverse and longitudinal contributions to $m_{\text{eff}}(\omega)$ are given by
+
+\begin{equation}
+m_{\text{eff}}^{t,l}(\omega)=\frac{g\mu_B}{\hbar}\sqrt{\left\langle\mathbf{s}^{2}\right\rangle^{t,l}_\omega},
+\label{mtleff}
+\end{equation}
+
+where $g$ is the electron g-factor and $\mu_B$ is the Bohr magneton. Note that according to the above equations, the evaluation of the full ($\omega\rightarrow\infty$) values  of SC and the effective fluctuating moment involves integrals over all ranges of $\mathbf{q}$'s and $\omega$'s which makes such studies computationally demanding.
+
+FDT can be also used to evaluate the value of the equilibrium local moment $m\equiv g\mu_B\int d\mathbf{r}\langle \hat{s}_z(\mathbf{r})\rangle$ (the spatial integration is over the atomic sphere). This leads to the following sum rule:
+
+\begin{eqnarray}
+m=m_{\text{a}}(\omega\rightarrow\infty),
+\label{SumRuleEq}
+\end{eqnarray}
+
+where we defined an auxilary function 
+
+\begin{equation}
+m_{\text{a}}(\omega)=\frac{g\mu_B}{4\hbar^2}\int_0^\omega d\omega'\left[N^{+-}(\omega')-N^{-+}(\omega')\right].
+\label{m0omega}
+\end{equation}
+
+\textcolor{magenta}{[from Alex article]}
+
+
+\clearpage
+
+

@@ -1,0 +1,331 @@
+\begin{thebibliography}{42}
+\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+\expandafter\ifx\csname bibnamefont\endcsname\relax
+  \def\bibnamefont#1{#1}\fi
+\expandafter\ifx\csname bibfnamefont\endcsname\relax
+  \def\bibfnamefont#1{#1}\fi
+\expandafter\ifx\csname citenamefont\endcsname\relax
+  \def\citenamefont#1{#1}\fi
+\expandafter\ifx\csname url\endcsname\relax
+  \def\url#1{\texttt{#1}}\fi
+\expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
+\providecommand{\bibinfo}[2]{#2}
+\providecommand{\eprint}[2][]{\url{#2}}
+
+\bibitem[{\citenamefont{Born and
+  Oppenheimer}(1927)}]{doi:10.1002/andp.19273892002}
+\bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Born}} \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{R.}~\bibnamefont{Oppenheimer}},
+  \bibinfo{journal}{Annalen der Physik} \textbf{\bibinfo{volume}{389}},
+  \bibinfo{pages}{457} (\bibinfo{year}{1927}),
+  \urlprefix\url{https://onlinelibrary.wiley.com/doi/abs/10.1002/andp.19273892002}.
+
+\bibitem[{\citenamefont{Kohn}(1999)}]{RevModPhys.71.1253}
+\bibinfo{author}{\bibfnamefont{W.}~\bibnamefont{Kohn}}, \bibinfo{journal}{Rev.
+  Mod. Phys.} \textbf{\bibinfo{volume}{71}}, \bibinfo{pages}{1253}
+  (\bibinfo{year}{1999}),
+  \urlprefix\url{https://link.aps.org/doi/10.1103/RevModPhys.71.1253}.
+
+\bibitem[{\citenamefont{Jones and Gunnarsson}(1989)}]{RevModPhys.61.689}
+\bibinfo{author}{\bibfnamefont{R.~O.} \bibnamefont{Jones}} \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{O.}~\bibnamefont{Gunnarsson}},
+  \bibinfo{journal}{Rev. Mod. Phys.} \textbf{\bibinfo{volume}{61}},
+  \bibinfo{pages}{689} (\bibinfo{year}{1989}),
+  \urlprefix\url{https://link.aps.org/doi/10.1103/RevModPhys.61.689}.
+
+\bibitem[{\citenamefont{Hohenberg and Kohn}(1964)}]{PhysRev.136.B864}
+\bibinfo{author}{\bibfnamefont{P.}~\bibnamefont{Hohenberg}} \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{W.}~\bibnamefont{Kohn}},
+  \bibinfo{journal}{Phys. Rev.} \textbf{\bibinfo{volume}{136}},
+  \bibinfo{pages}{B864} (\bibinfo{year}{1964}),
+  \urlprefix\url{https://link.aps.org/doi/10.1103/PhysRev.136.B864}.
+
+\bibitem[{\citenamefont{Kohn and Sham}(1965)}]{PhysRev.140.A1133}
+\bibinfo{author}{\bibfnamefont{W.}~\bibnamefont{Kohn}} \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{L.~J.} \bibnamefont{Sham}},
+  \bibinfo{journal}{Phys. Rev.} \textbf{\bibinfo{volume}{140}},
+  \bibinfo{pages}{A1133} (\bibinfo{year}{1965}),
+  \urlprefix\url{https://link.aps.org/doi/10.1103/PhysRev.140.A1133}.
+
+\bibitem[{\citenamefont{Levy}(1979)}]{Levy6062}
+\bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Levy}},
+  \bibinfo{journal}{Proceedings of the National Academy of Sciences}
+  \textbf{\bibinfo{volume}{76}}, \bibinfo{pages}{6062} (\bibinfo{year}{1979}),
+  ISSN \bibinfo{issn}{0027-8424},
+  \eprint{https://www.pnas.org/content/76/12/6062.full.pdf},
+  \urlprefix\url{https://www.pnas.org/content/76/12/6062}.
+
+\bibitem[{\citenamefont{von Barth and
+  Hedin}(1972)}]{d708ea4e-b296-4065-a471-c6f480e1d50e}
+\bibinfo{author}{\bibfnamefont{U.}~\bibnamefont{von Barth}} \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{L.}~\bibnamefont{Hedin}},
+  \textbf{\bibinfo{volume}{5}}, \bibinfo{pages}{1629} (\bibinfo{year}{1972}).
+
+\bibitem[{\citenamefont{Pant and Rajagopal}(1972)}]{PANT19721157}
+\bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Pant}} \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{A.}~\bibnamefont{Rajagopal}},
+  \bibinfo{journal}{Solid State Communications} \textbf{\bibinfo{volume}{10}},
+  \bibinfo{pages}{1157 } (\bibinfo{year}{1972}), ISSN
+  \bibinfo{issn}{0038-1098},
+  \urlprefix\url{http://www.sciencedirect.com/science/article/pii/0038109872909349}.
+
+\bibitem[{\citenamefont{Niesert}(2011)}]{Niesert:15621}
+\bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Niesert}}, \bibinfo{type}{Dr.
+  (univ.)}, \bibinfo{school}{RWTH Aachen} (\bibinfo{year}{2011}),
+  \bibinfo{note}{record converted from VDB: 12.11.2012; Aachen, RWTH, Diss.,
+  2011}, \urlprefix\url{http://juser.fz-juelich.de/record/15621}.
+
+\bibitem[{\citenamefont{Gorni}(2016)}]{Gorni_Tommaso_PhD}
+\bibinfo{author}{\bibfnamefont{T.}~\bibnamefont{Gorni}}, \bibinfo{type}{Dr.
+  (univ.)} (\bibinfo{year}{2016}),
+  \urlprefix\url{http://hdl.handle.net/20.500.11767/43342}.
+
+\bibitem[{\citenamefont{Ceperley and Alder}(1980)}]{PhysRevLett.45.566}
+\bibinfo{author}{\bibfnamefont{D.~M.} \bibnamefont{Ceperley}} \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{B.~J.} \bibnamefont{Alder}},
+  \bibinfo{journal}{Phys. Rev. Lett.} \textbf{\bibinfo{volume}{45}},
+  \bibinfo{pages}{566} (\bibinfo{year}{1980}),
+  \urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevLett.45.566}.
+
+\bibitem[{\citenamefont{Vosko et~al.}(1980)\citenamefont{Vosko, Wilk, and
+  Nusair}}]{doi:10.1139/p80-159}
+\bibinfo{author}{\bibfnamefont{S.~H.} \bibnamefont{Vosko}},
+  \bibinfo{author}{\bibfnamefont{L.}~\bibnamefont{Wilk}}, \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Nusair}},
+  \bibinfo{journal}{Canadian Journal of Physics} \textbf{\bibinfo{volume}{58}},
+  \bibinfo{pages}{1200} (\bibinfo{year}{1980}),
+  \urlprefix\url{https://doi.org/10.1139/p80-159}.
+
+\bibitem[{\citenamefont{Slater}(1937)}]{PhysRev.51.846}
+\bibinfo{author}{\bibfnamefont{J.~C.} \bibnamefont{Slater}},
+  \bibinfo{journal}{Phys. Rev.} \textbf{\bibinfo{volume}{51}},
+  \bibinfo{pages}{846} (\bibinfo{year}{1937}),
+  \urlprefix\url{https://link.aps.org/doi/10.1103/PhysRev.51.846}.
+
+\bibitem[{\citenamefont{Slater}(1964)}]{SLATER196435}
+\bibinfo{author}{\bibfnamefont{J.}~\bibnamefont{Slater}}
+  (\bibinfo{publisher}{Academic Press}, \bibinfo{year}{1964}),
+  vol.~\bibinfo{volume}{1} of \emph{\bibinfo{series}{Advances in Quantum
+  Chemistry}}, pp. \bibinfo{pages}{35 -- 58},
+  \urlprefix\url{http://www.sciencedirect.com/science/article/pii/S0065327608603743}.
+
+\bibitem[{\citenamefont{Andersen}(1975)}]{PhysRevB.12.3060}
+\bibinfo{author}{\bibfnamefont{O.~K.} \bibnamefont{Andersen}},
+  \bibinfo{journal}{Phys. Rev. B} \textbf{\bibinfo{volume}{12}},
+  \bibinfo{pages}{3060} (\bibinfo{year}{1975}),
+  \urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevB.12.3060}.
+
+\bibitem[{\citenamefont{Wimmer et~al.}(1981)\citenamefont{Wimmer, Krakauer,
+  Weinert, and Freeman}}]{1b377df636c341958da06dc78aafa8d1}
+\bibinfo{author}{\bibfnamefont{E.}~\bibnamefont{Wimmer}},
+  \bibinfo{author}{\bibfnamefont{H.}~\bibnamefont{Krakauer}},
+  \bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Weinert}}, \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{A.}~\bibnamefont{Freeman}},
+  \bibinfo{journal}{Physical Review B-Condensed Matter}
+  \textbf{\bibinfo{volume}{24}}, \bibinfo{pages}{864} (\bibinfo{year}{1981}),
+  ISSN \bibinfo{issn}{1098-0121}.
+
+\bibitem[{\citenamefont{Hamann}(1979)}]{PhysRevLett.42.662}
+\bibinfo{author}{\bibfnamefont{D.~R.} \bibnamefont{Hamann}},
+  \bibinfo{journal}{Phys. Rev. Lett.} \textbf{\bibinfo{volume}{42}},
+  \bibinfo{pages}{662} (\bibinfo{year}{1979}),
+  \urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevLett.42.662}.
+
+\bibitem[{\citenamefont{Jansen and Freeman}(1984)}]{PhysRevB.30.561}
+\bibinfo{author}{\bibfnamefont{H.~J.~F.} \bibnamefont{Jansen}}
+  \bibnamefont{and} \bibinfo{author}{\bibfnamefont{A.~J.}
+  \bibnamefont{Freeman}}, \bibinfo{journal}{Phys. Rev. B}
+  \textbf{\bibinfo{volume}{30}}, \bibinfo{pages}{561} (\bibinfo{year}{1984}),
+  \urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevB.30.561}.
+
+\bibitem[{\citenamefont{Koelling}(1970)}]{PhysRevB.2.290}
+\bibinfo{author}{\bibfnamefont{D.~D.} \bibnamefont{Koelling}},
+  \bibinfo{journal}{Phys. Rev. B} \textbf{\bibinfo{volume}{2}},
+  \bibinfo{pages}{290} (\bibinfo{year}{1970}),
+  \urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevB.2.290}.
+
+\bibitem[{\citenamefont{Freimuth}(2011)}]{Freimuth:15619}
+\bibinfo{author}{\bibfnamefont{F.}~\bibnamefont{Freimuth}}, \bibinfo{type}{Dr.
+  (univ.)}, \bibinfo{school}{RWTH Aachen} (\bibinfo{year}{2011}),
+  \bibinfo{note}{record converted from VDB: 12.11.2012; Aachen, RWTH, Diss.,
+  2011}, \urlprefix\url{http://juser.fz-juelich.de/record/15619}.
+
+\bibitem[{\citenamefont{Mokrousov}(2005)}]{Mokrousov:61374}
+\bibinfo{author}{\bibfnamefont{Y.}~\bibnamefont{Mokrousov}}, \bibinfo{type}{Dr.
+  (univ.)}, \bibinfo{school}{RWTH Aachen}, \bibinfo{address}{Aachen}
+  (\bibinfo{year}{2005}), \bibinfo{note}{record converted from VDB: 12.11.2012;
+  Aachen, RWTH, Diss., 2005},
+  \urlprefix\url{http://juser.fz-juelich.de/record/61374}.
+
+\bibitem[{\citenamefont{A.~L.~Marques et~al.}(2006)\citenamefont{A.~L.~Marques,
+  A.~Ullrich, Nogueira, Rubio, Burke, and Gross}}]{Marques_Gross_TDDFT}
+\bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{A.~L.~Marques}},
+  \bibinfo{author}{\bibfnamefont{C.}~\bibnamefont{A.~Ullrich}},
+  \bibinfo{author}{\bibfnamefont{F.}~\bibnamefont{Nogueira}},
+  \bibinfo{author}{\bibfnamefont{A.}~\bibnamefont{Rubio}},
+  \bibinfo{author}{\bibfnamefont{K.}~\bibnamefont{Burke}}, \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{E.}~\bibnamefont{Gross}},
+  \emph{\bibinfo{title}{Time-Dependent Density Functional Theory}}
+  (\bibinfo{publisher}{Springer, Berlin, Heidelberg}, \bibinfo{year}{2006}).
+
+\bibitem[{\citenamefont{Runge and Gross}(1984)}]{PhysRevLett.52.997}
+\bibinfo{author}{\bibfnamefont{E.}~\bibnamefont{Runge}} \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{E.~K.~U.} \bibnamefont{Gross}},
+  \bibinfo{journal}{Phys. Rev. Lett.} \textbf{\bibinfo{volume}{52}},
+  \bibinfo{pages}{997} (\bibinfo{year}{1984}),
+  \urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevLett.52.997}.
+
+\bibitem[{\citenamefont{Gross and Kohn}(1985)}]{Gross}
+\bibinfo{author}{\bibfnamefont{E.~K.~U.} \bibnamefont{Gross}} \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{W.}~\bibnamefont{Kohn}},
+  \bibinfo{journal}{Phys. Rev. Lett.} \textbf{\bibinfo{volume}{55}},
+  \bibinfo{pages}{2850} (\bibinfo{year}{1985}),
+  \urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevLett.55.2850}.
+
+\bibitem[{\citenamefont{Savrasov}(1998)}]{Savrasov}
+\bibinfo{author}{\bibfnamefont{S.~Y.} \bibnamefont{Savrasov}},
+  \bibinfo{journal}{Phys. Rev. Lett.} \textbf{\bibinfo{volume}{81}},
+  \bibinfo{pages}{2570} (\bibinfo{year}{1998}),
+  \urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevLett.81.2570}.
+
+\bibitem[{\citenamefont{Staunton et~al.}(1999)\citenamefont{Staunton, Poulter,
+  Ginatempo, Bruno, and Johnson}}]{Staunton}
+\bibinfo{author}{\bibfnamefont{J.~B.} \bibnamefont{Staunton}},
+  \bibinfo{author}{\bibfnamefont{J.}~\bibnamefont{Poulter}},
+  \bibinfo{author}{\bibfnamefont{B.}~\bibnamefont{Ginatempo}},
+  \bibinfo{author}{\bibfnamefont{E.}~\bibnamefont{Bruno}}, \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{D.~D.} \bibnamefont{Johnson}},
+  \bibinfo{journal}{Phys. Rev. Lett.} \textbf{\bibinfo{volume}{82}},
+  \bibinfo{pages}{3340} (\bibinfo{year}{1999}),
+  \urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevLett.82.3340}.
+
+\bibitem[{\citenamefont{Costa et~al.}(2004)\citenamefont{Costa, Muniz, and
+  Mills}}]{Costa}
+\bibinfo{author}{\bibfnamefont{A.~T.} \bibnamefont{Costa}},
+  \bibinfo{author}{\bibfnamefont{R.~B.} \bibnamefont{Muniz}}, \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{D.~L.} \bibnamefont{Mills}},
+  \bibinfo{journal}{Phys. Rev. B} \textbf{\bibinfo{volume}{70}},
+  \bibinfo{pages}{054406} (\bibinfo{year}{2004}),
+  \urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevB.70.054406}.
+
+\bibitem[{\citenamefont{Buczek et~al.}(2011)\citenamefont{Buczek, Ernst, and
+  Sandratskii}}]{Buczek}
+\bibinfo{author}{\bibfnamefont{P.}~\bibnamefont{Buczek}},
+  \bibinfo{author}{\bibfnamefont{A.}~\bibnamefont{Ernst}}, \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{L.~M.} \bibnamefont{Sandratskii}},
+  \bibinfo{journal}{Phys. Rev. B} \textbf{\bibinfo{volume}{84}},
+  \bibinfo{pages}{174418} (\bibinfo{year}{2011}),
+  \urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevB.84.174418}.
+
+\bibitem[{\citenamefont{Rousseau et~al.}(2012)\citenamefont{Rousseau, Eiguren,
+  and Bergara}}]{Bergara}
+\bibinfo{author}{\bibfnamefont{B.}~\bibnamefont{Rousseau}},
+  \bibinfo{author}{\bibfnamefont{A.}~\bibnamefont{Eiguren}}, \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{A.}~\bibnamefont{Bergara}},
+  \bibinfo{journal}{Phys. Rev. B} \textbf{\bibinfo{volume}{85}},
+  \bibinfo{pages}{054305} (\bibinfo{year}{2012}),
+  \urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevB.85.054305}.
+
+\bibitem[{\citenamefont{Lounis et~al.}(2015)\citenamefont{Lounis, dos
+  Santos~Dias, and Schweflinghaus}}]{Lounis}
+\bibinfo{author}{\bibfnamefont{S.}~\bibnamefont{Lounis}},
+  \bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{dos Santos~Dias}},
+  \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{B.}~\bibnamefont{Schweflinghaus}},
+  \bibinfo{journal}{Phys. Rev. B} \textbf{\bibinfo{volume}{91}},
+  \bibinfo{pages}{104420} (\bibinfo{year}{2015}),
+  \urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevB.91.104420}.
+
+\bibitem[{\citenamefont{Edwards and Rahman}(1978)}]{Edwards}
+\bibinfo{author}{\bibfnamefont{D.~M.} \bibnamefont{Edwards}} \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{M.~A.} \bibnamefont{Rahman}},
+  \bibinfo{journal}{Journal of Physics F: Metal Physics}
+  \textbf{\bibinfo{volume}{8}}, \bibinfo{pages}{1501} (\bibinfo{year}{1978}),
+  \urlprefix\url{https://doi.org/10.1088%2F0305-4608%2F8%2F7%2F023}.
+
+\bibitem[{\citenamefont{Kutepov et~al.}(2012)\citenamefont{Kutepov, Haule,
+  Savrasov, and Kotliar}}]{Kutepov2}
+\bibinfo{author}{\bibfnamefont{A.}~\bibnamefont{Kutepov}},
+  \bibinfo{author}{\bibfnamefont{K.}~\bibnamefont{Haule}},
+  \bibinfo{author}{\bibfnamefont{S.~Y.} \bibnamefont{Savrasov}},
+  \bibnamefont{and} \bibinfo{author}{\bibfnamefont{G.}~\bibnamefont{Kotliar}},
+  \bibinfo{journal}{Phys. Rev. B} \textbf{\bibinfo{volume}{85}},
+  \bibinfo{pages}{155129} (\bibinfo{year}{2012}),
+  \urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevB.85.155129}.
+
+\bibitem[{\citenamefont{Kutepov and Kutepova}(2003)}]{Kutepov}
+\bibinfo{author}{\bibfnamefont{A.~L.} \bibnamefont{Kutepov}} \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{S.~G.} \bibnamefont{Kutepova}},
+  \bibinfo{journal}{Journal of Physics: Condensed Matter}
+  \textbf{\bibinfo{volume}{15}}, \bibinfo{pages}{2607} (\bibinfo{year}{2003}),
+  \urlprefix\url{https://doi.org/10.1088%2F0953-8984%2F15%2F17%2F315}.
+
+\bibitem[{\citenamefont{Aryasetiawan and Gunnarsson}(1994)}]{PB}
+\bibinfo{author}{\bibfnamefont{F.}~\bibnamefont{Aryasetiawan}}
+  \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{O.}~\bibnamefont{Gunnarsson}},
+  \bibinfo{journal}{Phys. Rev. B} \textbf{\bibinfo{volume}{49}},
+  \bibinfo{pages}{7219} (\bibinfo{year}{1994}),
+  \urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevB.49.7219}.
+
+\bibitem[{\citenamefont{Vidberg and Serene}(1977)}]{Vidberg}
+\bibinfo{author}{\bibfnamefont{H.~J.} \bibnamefont{Vidberg}} \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{J.~W.} \bibnamefont{Serene}},
+  \bibinfo{journal}{Journal of Low Temperature Physics}
+  \textbf{\bibinfo{volume}{29}}, \bibinfo{pages}{179} (\bibinfo{year}{1977}),
+  ISSN \bibinfo{issn}{1573-7357},
+  \urlprefix\url{https://doi.org/10.1007/BF00655090}.
+
+\bibitem[{elk()}]{elk}
+\urlprefix\url{http://elk.sourceforge.net/}.
+
+\bibitem[{\citenamefont{Lounis et~al.}(2011)\citenamefont{Lounis, Costa, Muniz,
+  and Mills}}]{Lounis3}
+\bibinfo{author}{\bibfnamefont{S.}~\bibnamefont{Lounis}},
+  \bibinfo{author}{\bibfnamefont{A.~T.} \bibnamefont{Costa}},
+  \bibinfo{author}{\bibfnamefont{R.~B.} \bibnamefont{Muniz}}, \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{D.~L.} \bibnamefont{Mills}},
+  \bibinfo{journal}{Phys. Rev. B} \textbf{\bibinfo{volume}{83}},
+  \bibinfo{pages}{035109} (\bibinfo{year}{2011}),
+  \urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevB.83.035109}.
+
+\bibitem[{\citenamefont{Antropov et~al.}(1996)\citenamefont{Antropov,
+  Katsnelson, Harmon, van Schilfgaarde, and Kusnezov}}]{Antropov2}
+\bibinfo{author}{\bibfnamefont{V.~P.} \bibnamefont{Antropov}},
+  \bibinfo{author}{\bibfnamefont{M.~I.} \bibnamefont{Katsnelson}},
+  \bibinfo{author}{\bibfnamefont{B.~N.} \bibnamefont{Harmon}},
+  \bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{van Schilfgaarde}},
+  \bibnamefont{and} \bibinfo{author}{\bibfnamefont{D.}~\bibnamefont{Kusnezov}},
+  \bibinfo{journal}{Phys. Rev. B} \textbf{\bibinfo{volume}{54}},
+  \bibinfo{pages}{1019} (\bibinfo{year}{1996}),
+  \urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevB.54.1019}.
+
+\bibitem[{\citenamefont{Feder}(1985)}]{exp}
+\bibinfo{author}{\bibfnamefont{E.~R.} \bibnamefont{Feder}},
+  \emph{\bibinfo{title}{Polarized electrons in surface physics}}
+  (\bibinfo{publisher}{World Scientific, Singapore}, \bibinfo{year}{1985}).
+
+\bibitem[{\citenamefont{Ibañez-Azpiroz}(2016)}]{Lounis2}
+\bibinfo{author}{\bibfnamefont{M.~B. S. L.~S.} \bibnamefont{Ibañez-Azpiroz},
+  \bibfnamefont{J.~dos Santos~Dias}}, \bibinfo{journal}{Nano Letters}
+  \textbf{\bibinfo{volume}{16}} (\bibinfo{year}{2016}),
+  \urlprefix\url{https://doi.org/10.1021/acs.nanolett.6b01344}.
+
+\bibitem[{\citenamefont{Wysocki et~al.}(2016)\citenamefont{Wysocki, Kutepov,
+  and Antropov}}]{Wysocki}
+\bibinfo{author}{\bibfnamefont{A.~L.} \bibnamefont{Wysocki}},
+  \bibinfo{author}{\bibfnamefont{A.}~\bibnamefont{Kutepov}}, \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{V.~P.} \bibnamefont{Antropov}},
+  \bibinfo{journal}{Phys. Rev. B} \textbf{\bibinfo{volume}{94}},
+  \bibinfo{pages}{140405} (\bibinfo{year}{2016}),
+  \urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevB.94.140405}.
+
+\bibitem[{\citenamefont{Dobson and Gould}(2012)}]{RPA}
+\bibinfo{author}{\bibfnamefont{J.~F.} \bibnamefont{Dobson}} \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{T.}~\bibnamefont{Gould}},
+  \bibinfo{journal}{Journal of Physics: Condensed Matter}
+  \textbf{\bibinfo{volume}{24}}, \bibinfo{pages}{073201}
+  (\bibinfo{year}{2012}),
+  \urlprefix\url{https://doi.org/10.1088%2F0953-8984%2F24%2F7%2F073201}.
+
+\end{thebibliography}
