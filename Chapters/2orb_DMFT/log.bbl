@@ -1,0 +1,60 @@
+\begin{thebibliography}{5}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[{Drchal} et~al.(2005){Drchal}, {Janis}, {Kudrnovsk{\'y}}, {Oudovenko},
+  {Dai}, {Haule}, and {Kotliar}]{2005JPCM...17...61D}
+V.~{Drchal}, V.~{Janis}, J.~{Kudrnovsk{\'y}}, V.~S. {Oudovenko}, X.~{Dai},
+  K.~{Haule}, and G.~{Kotliar}.
+\newblock {Dynamical correlations in multiorbital Hubbard models: fluctuation
+  exchange approximations}.
+\newblock \emph{Journal of Physics Condensed Matter}, 17:\penalty0 61--74, Jan.
+  2005.
+\newblock \doi{10.1088/0953-8984/17/1/007}.
+
+\bibitem[Gole\ifmmode~\check{z}\else \v{z}\fi{}
+  et~al.(2015)Gole\ifmmode~\check{z}\else \v{z}\fi{}, Eckstein, and
+  Werner]{PhysRevB.92.195123}
+D.~Gole\ifmmode~\check{z}\else \v{z}\fi{}, M.~Eckstein, and P.~Werner.
+\newblock Dynamics of screening in photodoped mott insulators.
+\newblock \emph{Phys. Rev. B}, 92:\penalty0 195123, Nov 2015.
+\newblock \doi{10.1103/PhysRevB.92.195123}.
+\newblock URL \url{https://link.aps.org/doi/10.1103/PhysRevB.92.195123}.
+
+\bibitem[Lichtenstein and Katsnelson(1998)]{PhysRevB.57.6884}
+A.~I. Lichtenstein and M.~I. Katsnelson.
+\newblock Ab initio calculations of quasiparticle band structure in correlated
+  systems: Lda++ approach.
+\newblock \emph{Phys. Rev. B}, 57:\penalty0 6884--6895, Mar 1998.
+\newblock \doi{10.1103/PhysRevB.57.6884}.
+\newblock URL \url{https://link.aps.org/doi/10.1103/PhysRevB.57.6884}.
+
+\bibitem[Pourovskii et~al.(2005)Pourovskii, Katsnelson, and
+  Lichtenstein]{PhysRevB.72.115106}
+L.~V. Pourovskii, M.~I. Katsnelson, and A.~I. Lichtenstein.
+\newblock Correlation effects in electronic structure of actinide
+  monochalcogenides.
+\newblock \emph{Phys. Rev. B}, 72:\penalty0 115106, Sep 2005.
+\newblock \doi{10.1103/PhysRevB.72.115106}.
+\newblock URL \url{https://link.aps.org/doi/10.1103/PhysRevB.72.115106}.
+
+\bibitem[Vu\ifmmode \check{c}\else \v{c}\fi{}i\ifmmode \check{c}\else
+  \v{c}\fi{}evi\ifmmode~\acute{c}\else \'{c}\fi{} et~al.(2015)Vu\ifmmode
+  \check{c}\else \v{c}\fi{}i\ifmmode \check{c}\else
+  \v{c}\fi{}evi\ifmmode~\acute{c}\else \'{c}\fi{},
+  Tanaskovi\ifmmode~\acute{c}\else \'{c}\fi{}, Rozenberg, and
+  Dobrosavljevi\ifmmode~\acute{c}\else \'{c}\fi{}]{PhysRevLett.114.246402}
+J.~Vu\ifmmode \check{c}\else \v{c}\fi{}i\ifmmode \check{c}\else
+  \v{c}\fi{}evi\ifmmode~\acute{c}\else \'{c}\fi{},
+  D.~Tanaskovi\ifmmode~\acute{c}\else \'{c}\fi{}, M.~J. Rozenberg, and
+  V.~Dobrosavljevi\ifmmode~\acute{c}\else \'{c}\fi{}.
+\newblock Bad-metal behavior reveals mott quantum criticality in doped hubbard
+  models.
+\newblock \emph{Phys. Rev. Lett.}, 114:\penalty0 246402, Jun 2015.
+\newblock \doi{10.1103/PhysRevLett.114.246402}.
+\newblock URL \url{https://link.aps.org/doi/10.1103/PhysRevLett.114.246402}.
+
+\end{thebibliography}

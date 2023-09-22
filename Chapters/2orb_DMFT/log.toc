@@ -1,0 +1,5 @@
+\contentsline {section}{\numberline {1}Model and method}{1}{section.1}
+\contentsline {section}{\numberline {2}Time-dependent particle distribution G-M}{2}{section.2}
+\contentsline {section}{\numberline {3}Fermi surface}{3}{section.3}
+\contentsline {section}{\numberline {4}Fermi surface. U=2, FWHM=2}{4}{section.4}
+\contentsline {section}{\numberline {5}Time-dependent particle distribution. U=2, FWHM=2}{5}{section.5}
